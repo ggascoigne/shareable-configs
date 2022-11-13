@@ -1,5 +1,5 @@
 {
-  "name": "@waldronmatt/babel-config",
+  "name": "@ggascoigne/babel-config",
   "version": "1.0.3",
   "description": "A shareable babel configuration for projects.",
   "main": "index.js",
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/waldronmatt/shareable-configs.git",
+    "url": "git+https://github.com/ggascoigne/shareable-configs.git",
     "directory": "packages/babel-config"
   },
   "keywords": [
@@ -25,9 +25,9 @@
   "author": "Matthew Waldron",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/waldronmatt/shareable-configs/issues"
+    "url": "https://github.com/ggascoigne/shareable-configs/issues"
   },
-  "homepage": "https://github.com/waldronmatt/shareable-configs/tree/main/packages/babel-config#readme",
+  "homepage": "https://github.com/ggascoigne/shareable-configs/tree/main/packages/babel-config#readme",
   "dependencies": {
     "@babel/plugin-transform-runtime": "^7.19.6",
     "@babel/preset-env": "^7.20.2",

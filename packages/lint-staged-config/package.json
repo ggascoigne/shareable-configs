@@ -1,5 +1,5 @@
 {
-  "name": "@waldronmatt/lint-staged-config",
+  "name": "@ggascoigne/lint-staged-config",
   "version": "1.2.1",
   "description": "A shareable lint-staged configuration for projects.",
   "main": "index.js",
@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/waldronmatt/shareable-configs.git",
+    "url": "git+https://github.com/ggascoigne/shareable-configs.git",
     "directory": "packages/lint-staged-config"
   },
   "keywords": [
@@ -26,9 +26,9 @@
   "author": "Matthew Waldron",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/waldronmatt/shareable-configs/issues"
+    "url": "https://github.com/ggascoigne/shareable-configs/issues"
   },
-  "homepage": "https://github.com/waldronmatt/shareable-configs/tree/main/packages/lint-staged-config#readme",
+  "homepage": "https://github.com/ggascoigne/shareable-configs/tree/main/packages/lint-staged-config#readme",
   "peerDependencies": {
     "lint-staged": ">= 13"
   }

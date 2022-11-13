@@ -5,7 +5,7 @@ My personal shareable semantic-release configuration.
 ## Install
 
 ```bash
-yarn add -D semantic-release @waldronmatt/semantic-release-config
+yarn add -D semantic-release @ggascoigne/semantic-release-config
 ```
 
 ## Usage
@@ -14,7 +14,7 @@ yarn add -D semantic-release @waldronmatt/semantic-release-config
 
 ```js
 {
-  "extends": ["@waldronmatt/semantic-release-config"]
+  "extends": ["@ggascoigne/semantic-release-config"]
 }
 ```
 
@@ -77,9 +77,9 @@ jobs:
 
       - name: Release
         env:
-          # optional - used by @waldronmatt/semantic-release-config/github
+          # optional - used by @ggascoigne/semantic-release-config/github
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          # optional - used by @waldronmatt/semantic-release-config/github-npm
+          # optional - used by @ggascoigne/semantic-release-config/github-npm
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: npx semantic-release
 ```
@@ -94,7 +94,7 @@ Additionally publishes a `GitHub` release and publishes to the `NPM` Registry.
 
 ```js
 {
-  "extends": ["@waldronmatt/semantic-release-config/github"]
+  "extends": ["@ggascoigne/semantic-release-config/github"]
 }
 ```
 
@@ -102,7 +102,7 @@ or
 
 ```js
 {
-  "extends": ["@waldronmatt/semantic-release-config/github-npm"]
+  "extends": ["@ggascoigne/semantic-release-config/github-npm"]
 }
 ```
 
@@ -120,7 +120,7 @@ Additionally publishes a `GitLab` release and publishes to the `NPM` Registry.
 
 ```js
 {
-  "extends": ["@waldronmatt/semantic-release-config/gitlab.js"]
+  "extends": ["@ggascoigne/semantic-release-config/gitlab.js"]
 }
 ```
 
@@ -128,7 +128,7 @@ or
 
 ```js
 {
-  "extends": ["@waldronmatt/semantic-release-config/gitlab-npm.js"]
+  "extends": ["@ggascoigne/semantic-release-config/gitlab-npm.js"]
 }
 ```
 
@@ -144,7 +144,7 @@ An example using the `github-npm` config with different branching strategies to 
 
 ```js
 {
-  "extends": ["@waldronmatt/semantic-release-config/github-npm"],
+  "extends": ["@ggascoigne/semantic-release-config/github-npm"],
   "branches": [
     "+([0-9])?(.{+([0-9]),x}).x",
     "master",

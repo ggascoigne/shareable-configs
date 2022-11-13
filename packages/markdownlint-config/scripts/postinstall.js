@@ -5,7 +5,7 @@ const path = require('node:path');
 const filePath = path.join(process.env.INIT_CWD, '.markdownlint.json');
 
 const fileConfigObject = {
-  extends: './node_modules/@waldronmatt/markdownlint-config/index.json',
+  extends: './node_modules/@ggascoigne/markdownlint-config/index.json',
 };
 
 if (!fs.existsSync(filePath)) {

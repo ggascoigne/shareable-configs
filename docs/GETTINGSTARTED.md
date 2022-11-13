@@ -10,7 +10,7 @@
 
 4. Run `yarn commit` to prompt for conventional changelog standard and commit changes.
 
-5. For publishing a package to `NPM`, [see this guide for more information](https://github.com/waldronmatt/shareable-configs/blob/main/docs/PUBLISHING.md).
+5. For publishing a package to `NPM`, [see this guide for more information](https://github.com/ggascoigne/shareable-configs/blob/main/docs/PUBLISHING.md).
 
 ## Automating Config Creation on Install
 

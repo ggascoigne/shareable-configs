@@ -5,7 +5,7 @@ My personal shareable postcss configuration.
 ## Install
 
 ```bash
-yarn add -D postcss @waldronmatt/postcss-config
+yarn add -D postcss @ggascoigne/postcss-config
 ```
 
 ## Usage
@@ -13,7 +13,7 @@ yarn add -D postcss @waldronmatt/postcss-config
 **`postcss.config.js`**
 
 ```js
-module.exports = require('@waldronmatt/postcss-config');
+module.exports = require('@ggascoigne/postcss-config');
 ```
 
 ## Under The Hood

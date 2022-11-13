@@ -5,7 +5,7 @@ const path = require('node:path');
 const filePath = path.join(process.env.INIT_CWD, 'babel.config.js');
 
 const fileConfigObject = {
-  extends: '@waldronmatt/babel-config',
+  extends: '@ggascoigne/babel-config',
 };
 
 if (!fs.existsSync(filePath)) {

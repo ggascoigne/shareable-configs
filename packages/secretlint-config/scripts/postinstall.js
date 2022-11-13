@@ -7,6 +7,6 @@ const filePath = path.join(process.env.INIT_CWD, '.secretlintrc.js');
 if (!fs.existsSync(filePath)) {
   fs.writeFileSync(
     filePath,
-    `module.exports = { ...require('@waldronmatt/secretlint-config') };`
+    `module.exports = { ...require('@ggascoigne/secretlint-config') };`
   );
 }

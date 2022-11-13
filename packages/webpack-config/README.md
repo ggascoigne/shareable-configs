@@ -7,7 +7,7 @@ Inspired by configuration practices found on [survivejs.com](https://survivejs.c
 ## Install
 
 ```bash
-yarn add -D webpack webpack-merge webpack-cli @waldronmatt/webpack-config
+yarn add -D webpack webpack-merge webpack-cli @ggascoigne/webpack-config
 ```
 
 ## Usage
@@ -25,7 +25,7 @@ yarn add -D webpack webpack-merge webpack-cli @waldronmatt/webpack-config
 **`webpack.dev.js`**
 
 ```js
-const { extendWebpackBaseConfig } = require('@waldronmatt/webpack-config');
+const { extendWebpackBaseConfig } = require('@ggascoigne/webpack-config');
 const commonConfig = require('./webpack.common.js');
 
 const developmentConfig = {
@@ -39,7 +39,7 @@ module.exports = extendWebpackBaseConfig(commonConfig, developmentConfig);
 **`webpack.prod.js`**
 
 ```js
-const { extendWebpackBaseConfig } = require('@waldronmatt/webpack-config');
+const { extendWebpackBaseConfig } = require('@ggascoigne/webpack-config');
 const commonConfig = require('./webpack.common.js');
 
 const productionConfig = {
@@ -54,13 +54,13 @@ module.exports = extendWebpackBaseConfig(commonConfig, productionConfig);
 
 - Use `isProduction` to apply configs based on the environment.
 - Access Webpack's `env` variable.
-- Apply extensible base configs from `@waldronmatt/webpack-config`.
+- Apply extensible base configs from `@ggascoigne/webpack-config`.
 - Include your own extensible configs using your own parts via `const parts = require('./webpack.parts.js');`.
-- Configs you set will take precedence if they overlap with `@waldronmatt/webpack-config`.
+- Configs you set will take precedence if they overlap with `@ggascoigne/webpack-config`.
 
 ```js
 const { merge } = require('webpack-merge');
-const { baseParts } = require('@waldronmatt/webpack-config');
+const { baseParts } = require('@ggascoigne/webpack-config');
 const parts = require('./webpack.parts.js');
 
 const commonConfig = (isProduction, env) => {
@@ -116,7 +116,7 @@ You can load optional configs from this package into your own:
 `webpack.common.js`
 
 ```js
-const { baseParts } = require('@waldronmatt/webpack-config');
+const { baseParts } = require('@ggascoigne/webpack-config');
 ```
 
 - `baseParts.loadCSS({})`

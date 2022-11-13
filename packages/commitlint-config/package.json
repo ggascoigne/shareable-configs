@@ -1,5 +1,5 @@
 {
-  "name": "@waldronmatt/commitlint-config",
+  "name": "@ggascoigne/commitlint-config",
   "version": "1.1.5",
   "description": "A shareable commitlint configuration for projects.",
   "main": "index.js",
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/waldronmatt/shareable-configs.git",
+    "url": "git+https://github.com/ggascoigne/shareable-configs.git",
     "directory": "packages/commitlint-config"
   },
   "keywords": [
@@ -25,9 +25,9 @@
   "author": "Matthew Waldron",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/waldronmatt/shareable-configs/issues"
+    "url": "https://github.com/ggascoigne/shareable-configs/issues"
   },
-  "homepage": "https://github.com/waldronmatt/shareable-configs/tree/main/packages/commitlint-config#readme",
+  "homepage": "https://github.com/ggascoigne/shareable-configs/tree/main/packages/commitlint-config#readme",
   "dependencies": {
     "@commitlint/config-conventional": "^17.1.0"
   },

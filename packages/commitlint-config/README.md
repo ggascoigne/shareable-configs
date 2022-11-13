@@ -5,7 +5,7 @@ My personal shareable commitlint configuration.
 ## Install
 
 ```bash
-yarn add -D @commitlint/cli @waldronmatt/commitlint-config
+yarn add -D @commitlint/cli @ggascoigne/commitlint-config
 ```
 
 ## Usage
@@ -14,7 +14,7 @@ yarn add -D @commitlint/cli @waldronmatt/commitlint-config
 
 ```js
 module.exports = {
-  extends: ['@waldronmatt/commitlint-config'],
+  extends: ['@ggascoigne/commitlint-config'],
 };
 ```
 
@@ -24,7 +24,7 @@ module.exports = {
 
 ```js
 module.exports = {
-  extends: ['@waldronmatt/commitlint-config'],
+  extends: ['@ggascoigne/commitlint-config'],
   rules: {
     'body-leading-blank': [2, 'always'],
   },

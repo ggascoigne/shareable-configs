@@ -5,7 +5,7 @@ My personal shareable secretlint configuration.
 ## Install
 
 ```bash
-yarn add -D secretlint @waldronmatt/secretlint-config
+yarn add -D secretlint @ggascoigne/secretlint-config
 ```
 
 ## Usage
@@ -14,7 +14,7 @@ yarn add -D secretlint @waldronmatt/secretlint-config
 
 ```js
 module.exports = {
-  ...require('@waldronmatt/secretlint-config'),
+  ...require('@ggascoigne/secretlint-config'),
 };
 ```
 

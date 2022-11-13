@@ -5,7 +5,7 @@ My personal shareable prettier configuration.
 ## Install
 
 ```bash
-yarn add -D prettier @waldronmatt/prettier-config
+yarn add -D prettier @ggascoigne/prettier-config
 ```
 
 ## Usage
@@ -13,7 +13,7 @@ yarn add -D prettier @waldronmatt/prettier-config
 **`.prettierrc.js`**
 
 ```js
-module.exports = '@waldronmatt/prettier-config';
+module.exports = '@ggascoigne/prettier-config';
 ```
 
 ## Extending
@@ -22,7 +22,7 @@ module.exports = '@waldronmatt/prettier-config';
 
 ```js
 module.exports = {
-  ...require('@waldronmatt/prettier-config'),
+  ...require('@ggascoigne/prettier-config'),
   semi: false,
 };
 ```

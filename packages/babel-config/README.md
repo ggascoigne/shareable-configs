@@ -7,7 +7,7 @@
 ## Install
 
 ```bash
-yarn add -D @babel/cli @babel/core @waldronmatt/babel-config
+yarn add -D @babel/cli @babel/core @ggascoigne/babel-config
 ```
 
 ## Usage
@@ -16,7 +16,7 @@ yarn add -D @babel/cli @babel/core @waldronmatt/babel-config
 
 ```js
 module.exports = {
-  extends: ['@waldronmatt/babel-config'],
+  extends: ['@ggascoigne/babel-config'],
 };
 ```
 
@@ -26,7 +26,7 @@ module.exports = {
 
 ```js
 module.exports = {
-  extends: ['@waldronmatt/babel-config'],
+  extends: ['@ggascoigne/babel-config'],
   presets: ['@babel/preset-typescript'],
 };
 ```
