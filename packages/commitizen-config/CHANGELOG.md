@@ -3,6 +3,21 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.2.0 (2022-11-13)
+
+### Bug Fixes
+
+- **global:** remove postinstall script from packages and update docs ([252ae78](https://github.com/ggascoigne/shareable-configs/commit/252ae787ec89902f130ee28d2af63255fdfabb4d))
+- **global:** update readme ([17e8792](https://github.com/ggascoigne/shareable-configs/commit/17e879243244bf28136e24deef02522147abe451))
+- **makedownlint:** fix rules and cleanup changelogs ([23eb605](https://github.com/ggascoigne/shareable-configs/commit/23eb605a42fd51ca0b5d24de781929a1662e634f))
+- **package.json:** add commitizen as peer dep, add postinstall script ([2fa0a0b](https://github.com/ggascoigne/shareable-configs/commit/2fa0a0bd4bcdd59ac1fe673d0f77c7004d2c38ba))
+- **readme.md:** update subtitle ([deec6e2](https://github.com/ggascoigne/shareable-configs/commit/deec6e206ca3c420a6997acd18fe4ecdfaf32cb0))
+- **readme:** add deprecation notice ([1ca60e8](https://github.com/ggascoigne/shareable-configs/commit/1ca60e8adfe3d142fa68f63535294f453da3b276))
+
+### Features
+
+- **commitizen-config:** add commitizen-config ([08d5429](https://github.com/ggascoigne/shareable-configs/commit/08d5429bb3cda4b7f1128aacb8e05c20ada7311d))
+
 ## [1.1.5](https://github.com/ggascoigne/shareable-configs/compare/@ggascoigne/commitizen-config@1.1.4...@ggascoigne/commitizen-config@1.1.5) (2022-11-05)
 
 ### Bug Fixes
