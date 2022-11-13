@@ -5,7 +5,7 @@ My personal shareable browserslist configuration.
 ## Install
 
 ```bash
-yarn add -D @waldronmatt/browserslist-config
+yarn add -D @ggascoigne/browserslist-config
 ```
 
 ## Usage
@@ -13,7 +13,7 @@ yarn add -D @waldronmatt/browserslist-config
 **`.browserslistrc`**
 
 ```bash
-extends @waldronmatt/browserslist-config
+extends @ggascoigne/browserslist-config
 ```
 
 ## Under The Hood

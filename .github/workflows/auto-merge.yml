@@ -30,7 +30,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Request reviews for Dependabot PRs (for all other updates)
         if: ${{ steps.metadata.outputs.update-type != 'version-update:semver-minor' && steps.metadata.outputs.update-type != 'version-update:semver-patch' }}
-        run: gh pr edit "$PR_URL" --add-reviewer waldronmatt
+        run: gh pr edit "$PR_URL" --add-reviewer ggascoigne
         env:
           PR_URL: ${{ github.event.pull_request.html_url }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

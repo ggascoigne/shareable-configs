@@ -5,7 +5,7 @@ My personal shareable markdownlint configuration.
 ## Install
 
 ```bash
-yarn add -D markdownlint @waldronmatt/markdownlint-config
+yarn add -D markdownlint @ggascoigne/markdownlint-config
 ```
 
 ## Usage
@@ -14,7 +14,7 @@ yarn add -D markdownlint @waldronmatt/markdownlint-config
 
 ```bash
 {
-  "extends": "./node_modules/@waldronmatt/markdownlint-config/index.json"
+  "extends": "./node_modules/@ggascoigne/markdownlint-config/index.json"
 }
 ```
 
@@ -24,7 +24,7 @@ yarn add -D markdownlint @waldronmatt/markdownlint-config
 
 ```bash
 {
-  "extends": "./node_modules/@waldronmatt/markdownlint-config/index.json",
+  "extends": "./node_modules/@ggascoigne/markdownlint-config/index.json",
   "MD013": false,
 }
 ```

@@ -5,7 +5,7 @@ const path = require('node:path');
 const filePath = path.join(process.env.INIT_CWD, '.stylelintrc.js');
 
 const fileConfigObject = {
-  extends: '@waldronmatt/stylelint-config',
+  extends: '@ggascoigne/stylelint-config',
 };
 
 if (!fs.existsSync(filePath)) {

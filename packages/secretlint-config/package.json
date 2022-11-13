@@ -1,5 +1,5 @@
 {
-  "name": "@waldronmatt/secretlint-config",
+  "name": "@ggascoigne/secretlint-config",
   "version": "1.0.3",
   "description": "A shareable secretlint configuration for projects.",
   "main": "index.json",
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/waldronmatt/shareable-configs.git",
+    "url": "git+https://github.com/ggascoigne/shareable-configs.git",
     "directory": "packages/secretlint-config"
   },
   "keywords": [
@@ -25,9 +25,9 @@
   "author": "Matthew Waldron",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/waldronmatt/shareable-configs/issues"
+    "url": "https://github.com/ggascoigne/shareable-configs/issues"
   },
-  "homepage": "https://github.com/waldronmatt/shareable-configs/tree/main/packages/secretlint-config#readme",
+  "homepage": "https://github.com/ggascoigne/shareable-configs/tree/main/packages/secretlint-config#readme",
   "peerDependencies": {
     "secretlint": ">= 5"
   },

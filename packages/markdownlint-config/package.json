@@ -1,5 +1,5 @@
 {
-  "name": "@waldronmatt/markdownlint-config",
+  "name": "@ggascoigne/markdownlint-config",
   "version": "1.0.4",
   "description": "A shareable markdownlint configuration for projects.",
   "main": "index.json",
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/waldronmatt/shareable-configs.git",
+    "url": "git+https://github.com/ggascoigne/shareable-configs.git",
     "directory": "packages/markdownlint-config"
   },
   "keywords": [
@@ -25,9 +25,9 @@
   "author": "Matthew Waldron",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/waldronmatt/shareable-configs/issues"
+    "url": "https://github.com/ggascoigne/shareable-configs/issues"
   },
-  "homepage": "https://github.com/waldronmatt/shareable-configs/tree/main/packages/markdownlint-config#readme",
+  "homepage": "https://github.com/ggascoigne/shareable-configs/tree/main/packages/markdownlint-config#readme",
   "peerDependencies": {
     "markdownlint": ">= 0"
   },

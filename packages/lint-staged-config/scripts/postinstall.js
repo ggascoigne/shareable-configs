@@ -7,6 +7,6 @@ const filePath = path.join(process.env.INIT_CWD, 'lint-staged.config.js');
 if (!fs.existsSync(filePath)) {
   fs.writeFileSync(
     filePath,
-    `module.exports = require('@waldronmatt/lint-staged-config');`
+    `module.exports = require('@ggascoigne/lint-staged-config');`
   );
 }

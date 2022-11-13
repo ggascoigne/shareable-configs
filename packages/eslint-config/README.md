@@ -5,7 +5,7 @@ My personal shareable eslint configuration.
 ## Install
 
 ```bash
-yarn add -D eslint @waldronmatt/eslint-config
+yarn add -D eslint @ggascoigne/eslint-config
 ```
 
 ## Usage
@@ -16,7 +16,7 @@ yarn add -D eslint @waldronmatt/eslint-config
 
 ```js
 module.exports = {
-  extends: '@waldronmatt/eslint-config',
+  extends: '@ggascoigne/eslint-config',
 };
 ```
 
@@ -24,7 +24,7 @@ module.exports = {
 
 ```js
 module.exports = {
-  extends: '@waldronmatt/eslint-config/ts',
+  extends: '@ggascoigne/eslint-config/ts',
 };
 ```
 
@@ -32,7 +32,7 @@ module.exports = {
 
 ```js
 module.exports = {
-  extends: '@waldronmatt/eslint-config/jest',
+  extends: '@ggascoigne/eslint-config/jest',
 };
 ```
 
@@ -49,8 +49,8 @@ module.exports = {
     {
       files: ['**/*.ts'],
       extends: [
-        '@waldronmatt/eslint-config/ts',
-        '@waldronmatt/eslint-config/jest',
+        '@ggascoigne/eslint-config/ts',
+        '@ggascoigne/eslint-config/jest',
       ],
       parserOptions: {
         project: 'tsconfig.json',
@@ -60,8 +60,8 @@ module.exports = {
     {
       files: ['**/*.js'],
       extends: [
-        '@waldronmatt/eslint-config',
-        '@waldronmatt/eslint-config/jest',
+        '@ggascoigne/eslint-config',
+        '@ggascoigne/eslint-config/jest',
       ],
     },
   ],

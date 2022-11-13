@@ -5,7 +5,7 @@ My personal shareable jest configuration.
 ## Install
 
 ```bash
-yarn add -D jest @waldronmatt/jest-config
+yarn add -D jest @ggascoigne/jest-config
 ```
 
 ## Usage
@@ -14,7 +14,7 @@ yarn add -D jest @waldronmatt/jest-config
 
 ```js
 module.exports = {
-  preset: '@waldronmatt/jest-config',
+  preset: '@ggascoigne/jest-config',
 };
 ```
 
@@ -26,7 +26,7 @@ An example with `testMatch` that Jest uses to detect test files.
 
 ```js
 module.exports = {
-  preset: '@waldronmatt/jest-config',
+  preset: '@ggascoigne/jest-config',
   testMatch: [
     '<rootDir>/__tests__/**/**.+(ts|tsx|js|jsx)',
     '<rootDir>/src/**/?(*.)+(spec|test).+(ts|tsx|js|jsx)',

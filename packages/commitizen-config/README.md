@@ -7,7 +7,7 @@
 ## Install
 
 ```bash
-yarn add -D commitizen @waldronmatt/commitizen-config
+yarn add -D commitizen @ggascoigne/commitizen-config
 ```
 
 ## Usage

@@ -5,7 +5,7 @@ My personal shareable tsconfig configuration.
 ## Install
 
 ```bash
-yarn add -D @waldronmatt/tsconfig-config
+yarn add -D @ggascoigne/tsconfig-config
 ```
 
 ## Usage
@@ -14,7 +14,7 @@ yarn add -D @waldronmatt/tsconfig-config
 
 ```json
 {
-  "extends": "@waldronmatt/tsconfig-config"
+  "extends": "@ggascoigne/tsconfig-config"
 }
 ```
 
@@ -26,7 +26,7 @@ A basic configuration for projects:
 
 ```json
 {
-  "extends": "@waldronmatt/tsconfig-config",
+  "extends": "@ggascoigne/tsconfig-config",
   "compilerOptions": {
     "outDir": "dist"
   },

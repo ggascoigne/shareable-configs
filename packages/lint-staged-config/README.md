@@ -5,7 +5,7 @@ My personal shareable lint-staged configuration.
 ## Install
 
 ```bash
-yarn add -D lint-staged @waldronmatt/lint-staged-config
+yarn add -D lint-staged @ggascoigne/lint-staged-config
 ```
 
 ## Usage
@@ -13,13 +13,13 @@ yarn add -D lint-staged @waldronmatt/lint-staged-config
 **`lint-staged.config.js`**
 
 ```js
-module.exports = require('@waldronmatt/lint-staged-config');
+module.exports = require('@ggascoigne/lint-staged-config');
 ```
 
 ### YML
 
 ```js
-module.exports = require('@waldronmatt/lint-staged-config/yml');
+module.exports = require('@ggascoigne/lint-staged-config/yml');
 ```
 
 ## Extending
@@ -29,8 +29,8 @@ An example that includes checking for credentials, ignoring `prettier` on unknow
 **`lint-staged.config.js`**
 
 ```js
-const config = require('@waldronmatt/lint-staged-config');
-const ymlConfig = require('@waldronmatt/lint-staged-config/yml');
+const config = require('@ggascoigne/lint-staged-config');
+const ymlConfig = require('@ggascoigne/lint-staged-config/yml');
 
 module.exports = {
   '*': ['secretlint'],

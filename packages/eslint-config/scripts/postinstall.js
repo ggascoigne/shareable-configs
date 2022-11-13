@@ -5,7 +5,7 @@ const path = require('node:path');
 const filePath = path.join(process.env.INIT_CWD, '.eslintrc.js');
 
 const fileConfigObject = {
-  extends: '@waldronmatt/eslint-config',
+  extends: '@ggascoigne/eslint-config',
 };
 
 if (!fs.existsSync(filePath)) {

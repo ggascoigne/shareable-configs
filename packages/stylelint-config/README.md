@@ -5,7 +5,7 @@ My personal shareable stylelint configuration.
 ## Install
 
 ```bash
-yarn add -D stylelint @waldronmatt/stylelint-config
+yarn add -D stylelint @ggascoigne/stylelint-config
 ```
 
 ## Usage
@@ -16,7 +16,7 @@ yarn add -D stylelint @waldronmatt/stylelint-config
 
 ```js
 module.exports = {
-  extends: '@waldronmatt/stylelint-config',
+  extends: '@ggascoigne/stylelint-config',
 };
 ```
 
@@ -24,7 +24,7 @@ module.exports = {
 
 ```js
 module.exports = {
-  extends: '@waldronmatt/stylelint-config/scss',
+  extends: '@ggascoigne/stylelint-config/scss',
 };
 ```
 
@@ -37,11 +37,11 @@ An example configuring a mixed CSS/SCSS configuration.
 ```js
 module.exports = {
   ignoreFiles: ['dist/**'],
-  extends: '@waldronmatt/stylelint-config/scss',
+  extends: '@ggascoigne/stylelint-config/scss',
   overrides: [
     {
       files: ['**/*.css'],
-      extends: '@waldronmatt/stylelint-config',
+      extends: '@ggascoigne/stylelint-config',
     },
   ],
 };

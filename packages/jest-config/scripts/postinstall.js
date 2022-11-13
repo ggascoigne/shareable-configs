@@ -5,7 +5,7 @@ const path = require('node:path');
 const filePath = path.join(process.env.INIT_CWD, 'jest.config.js');
 
 const fileConfigObject = {
-  preset: '@waldronmatt/jest-config',
+  preset: '@ggascoigne/jest-config',
 };
 
 if (!fs.existsSync(filePath)) {

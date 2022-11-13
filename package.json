@@ -1,19 +1,19 @@
 {
-  "name": "@waldronmatt/shareable-configs",
+  "name": "@ggascoigne/shareable-configs",
   "private": true,
   "author": "Matthew Waldron",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/waldronmatt/shareable-configs.git"
+    "url": "git+https://github.com/ggascoigne/shareable-configs.git"
   },
   "workspaces": [
     "packages/*"
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/waldronmatt/shareable-configs/issues"
+    "url": "https://github.com/ggascoigne/shareable-configs/issues"
   },
-  "homepage": "https://github.com/waldronmatt/shareable-configs#readme",
+  "homepage": "https://github.com/ggascoigne/shareable-configs#readme",
   "scripts": {
     "lint": "yarn lint:md && yarn lint:js && yarn lint:secrets",
     "lint:md": "markdownlint --fix **/*.md --ignore node_modules --ignore **/CHANGELOG.md",
