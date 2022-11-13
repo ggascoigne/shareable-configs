@@ -23,7 +23,7 @@
     "stylelint",
     "stylelint-config"
   ],
-  "author": "Matthew Waldron",
+  "author": "Guy Gascoigne-Piggford",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/ggascoigne/shareable-configs/issues"

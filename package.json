@@ -1,7 +1,7 @@
 {
   "name": "@ggascoigne/shareable-configs",
   "private": true,
-  "author": "Matthew Waldron",
+  "author": "Guy Gascoigne-Piggford",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ggascoigne/shareable-configs.git"
