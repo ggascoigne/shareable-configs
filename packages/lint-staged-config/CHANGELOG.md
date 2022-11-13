@@ -9,7 +9,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 - **global:** remove postinstall script from packages and update docs ([252ae78](https://github.com/waldronmatt/shareable-configs/commit/252ae787ec89902f130ee28d2af63255fdfabb4d))
 
-# [1.2.0](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/lint-staged-config@1.1.3...@waldronmatt/lint-staged-config@1.2.0) (2022-09-19)
+## [1.2.0](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/lint-staged-config@1.1.3...@waldronmatt/lint-staged-config@1.2.0) (2022-09-19)
 
 ### Bug Fixes
 
@@ -41,7 +41,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 - **package.json:** add lint-staged as a peer dep, add extending section in readme ([6592ea7](https://github.com/waldronmatt/shareable-configs/commit/6592ea7907b0bc3e15ec28c6e2704e132de14d20))
 
-# 1.1.0 (2022-06-04)
+## 1.1.0 (2022-06-04)
 
 ### Features
 

@@ -47,7 +47,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 **Note:** Version bump only for package @waldronmatt/stylelint-config
 
-# [1.2.0](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/stylelint-config@1.1.5...@waldronmatt/stylelint-config@1.2.0) (2022-05-29)
+## [1.2.0](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/stylelint-config@1.1.5...@waldronmatt/stylelint-config@1.2.0) (2022-05-29)
 
 ### Features
 

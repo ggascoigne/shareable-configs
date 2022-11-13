@@ -33,7 +33,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 - **global:** update packages to comply with new eslint config ([dbee043](https://github.com/waldronmatt/shareable-configs/commit/dbee043b0a6b0a1d99e44e6cb8af9fa52133aab9))
 
-# 1.1.0 (2022-05-24)
+## 1.1.0 (2022-05-24)
 
 ### Features
 

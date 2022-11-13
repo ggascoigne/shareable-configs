@@ -44,25 +44,25 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 **Note:** Version bump only for package @waldronmatt/eslint-config
 
-# [1.5.0](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/eslint-config@1.4.0...@waldronmatt/eslint-config@1.5.0) (2022-05-30)
+## [1.5.0](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/eslint-config@1.4.0...@waldronmatt/eslint-config@1.5.0) (2022-05-30)
 
 ### Features
 
 - **eslint-config:** add eslint-plugin-security lib ([70c06ad](https://github.com/waldronmatt/shareable-configs/commit/70c06ad63f6e19be4decd09cae909246fe581782))
 
-# [1.4.0](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/eslint-config@1.3.0...@waldronmatt/eslint-config@1.4.0) (2022-05-30)
+## [1.4.0](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/eslint-config@1.3.0...@waldronmatt/eslint-config@1.4.0) (2022-05-30)
 
 ### Features
 
 - **eslint-config:** add unicorn, promise, sonarjs libs ([8fca052](https://github.com/waldronmatt/shareable-configs/commit/8fca0522b949277632e39483690dedb66f4eaa61))
 
-# [1.3.0](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/eslint-config@1.2.0...@waldronmatt/eslint-config@1.3.0) (2022-05-27)
+## [1.3.0](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/eslint-config@1.2.0...@waldronmatt/eslint-config@1.3.0) (2022-05-27)
 
 ### Features
 
 - **jest.js:** add eslint-plugin-jest-dom lib and config ([fecfa35](https://github.com/waldronmatt/shareable-configs/commit/fecfa3575ce98e4da8f5749b823ee9a4ca9e78a6))
 
-# [1.2.0](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/eslint-config@1.1.8...@waldronmatt/eslint-config@1.2.0) (2022-05-24)
+## [1.2.0](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/eslint-config@1.1.8...@waldronmatt/eslint-config@1.2.0) (2022-05-24)
 
 ### Features
 

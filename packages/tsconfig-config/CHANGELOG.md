@@ -20,7 +20,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 **Note:** Version bump only for package @waldronmatt/tsconfig-config
 
-# 1.1.0 (2022-05-31)
+## 1.1.0 (2022-05-31)
 
 ### Features
 

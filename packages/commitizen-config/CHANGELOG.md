@@ -32,7 +32,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 - **package.json:** add commitizen as peer dep, add postinstall script ([2fa0a0b](https://github.com/waldronmatt/shareable-configs/commit/2fa0a0bd4bcdd59ac1fe673d0f77c7004d2c38ba))
 
-# 1.1.0 (2022-06-04)
+## 1.1.0 (2022-06-04)
 
 ### Features
 

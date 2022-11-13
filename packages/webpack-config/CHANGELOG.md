@@ -31,7 +31,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 - **global:** update packages to comply with new eslint config ([dbee043](https://github.com/waldronmatt/shareable-configs/commit/dbee043b0a6b0a1d99e44e6cb8af9fa52133aab9))
 
-# [2.9.0](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/webpack-config@2.8.1...@waldronmatt/webpack-config@2.9.0) (2022-05-24)
+## [2.9.0](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/webpack-config@2.8.1...@waldronmatt/webpack-config@2.9.0) (2022-05-24)
 
 ### Features
 
@@ -41,7 +41,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 **Note:** Version bump only for package @waldronmatt/webpack-config
 
-# [2.8.0](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/webpack-config@2.7.3...@waldronmatt/webpack-config@2.8.0) (2022-04-12)
+## [2.8.0](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/webpack-config@2.7.3...@waldronmatt/webpack-config@2.8.0) (2022-04-12)
 
 ### Features
 
@@ -64,7 +64,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 **Note:** Version bump only for package @waldronmatt/webpack-config
 
-# [2.7.0](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/webpack-config@2.6.4...@waldronmatt/webpack-config@2.7.0) (2022-04-08)
+## [2.7.0](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/webpack-config@2.6.4...@waldronmatt/webpack-config@2.7.0) (2022-04-08)
 
 ### Features
 

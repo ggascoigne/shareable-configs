@@ -14,7 +14,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 **Note:** Version bump only for package @waldronmatt/prettier-config
 
-# [1.3.0](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/prettier-config@1.2.6...@waldronmatt/prettier-config@1.3.0) (2022-06-21)
+## [1.3.0](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/prettier-config@1.2.6...@waldronmatt/prettier-config@1.3.0) (2022-06-21)
 
 ### Bug Fixes
 

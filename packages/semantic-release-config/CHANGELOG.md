@@ -9,7 +9,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 - **readme:** update Under The Hood section ([808fc12](https://github.com/waldronmatt/shareable-configs/commit/808fc128483f80997337b02b5b3f325544a00905))
 
-# [2.0.0](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/semantic-release-config@1.1.3...@waldronmatt/semantic-release-config@2.0.0) (2022-11-05)
+## [2.0.0](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/semantic-release-config@1.1.3...@waldronmatt/semantic-release-config@2.0.0) (2022-11-05)
 
 ### Features
 
@@ -36,7 +36,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 **Note:** Version bump only for package @waldronmatt/semantic-release-config
 
-# [1.1.0](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/semantic-release-config@1.0.7...@waldronmatt/semantic-release-config@1.1.0) (2022-05-24)
+## [1.1.0](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/semantic-release-config@1.0.7...@waldronmatt/semantic-release-config@1.1.0) (2022-05-24)
 
 ### Features
 

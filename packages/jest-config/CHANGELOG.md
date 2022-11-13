@@ -3,7 +3,7 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# [1.3.0](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/jest-config@1.2.7...@waldronmatt/jest-config@1.3.0) (2022-10-23)
+## [1.3.0](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/jest-config@1.2.7...@waldronmatt/jest-config@1.3.0) (2022-10-23)
 
 ### Bug Fixes
 
@@ -47,7 +47,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 - **jest-preset.js:** move out testMatch for use on a per-app basis ([5b6910f](https://github.com/waldronmatt/shareable-configs/commit/5b6910fd59337eb53ae5b06fe5d8231f08659e18))
 - **postinstall.js:** move config to separate object ([516ee4e](https://github.com/waldronmatt/shareable-configs/commit/516ee4e5a20065677e5d171b61495de532d10076))
 
-# [1.2.0](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/jest-config@1.1.1...@waldronmatt/jest-config@1.2.0) (2022-05-24)
+## [1.2.0](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/jest-config@1.1.1...@waldronmatt/jest-config@1.2.0) (2022-05-24)
 
 ### Features
 
@@ -59,7 +59,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 - **packages/jest-config:** rename index to jest-preset.js so jest can extend from ([58af6f3](https://github.com/waldronmatt/shareable-configs/commit/58af6f39054be2cc7ce450e6aebccbe8a702310e))
 
-# 1.1.0 (2022-05-21)
+## 1.1.0 (2022-05-21)
 
 ### Bug Fixes
 

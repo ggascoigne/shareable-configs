@@ -9,7 +9,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 - **package.json:** add sanitize.css as a peer dep ([9211773](https://github.com/waldronmatt/shareable-configs/commit/9211773a098fe4c9ad8de1aea0fe88dac29e7016))
 
-# [1.5.0](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/postcss-config@1.4.3...@waldronmatt/postcss-config@1.5.0) (2022-11-05)
+## [1.5.0](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/postcss-config@1.4.3...@waldronmatt/postcss-config@1.5.0) (2022-11-05)
 
 ### Bug Fixes
 
@@ -34,7 +34,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 **Note:** Version bump only for package @waldronmatt/postcss-config
 
-# [1.4.0](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/postcss-config@1.3.1...@waldronmatt/postcss-config@1.4.0) (2022-06-01)
+## [1.4.0](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/postcss-config@1.3.1...@waldronmatt/postcss-config@1.4.0) (2022-06-01)
 
 ### Features
 
@@ -44,7 +44,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 **Note:** Version bump only for package @waldronmatt/postcss-config
 
-# [1.3.0](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/postcss-config@1.2.5...@waldronmatt/postcss-config@1.3.0) (2022-05-24)
+## [1.3.0](https://github.com/waldronmatt/shareable-configs/compare/@waldronmatt/postcss-config@1.2.5...@waldronmatt/postcss-config@1.3.0) (2022-05-24)
 
 ### Features
 

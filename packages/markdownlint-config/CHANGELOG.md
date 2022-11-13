@@ -29,7 +29,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 - **index.json:** rename MD013 rule, fix version, update README ([2145e04](https://github.com/waldronmatt/shareable-configs/commit/2145e04180ebede0d790ddfc2d9c1738faee2cc6))
 
-# 0.2.0 (2022-09-15)
+## 0.2.0 (2022-09-15)
 
 ### Features
 
