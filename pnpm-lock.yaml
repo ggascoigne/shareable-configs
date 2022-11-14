@@ -66,12 +66,14 @@ importers:
       eslint-config-airbnb-base: ^15.0.0
       eslint-config-airbnb-typescript: ^17.0.0
       eslint-config-prettier: ^8.5.0
+      eslint-plugin-etc: ^2.0.2
       eslint-plugin-import: ^2.26.0
       eslint-plugin-jest: ^27.0.4
       eslint-plugin-jest-dom: ^4.0.2
       eslint-plugin-jest-formatting: ^3.1.0
       eslint-plugin-prettier: ^4.2.1
       eslint-plugin-promise: ^6.0.1
+      eslint-plugin-risxss: ^2.1.0
       eslint-plugin-security: ^1.5.0
       eslint-plugin-sonarjs: ^0.16.0
       eslint-plugin-unicorn: ^44.0.0
@@ -81,12 +83,14 @@ importers:
       eslint-config-airbnb-base: 15.0.0_fkfqfehjtk7sk2efaqbgxsuasa
       eslint-config-airbnb-typescript: 17.0.0_qaot4n2q7tbdgaimh36wncb6ru
       eslint-config-prettier: 8.5.0
+      eslint-plugin-etc: 2.0.2
       eslint-plugin-import: 2.26.0_pgmfr5ztkthyodygzwj2cbdika
       eslint-plugin-jest: 27.1.5_2uczw536yeeb6qc3dw34ap53vm
       eslint-plugin-jest-dom: 4.0.3
       eslint-plugin-jest-formatting: 3.1.0
       eslint-plugin-prettier: 4.2.1_ttcikbw5yztdadzhevg6ml5cuy
       eslint-plugin-promise: 6.1.1
+      eslint-plugin-risxss: 2.1.0
       eslint-plugin-security: 1.5.0
       eslint-plugin-sonarjs: 0.16.0
       eslint-plugin-unicorn: 44.0.2
@@ -3517,6 +3521,17 @@ packages:
       node-gyp-build: 4.5.0
     dev: true
 
+  /@phenomnomnominal/tsquery/4.1.1:
+    resolution:
+      {
+        integrity: sha512-jjMmK1tnZbm1Jq5a7fBliM4gQwjxMU7TFoRNwIyzwlO+eHPRCFv/Nv+H/Gi1jc3WR7QURG8D5d0Tn12YGrUqBQ==,
+      }
+    peerDependencies:
+      typescript: ^3 || ^4
+    dependencies:
+      esquery: 1.4.0
+    dev: false
+
   /@phenomnomnominal/tsquery/4.1.1_typescript@4.8.4:
     resolution:
       {
@@ -4301,6 +4316,21 @@ packages:
       tsutils: 3.21.0
     transitivePeerDependencies:
       - supports-color
+    dev: false
+
+  /@typescript-eslint/experimental-utils/5.42.1:
+    resolution:
+      {
+        integrity: sha512-qona75z2MLpeZADEuCet5Pwvh1g/0cWScEEDy43chuUPc4klgDiwz5hLFk5dHcjFEETSYQHRPYiiHKW24EMPjw==,
+      }
+    engines: { node: ^12.22.0 || ^14.17.0 || >=16.0.0 }
+    peerDependencies:
+      eslint: ^6.0.0 || ^7.0.0 || ^8.0.0
+    dependencies:
+      '@typescript-eslint/utils': 5.42.1
+    transitivePeerDependencies:
+      - supports-color
+      - typescript
     dev: false
 
   /@typescript-eslint/parser/5.42.1:
@@ -7064,6 +7094,22 @@ packages:
       eslint: '>=7.0.0'
     dev: false
 
+  /eslint-etc/5.2.0:
+    resolution:
+      {
+        integrity: sha512-Gcm/NMa349FOXb1PEEfNMMyIANuorIc2/mI5Vfu1zENNsz+FBVhF62uY6gPUCigm/xDOc8JOnl+71WGnlzlDag==,
+      }
+    peerDependencies:
+      eslint: ^8.0.0
+      typescript: ^4.0.0
+    dependencies:
+      '@typescript-eslint/experimental-utils': 5.42.1
+      tsutils: 3.21.0
+      tsutils-etc: 1.4.1_tsutils@3.21.0
+    transitivePeerDependencies:
+      - supports-color
+    dev: false
+
   /eslint-import-resolver-node/0.3.6:
     resolution:
       {
@@ -7103,6 +7149,25 @@ packages:
       '@typescript-eslint/parser': 5.42.1
       debug: 3.2.7
       eslint-import-resolver-node: 0.3.6
+    transitivePeerDependencies:
+      - supports-color
+    dev: false
+
+  /eslint-plugin-etc/2.0.2:
+    resolution:
+      {
+        integrity: sha512-g3b95LCdTCwZA8On9EICYL8m1NMWaiGfmNUd/ftZTeGZDXrwujKXUr+unYzqKjKFo1EbqJ31vt+Dqzrdm/sUcw==,
+      }
+    peerDependencies:
+      eslint: ^8.0.0
+      typescript: ^4.0.0
+    dependencies:
+      '@phenomnomnominal/tsquery': 4.1.1
+      '@typescript-eslint/experimental-utils': 5.42.1
+      eslint-etc: 5.2.0
+      requireindex: 1.2.0
+      tslib: 2.4.0
+      tsutils: 3.21.0
     transitivePeerDependencies:
       - supports-color
     dev: false
@@ -7213,6 +7278,19 @@ packages:
     engines: { node: ^12.22.0 || ^14.17.0 || >=16.0.0 }
     peerDependencies:
       eslint: ^7.0.0 || ^8.0.0
+    dev: false
+
+  /eslint-plugin-risxss/2.1.0:
+    resolution:
+      {
+        integrity: sha512-r28MzBnC/Rk/jv/P42d4GS516yMi9Ev22VAZc25YVM21izAvzGQriDOewqTsSeZlBZGxP2ebEGolp2cosz67Yg==,
+      }
+    engines: { node: '>=6' }
+    dependencies:
+      import-modules: 1.1.0
+      lodash.clonedeep: 4.5.0
+      lodash.get: 4.4.2
+      lodash.union: 4.6.0
     dev: false
 
   /eslint-plugin-security/1.5.0:
@@ -8523,6 +8601,14 @@ packages:
       resolve-cwd: 3.0.0
     dev: true
 
+  /import-modules/1.1.0:
+    resolution:
+      {
+        integrity: sha512-szMf9iPglnnDYueTxUzJWM+dXlwgfOIIONjVj36ZX8YHG9vBGCHPCpawKr+uIXD0Znm7QQlznIQtVjxfwJkq4g==,
+      }
+    engines: { node: '>=4' }
+    dev: false
+
   /imurmurhash/0.1.4:
     resolution:
       {
@@ -9736,6 +9822,13 @@ packages:
       }
     dev: false
 
+  /lodash.clonedeep/4.5.0:
+    resolution:
+      {
+        integrity: sha512-H5ZhCF25riFd9uB5UCkVKo61m3S/xZk1x4wA6yp/L3RFP6Z/eHH1ymQcGLo7J3GMPfm0V/7m1tryHuGVxpqEBQ==,
+      }
+    dev: false
+
   /lodash.debounce/4.0.8:
     resolution:
       {
@@ -9747,6 +9840,13 @@ packages:
     resolution:
       {
         integrity: sha512-TM9YBvyC84ZxE3rgfefxUWiQKLilstD6k7PTGt6wfbtXF8ixIJLOL3VYyV/z+ZiPLsVxAsKAFVwWlWeb2Y8Yyw==,
+      }
+    dev: false
+
+  /lodash.get/4.4.2:
+    resolution:
+      {
+        integrity: sha512-z+Uw/vLuy6gQe8cfaFWD7p0wVv8fJl3mbzXh33RS+0oW2wvUqiRXiQ69gLWSLpgB5/6sU+r6BlQR0MBILadqTQ==,
       }
     dev: false
 
@@ -9803,6 +9903,13 @@ packages:
         integrity: sha512-jttmRe7bRse52OsWIMDLaXxWqRAmtIUccAQ3garviCqJjafXOfNMO0yMfNpdD6zbGaTU0P5Nz7e7gAT6cKmJRw==,
       }
     dev: true
+
+  /lodash.union/4.6.0:
+    resolution:
+      {
+        integrity: sha512-c4pB2CdGrGdjMKYLA+XiRDO7Y0PRQbm/Gzg8qMj+QH+pFVAoTp5sBpO0odL3FjoPCGjK96p6qsP+yQoiLoOBcw==,
+      }
+    dev: false
 
   /lodash.uniq/4.5.0:
     resolution:
@@ -14014,6 +14121,21 @@ packages:
       {
         integrity: sha512-d6xOpEDfsi2CZVlPQzGeux8XMwLT9hssAsaPYExaQMuYskwb+x1x7J371tWlbBdWHroy99KnVB6qIkUbs5X3UQ==,
       }
+
+  /tsutils-etc/1.4.1_tsutils@3.21.0:
+    resolution:
+      {
+        integrity: sha512-6UPYgc7OXcIW5tFxlsZF3OVSBvDInl/BkS3Xsu64YITXk7WrnWTVByKWPCThFDBp5gl5IGHOzGMdQuDCE7OL4g==,
+      }
+    hasBin: true
+    peerDependencies:
+      tsutils: ^3.0.0
+      typescript: ^4.0.0
+    dependencies:
+      '@types/yargs': 17.0.13
+      tsutils: 3.21.0
+      yargs: 17.5.1
+    dev: false
 
   /tsutils/3.21.0:
     resolution:
