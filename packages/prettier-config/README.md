@@ -13,7 +13,7 @@ pnpm add -D prettier @ggascoigne/prettier-config
 **`.prettierrc.js`**
 
 ```js
-module.exports = '@ggascoigne/prettier-config';
+module.exports = '@ggascoigne/prettier-config'
 ```
 
 ## Extending
@@ -23,8 +23,8 @@ module.exports = '@ggascoigne/prettier-config';
 ```js
 module.exports = {
   ...require('@ggascoigne/prettier-config'),
-  semi: false,
-};
+  semi: true,
+}
 ```
 
 ## Add an NPM Script
@@ -52,7 +52,7 @@ Will create:
 ```js
 module.exports = {
   '**/*': ['prettier --cache --write --ignore-unknown'],
-};
+}
 ```
 
 ## License

@@ -1,13 +1,14 @@
 module.exports = {
   endOfLine: 'auto',
   // https://prettier.io/docs/en/options.html#print-width
-  printWidth: 80,
+  printWidth: 120,
   tabWidth: 2,
   arrowParens: 'avoid',
   singleQuote: true,
-  semi: true,
+  semi: false,
   trailingComma: 'es5',
   bracketSpacing: true,
+  jsxSingleQuote: true,
   overrides: [
     {
       files: ['*.html'],
@@ -20,4 +21,4 @@ module.exports = {
       },
     },
   ],
-};
+}
