@@ -20,7 +20,7 @@
     "lint": "pnpm lint:md && pnpm lint:js && pnpm lint:secrets",
     "lint:md": "markdownlint --fix **/*.md --ignore node_modules --ignore **/CHANGELOG.md",
     "lint:js": "eslint --fix **/*.js",
-    "lint:secrets": "pnpx secretlint **/*",
+    "lint:secrets": "pnpm secretlint **/*",
     "commit": "git-cz",
     "bootstrap:ci": "pnpm install --frozen-lockfile",
     "version:ci": "lerna version --yes --conventional-commits --create-release github --message 'chore(release): publish'",

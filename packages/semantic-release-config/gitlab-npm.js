@@ -8,4 +8,4 @@ module.exports = {
     '@semantic-release/git',
   ],
   branches: 'main',
-};
+}

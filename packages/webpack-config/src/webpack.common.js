@@ -1,10 +1,9 @@
-const { merge } = require('webpack-merge');
-const parts = require('./webpack.parts');
+const { merge } = require('webpack-merge')
+const parts = require('./webpack.parts')
 
-// eslint-disable-next-line unicorn/prevent-abbreviations
 const commonConfig = (isProduction, env) => {
   // pass `isProduction` and Webpack's `env` variable into your parts file
-  parts(isProduction, env);
+  parts(isProduction, env)
 
   // optionally destructure parts modules for use in our base config
   // const { loadJS } = parts;
@@ -30,7 +29,7 @@ const commonConfig = (isProduction, env) => {
 
     // optionally load parts in our base config
     // loadJS(),
-  ]);
-};
+  ])
+}
 
-module.exports = commonConfig;
+module.exports = commonConfig

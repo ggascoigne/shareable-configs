@@ -17,7 +17,15 @@ pnpm add -D eslint @ggascoigne/eslint-config
 ```js
 module.exports = {
   extends: '@ggascoigne/eslint-config',
-};
+}
+```
+
+The default config is React-centric, if you want a config without react then use:
+
+```js
+module.exports = {
+  extends: '@ggascoigne/eslint-config/base',
+}
 ```
 
 ### TS
@@ -25,7 +33,7 @@ module.exports = {
 ```js
 module.exports = {
   extends: '@ggascoigne/eslint-config/ts',
-};
+}
 ```
 
 ### Jest
@@ -33,7 +41,7 @@ module.exports = {
 ```js
 module.exports = {
   extends: '@ggascoigne/eslint-config/jest',
-};
+}
 ```
 
 ## Extending
@@ -48,10 +56,7 @@ module.exports = {
   overrides: [
     {
       files: ['**/*.ts'],
-      extends: [
-        '@ggascoigne/eslint-config/ts',
-        '@ggascoigne/eslint-config/jest',
-      ],
+      extends: ['@ggascoigne/eslint-config/ts', '@ggascoigne/eslint-config/jest'],
       parserOptions: {
         project: 'tsconfig.json',
         tsconfigRootDir: __dirname,
@@ -62,7 +67,7 @@ module.exports = {
       extends: ['@ggascoigne/eslint-config', '@ggascoigne/eslint-config/jest'],
     },
   ],
-};
+}
 ```
 
 ## Add an NPM Script
@@ -90,7 +95,7 @@ Will create:
 ```js
 module.exports = {
   '*.{js,jsx,ts,tsx}': ['prettier --cache --write', 'eslint --cache --fix'],
-};
+}
 ```
 
 ## Under The Hood

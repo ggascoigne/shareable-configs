@@ -1,4 +1,3 @@
-// eslint-disable-next-line unicorn/prevent-abbreviations
 const developmentConfig = {
   mode: 'development',
   // map your compiled code back to your original source code.
@@ -14,6 +13,6 @@ const developmentConfig = {
   performance: {
     hints: false,
   },
-};
+}
 
-module.exports = developmentConfig;
+module.exports = developmentConfig

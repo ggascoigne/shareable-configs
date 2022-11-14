@@ -1,7 +1,6 @@
-const MiniCssExtractPlugin = require('mini-css-extract-plugin');
-const ForkTsCheckerWebpackPlugin = require('fork-ts-checker-webpack-plugin');
+const MiniCssExtractPlugin = require('mini-css-extract-plugin')
+const ForkTsCheckerWebpackPlugin = require('fork-ts-checker-webpack-plugin')
 
-// eslint-disable-next-line no-unused-vars, unicorn/prevent-abbreviations
 const parts = (isProduction, env) => {
   const styleLoaders = () => [
     {
@@ -19,7 +18,7 @@ const parts = (isProduction, env) => {
     {
       loader: 'postcss-loader',
     },
-  ];
+  ]
 
   /**
    * Loads CSS files.
@@ -46,7 +45,7 @@ const parts = (isProduction, env) => {
         },
       ],
     },
-  });
+  })
 
   /**
    * Loads Sass files.
@@ -81,7 +80,7 @@ const parts = (isProduction, env) => {
         },
       ],
     },
-  });
+  })
 
   /**
    * Customize the output path for styles for `production` builds.
@@ -96,7 +95,7 @@ const parts = (isProduction, env) => {
           })
         : false,
     ].filter(Boolean),
-  });
+  })
 
   /**
    * Load source maps. Useful for 3rd-party libraries.
@@ -115,7 +114,7 @@ const parts = (isProduction, env) => {
         },
       ],
     },
-  });
+  })
 
   /**
    * Load `.js` files.
@@ -134,7 +133,6 @@ const parts = (isProduction, env) => {
           test: /\.js$/,
           include,
           exclude,
-          // eslint-disable-next-line sonarjs/no-duplicate-string
           loader: 'esbuild-loader',
           options: {
             // eslint-disable-next-line object-shorthand
@@ -143,7 +141,7 @@ const parts = (isProduction, env) => {
         },
       ],
     },
-  });
+  })
 
   /**
    * Load `.jsx` files.
@@ -171,7 +169,7 @@ const parts = (isProduction, env) => {
         },
       ],
     },
-  });
+  })
 
   /**
    * Load `.ts` files with type checking on `development` builds.
@@ -199,7 +197,7 @@ const parts = (isProduction, env) => {
         },
       ],
     },
-  });
+  })
 
   /**
    * Load `.tsx` files with type checking on `development` builds.
@@ -227,16 +225,14 @@ const parts = (isProduction, env) => {
         },
       ],
     },
-  });
+  })
 
   /**
    * Enable TypeScript checking for development builds.
    */
   module.exports.enableTypeChecking = () => ({
-    plugins: [!isProduction ? new ForkTsCheckerWebpackPlugin() : false].filter(
-      Boolean
-    ),
-  });
+    plugins: [!isProduction ? new ForkTsCheckerWebpackPlugin() : false].filter(Boolean),
+  })
 
   /**
    * Customize the output path for scripts.
@@ -245,11 +241,9 @@ const parts = (isProduction, env) => {
    */
   module.exports.setScriptOutputPath = ({ path = '' }) => ({
     output: {
-      filename: isProduction
-        ? `${path}[name].[contenthash:8].js`
-        : `${path}[name].js`,
+      filename: isProduction ? `${path}[name].[contenthash:8].js` : `${path}[name].js`,
     },
-  });
+  })
 
   /**
    * Load and customize the output path for images as individual files.
@@ -272,14 +266,12 @@ const parts = (isProduction, env) => {
           test: /\.(apng|avif|gif|jpe?g|png|svg|webp)$/i,
           type: 'asset/resource',
           generator: {
-            filename: isProduction
-              ? `${path}[name].[contenthash:8][ext]`
-              : `${path}[name][ext]`,
+            filename: isProduction ? `${path}[name].[contenthash:8][ext]` : `${path}[name][ext]`,
           },
         },
       ],
     },
-  });
+  })
 
   /**
    * Load and customize the output path for images as individual files
@@ -297,19 +289,14 @@ const parts = (isProduction, env) => {
    * @param {string} path
    * @param {number} maxSize - 1024 * 8 (8kb)
    */
-  module.exports.loadImagesAsFilesOrInline = ({
-    path = '',
-    maxSize = 1024 * 8,
-  }) => ({
+  module.exports.loadImagesAsFilesOrInline = ({ path = '', maxSize = 1024 * 8 }) => ({
     module: {
       rules: [
         {
           test: /\.(apng|avif|gif|jpe?g|png|svg|webp)$/i,
           type: 'asset',
           generator: {
-            filename: isProduction
-              ? `${path}[name].[contenthash:8][ext]`
-              : `${path}[name][ext]`,
+            filename: isProduction ? `${path}[name].[contenthash:8][ext]` : `${path}[name][ext]`,
           },
           parser: {
             dataUrlCondition: {
@@ -320,7 +307,7 @@ const parts = (isProduction, env) => {
         },
       ],
     },
-  });
+  })
 
   /**
    * Load and customize the output path for fonts as
@@ -343,7 +330,7 @@ const parts = (isProduction, env) => {
         },
       ],
     },
-  });
+  })
 
   /**
    * Raw asset loader.
@@ -363,7 +350,7 @@ const parts = (isProduction, env) => {
         },
       ],
     },
-  });
-};
+  })
+}
 
-module.exports = parts;
+module.exports = parts

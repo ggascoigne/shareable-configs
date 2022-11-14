@@ -6,14 +6,10 @@ const desktop = [
   'last 2 Firefox major versions',
   'last 2 Safari major versions',
   'last 2 Edge major versions',
-];
+]
 
-const mobile = [
-  'last 2 Android major versions',
-  'last 2 ChromeAndroid major versions',
-  'last 2 iOS major versions',
-];
+const mobile = ['last 2 Android major versions', 'last 2 ChromeAndroid major versions', 'last 2 iOS major versions']
 
-const supportedBrowsers = [...desktop, ...mobile];
+const supportedBrowsers = [...desktop, ...mobile]
 
-module.exports = supportedBrowsers;
+module.exports = supportedBrowsers

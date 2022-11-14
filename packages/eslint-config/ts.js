@@ -1,50 +1,15 @@
 module.exports = {
-  plugins: ['risxss', 'etc'],
   // when changing this, remember that you can run
   // `pnpm eslint --print-config <filename>` to print
   // the existing used config for that path
-  extends: [
-    'react-app',
-    // now disable all the rules that are in conflict with prettier
-    'prettier',
-    // note that we don't add the prettier rules, they add noise to the IDE
-    // and the code is all being formatted on commit anyway.,
-  ],
-  rules: {
-    'arrow-body-style': 'warn',
-    'dot-notation': 'warn',
-    'no-var': 'error',
-    'no-debugger': 'error',
-    'no-duplicate-imports': 'error',
-    'object-shorthand': 'warn',
-    'prefer-arrow-callback': 'warn',
-    'prefer-const': 'warn',
-    'no-use-before-define': 'off',
-    'import/prefer-default-export': 'off',
-    'import/extensions': 'off',
-    // enforce consistent jsx attributes
-    'react/jsx-curly-brace-presence': ['warn', 'never'],
-    'react/jsx-boolean-value': 'warn',
-    'react/jsx-fragments': 'warn',
-    'react/jsx-key': ['warn', { checkFragmentShorthand: true }],
-    'no-unused-vars': 'off',
-    'risxss/catch-potential-xss-react': 'error',
-    'import/no-extraneous-dependencies': [
-      'error',
-      {
-        devDependencies: true,
-      },
-    ],
-  },
+  extends: ['./index.js'],
   overrides: [
     {
       files: '*.{ts,tsx}',
-      extends: [
-        'plugin:@typescript-eslint/recommended',
-        'airbnb-typescript/base',
-      ],
+      extends: ['plugin:@typescript-eslint/recommended', 'airbnb-typescript/base', 'prettier'],
       parser: '@typescript-eslint/parser',
       rules: {
+        'import/extensions': 'off',
         // disabled because it conflicts with jsx-a11y/alt-text
         'jsx-a11y/img-redundant-alt': 'off',
         '@typescript-eslint/explicit-module-boundary-types': 'off',
@@ -124,4 +89,4 @@ module.exports = {
       },
     },
   ],
-};
+}

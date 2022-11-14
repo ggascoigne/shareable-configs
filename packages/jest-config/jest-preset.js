@@ -15,9 +15,8 @@ module.exports = {
   },
   transform: {
     '^.+\\.(ts|tsx)$': 'ts-jest',
-    '.+\\.(css|scss|apng|avif|gif|jpe?g|png|svg|webp|woff2?)$':
-      'jest-transform-stub',
+    '.+\\.(css|scss|apng|avif|gif|jpe?g|png|svg|webp|woff2?)$': 'jest-transform-stub',
   },
   transformIgnorePatterns: ['<rootDir>/node_modules/'],
   coveragePathIgnorePatterns: ['<rootDir>/node_modules/'],
-};
+}

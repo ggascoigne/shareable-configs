@@ -1,43 +1,23 @@
 module.exports = {
-  // Plugins that provide the processors to parse code for linting
-  plugins: ['sonarjs', 'prettier'],
+  // note that this is somewhat react specific, if you don't want to use react, then use
+  // @ggascoinge/eslint-config/base instead
+  plugins: ['risxss', 'etc'],
+  // when changing this, remember that you can run
+  // `pnpm eslint --print-config <filename>` to print
+  // the existing used config for that path
   extends: [
-    'plugin:unicorn/recommended',
-    'plugin:promise/recommended',
-    'plugin:sonarjs/recommended',
-    'plugin:security/recommended',
-    // Uses the recommended rules from eslint
-    'eslint:recommended',
-    /*
-      Uses the recommended rules from eslint-config-airbnb-base
-      Note: depends on eslint-plugin-import to work
-    */
-    'airbnb-base',
-    /*
-      Enables eslint-plugin-prettier and displays prettier errors as
-      ESLint errors. Make sure this is always the last configuration
-      in the extends array.
-      https://github.com/prettier/eslint-plugin-prettier#recommended-configuration
-    */
-    'plugin:prettier/recommended',
+    './base.js',
+    'react-app',
+    // now disable all the rules that are in conflict with prettier
+    'prettier',
+    // note that we don't add the prettier rules, they add noise to the IDE
+    // and the code is all being formatted on commit anyway.,
   ],
-  // @babel/eslint-parser and prettier rules go here
   rules: {
-    // https://github.com/prettier/eslint-config-prettier#max-len
-    'max-len': [
-      'error',
-      {
-        code: 80,
-        ignoreUrls: true,
-      },
-    ],
-    // https://stackoverflow.com/questions/44939304/eslint-should-be-listed-in-the-projects-dependencies-not-devdependencies
-    'import/no-extraneous-dependencies': [
-      'error',
-      {
-        devDependencies: true,
-      },
-    ],
-    'unicorn/prefer-module': 0,
+    'react/jsx-curly-brace-presence': ['warn', 'never'],
+    'react/jsx-boolean-value': 'warn',
+    'react/jsx-fragments': 'warn',
+    'react/jsx-key': ['warn', { checkFragmentShorthand: true }],
+    'risxss/catch-potential-xss-react': 'error',
   },
-};
+}

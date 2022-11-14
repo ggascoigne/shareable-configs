@@ -26,4 +26,4 @@ module.exports = {
     ],
     'plugin/no-low-performance-animation-properties': true,
   },
-};
+}

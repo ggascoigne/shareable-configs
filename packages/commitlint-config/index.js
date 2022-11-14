@@ -1,4 +1,4 @@
-const automaticCommitPattern = /^chore\(release\):.*\[skip ci]/;
+const automaticCommitPattern = /^chore\(release\):.*\[skip ci]/
 
 module.exports = {
   extends: ['@commitlint/config-conventional'],
@@ -8,4 +8,4 @@ module.exports = {
     https://github.com/semantic-release/git/issues/331
   */
   ignores: [commitMessage => automaticCommitPattern.test(commitMessage)],
-};
+}
