@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.9.0](https://github.com/ggascoigne/shareable-configs/compare/@ggascoigne/eslint-config@1.8.0...@ggascoigne/eslint-config@1.9.0) (2022-11-14)
+
+### Features
+
+- **eslint-config:** fix ts lint settings so that they don't barf on .eslint.js files ([716ec56](https://github.com/ggascoigne/shareable-configs/commit/716ec56099823eb12e86427d25aebcb4e5302825))
+
 # [1.8.0](https://github.com/ggascoigne/shareable-configs/compare/@ggascoigne/eslint-config@1.7.0...@ggascoigne/eslint-config@1.8.0) (2022-11-14)
 
 ### Features
