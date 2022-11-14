@@ -5,7 +5,7 @@ My personal shareable tsconfig configuration.
 ## Install
 
 ```bash
-yarn add -D @ggascoigne/tsconfig-config
+pnpm add -D @ggascoigne/tsconfig-config
 ```
 
 ## Usage

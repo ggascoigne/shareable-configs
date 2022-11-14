@@ -3,7 +3,7 @@
 ## Install
 
 ```bash
-yarn add -D commitizen cz-conventional-changelog
+pnpm add -D commitizen cz-conventional-changelog
 ```
 
 ## Usage

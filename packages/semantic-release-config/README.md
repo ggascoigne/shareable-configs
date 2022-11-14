@@ -5,7 +5,7 @@ My personal shareable semantic-release configuration.
 ## Install
 
 ```bash
-yarn add -D semantic-release @ggascoigne/semantic-release-config
+pnpm add -D semantic-release @ggascoigne/semantic-release-config
 ```
 
 ## Usage
@@ -22,7 +22,7 @@ yarn add -D semantic-release @ggascoigne/semantic-release-config
 
 ```json
 "scripts": {
-  "bootstrap:ci": "yarn install --frozen-lockfile --ignore-engines",
+  "bootstrap:ci": "pnpm install --frozen-lockfile --ignore-engines",
   "lint": "[your scripts go here]",
   "test": "[your scripts go here]",
   "build": "[your scripts go here]",

@@ -5,7 +5,7 @@ My personal shareable markdownlint configuration.
 ## Install
 
 ```bash
-yarn add -D markdownlint @ggascoigne/markdownlint-config
+pnpm add -D markdownlint @ggascoigne/markdownlint-config
 ```
 
 ## Usage

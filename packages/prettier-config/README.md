@@ -5,7 +5,7 @@ My personal shareable prettier configuration.
 ## Install
 
 ```bash
-yarn add -D prettier @ggascoigne/prettier-config
+pnpm add -D prettier @ggascoigne/prettier-config
 ```
 
 ## Usage

@@ -7,7 +7,7 @@
 ## Install
 
 ```bash
-yarn add -D @babel/cli @babel/core @ggascoigne/babel-config
+pnpm add -D @babel/cli @babel/core @ggascoigne/babel-config
 ```
 
 ## Usage

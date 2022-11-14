@@ -5,7 +5,7 @@ My personal shareable commitlint configuration.
 ## Install
 
 ```bash
-yarn add -D @commitlint/cli @ggascoigne/commitlint-config
+pnpm pnpm -D @commitlint/cli @ggascoigne/commitlint-config
 ```
 
 ## Usage
@@ -36,7 +36,7 @@ module.exports = {
 Install husky:
 
 ```bash
-yarn add -D husky && npm set-script prepare "husky install" && yarn prepare
+pnpm add -D husky && npm set-script prepare "husky install" && pnpm prepare
 ```
 
 Add the hook:

@@ -5,7 +5,7 @@ My personal shareable secretlint configuration.
 ## Install
 
 ```bash
-yarn add -D secretlint @ggascoigne/secretlint-config
+pnpm add -D secretlint @ggascoigne/secretlint-config
 ```
 
 ## Usage

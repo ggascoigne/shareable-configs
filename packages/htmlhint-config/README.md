@@ -5,7 +5,7 @@ My personal shareable htmlhint configuration.
 ## Install
 
 ```bash
-yarn add -D htmlhint @ggascoigne/htmlhint-config
+pnpm add -D htmlhint @ggascoigne/htmlhint-config
 ```
 
 ## Add an NPM Script

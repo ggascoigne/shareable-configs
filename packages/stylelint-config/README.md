@@ -5,7 +5,7 @@ My personal shareable stylelint configuration.
 ## Install
 
 ```bash
-yarn add -D stylelint @ggascoigne/stylelint-config
+pnpm add -D stylelint @ggascoigne/stylelint-config
 ```
 
 ## Usage

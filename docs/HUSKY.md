@@ -3,7 +3,7 @@
 ## Install
 
 ```bash
-yarn add -D husky
+pnpm add -D husky
 ```
 
 ## Add an NPM Script
@@ -27,5 +27,5 @@ Will create:
 ## Run Husky
 
 ```bash
-yarn prepare
+pnpm prepare
 ```

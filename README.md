@@ -19,7 +19,7 @@ Note that this is forked from https://github.com/waldronmatt/shareable-configs a
 Install all configs and associated packages as development dependencies (**excludes** Webpack):
 
 ```bash
-yarn add -D @ggascoigne/browserslist-config @commitlint/cli @ggascoigne/commitlint-config eslint @ggascoigne/eslint-config htmlhint @ggascoigne/htmlhint-config jest @ggascoigne/jest-config lint-staged @ggascoigne/lint-staged-config markdownlint @ggascoigne/markdownlint-config postcss @ggascoigne/postcss-config prettier @ggascoigne/prettier-config secretlint @ggascoigne/secretlint-config semantic-release @ggascoigne/semantic-release-config stylelint @ggascoigne/stylelint-config @ggascoigne/tsconfig-config
+pnpm add -D @ggascoigne/browserslist-config @commitlint/cli @ggascoigne/commitlint-config eslint @ggascoigne/eslint-config htmlhint @ggascoigne/htmlhint-config jest @ggascoigne/jest-config lint-staged @ggascoigne/lint-staged-config markdownlint @ggascoigne/markdownlint-config postcss @ggascoigne/postcss-config prettier @ggascoigne/prettier-config secretlint @ggascoigne/secretlint-config semantic-release @ggascoigne/semantic-release-config stylelint @ggascoigne/stylelint-config @ggascoigne/tsconfig-config
 ```
 
 ### Set up Husky

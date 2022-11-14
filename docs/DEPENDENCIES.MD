@@ -1,6 +1,6 @@
 # Dependency Management
 
-Documentation on how to manage package dependencies using `yarn workspace` and associated tools.
+Documentation on how to manage package dependencies using `pnpm workspace` and associated tools.
 
 The commands for `yarn workspace` [can be found here](https://classic.yarnpkg.com/en/docs/cli/workspace).
 

@@ -5,7 +5,7 @@ My personal shareable eslint configuration.
 ## Install
 
 ```bash
-yarn add -D eslint @ggascoigne/eslint-config
+pnpm add -D eslint @ggascoigne/eslint-config
 ```
 
 ## Usage
@@ -59,10 +59,7 @@ module.exports = {
     },
     {
       files: ['**/*.js'],
-      extends: [
-        '@ggascoigne/eslint-config',
-        '@ggascoigne/eslint-config/jest',
-      ],
+      extends: ['@ggascoigne/eslint-config', '@ggascoigne/eslint-config/jest'],
     },
   ],
 };

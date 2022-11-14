@@ -5,7 +5,7 @@ My personal shareable lint-staged configuration.
 ## Install
 
 ```bash
-yarn add -D lint-staged @ggascoigne/lint-staged-config
+pnpm add -D lint-staged @ggascoigne/lint-staged-config
 ```
 
 ## Usage
@@ -40,7 +40,7 @@ module.exports = {
   ...ymlConfig,
   ...config,
   '*.{js,jsx,ts,tsx}': [
-    'yarn test --bail --passWithNoTests --findRelatedTests --coverage',
+    'pnpm test --bail --passWithNoTests --findRelatedTests --coverage',
   ],
 };
 ```
@@ -50,7 +50,7 @@ module.exports = {
 Install husky:
 
 ```bash
-yarn add -D husky && npm set-script prepare "husky install" && yarn prepare
+pnpm add -D husky && npm set-script prepare "husky install" && pnpm prepare
 ```
 
 Add the hook:

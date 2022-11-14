@@ -5,7 +5,7 @@ My personal shareable jest configuration.
 ## Install
 
 ```bash
-yarn add -D jest @ggascoigne/jest-config
+pnpm add -D jest @ggascoigne/jest-config
 ```
 
 ## Usage
@@ -61,7 +61,7 @@ Will create:
 ```js
 module.exports = {
   '*.{js,jsx,ts,tsx}': [
-    'yarn test --bail --passWithNoTests --findRelatedTests --coverage',
+    'pnpm test --bail --passWithNoTests --findRelatedTests --coverage',
   ],
 };
 ```

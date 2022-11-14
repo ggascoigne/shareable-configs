@@ -5,7 +5,7 @@ My personal shareable postcss configuration.
 ## Install
 
 ```bash
-yarn add -D postcss @ggascoigne/postcss-config
+pnpm add -D postcss @ggascoigne/postcss-config
 ```
 
 ## Usage

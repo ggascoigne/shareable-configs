@@ -6,21 +6,23 @@
     "type": "git",
     "url": "git+https://github.com/ggascoigne/shareable-configs.git"
   },
-  "workspaces": [
-    "packages/*"
-  ],
+  "engines": {
+    "node": ">=16",
+    "pnpm": ">=7"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/ggascoigne/shareable-configs/issues"
   },
   "homepage": "https://github.com/ggascoigne/shareable-configs#readme",
   "scripts": {
-    "lint": "yarn lint:md && yarn lint:js && yarn lint:secrets",
+    "preinstall": "npx only-allow pnpm",
+    "lint": "pnpm lint:md && pnpm lint:js && pnpm lint:secrets",
     "lint:md": "markdownlint --fix **/*.md --ignore node_modules --ignore **/CHANGELOG.md",
     "lint:js": "eslint --fix **/*.js",
-    "lint:secrets": "npx secretlint **/*",
+    "lint:secrets": "pnpx secretlint **/*",
     "commit": "git-cz",
-    "bootstrap:ci": "yarn install --frozen-lockfile --ignore-engines",
+    "bootstrap:ci": "pnpm install --frozen-lockfile",
     "version:ci": "lerna version --yes --conventional-commits --create-release github --message 'chore(release): publish'",
     "publish:ci": "lerna publish from-package --yes --no-verify-access",
     "prepare": "husky install"
@@ -34,6 +36,7 @@
     "lerna": "^6.0.3",
     "lint-staged": "^13.0.3",
     "markdownlint": "^0.26.2",
+    "markdownlint-cli": "^0.32.2",
     "prettier": "^2.7.1",
     "secretlint": "^5.2.4",
     "syncyarnlock": "^1.0.19"

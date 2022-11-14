@@ -7,7 +7,7 @@
 ## Install
 
 ```bash
-yarn add -D commitizen @ggascoigne/commitizen-config
+pnpm add -D commitizen @ggascoigne/commitizen-config
 ```
 
 ## Usage
