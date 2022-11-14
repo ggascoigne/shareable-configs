@@ -5,6 +5,7 @@
   "main": "index.js",
   "files": [
     "index.js",
+    "base.js",
     "ts.js",
     "jest.js",
     "scripts/*"
