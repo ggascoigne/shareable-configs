@@ -1,6 +1,6 @@
 {
   "name": "@ggascoigne/htmlhint-config",
-  "version": "1.0.7",
+  "version": "1.1.0",
   "description": "A shareable htmlhint configuration for projects.",
   "main": "index.json",
   "files": [
