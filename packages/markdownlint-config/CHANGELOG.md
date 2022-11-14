@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.2.0](https://github.com/ggascoigne/shareable-configs/compare/@ggascoigne/markdownlint-config@2.1.0...@ggascoigne/markdownlint-config@2.2.0) (2022-11-14)
+
+### Features
+
+- **eslint-config:** fixup the base lint config to be plain js ([f60483f](https://github.com/ggascoigne/shareable-configs/commit/f60483f30f8012829c9ae13feb1d80d2a159c963))
+
 # [2.1.0](https://github.com/ggascoigne/shareable-configs/compare/@ggascoigne/markdownlint-config@2.0.0...@ggascoigne/markdownlint-config@2.1.0) (2022-11-14)
 
 ### Bug Fixes

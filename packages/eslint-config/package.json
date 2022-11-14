@@ -1,6 +1,6 @@
 {
   "name": "@ggascoigne/eslint-config",
-  "version": "1.9.0",
+  "version": "1.10.0",
   "description": "A shareable eslint configuration for projects.",
   "main": "index.js",
   "files": [
@@ -33,10 +33,10 @@
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.38.1",
     "@typescript-eslint/parser": "^5.38.1",
-    "eslint-config-react-app": "^7.0.1",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-airbnb-typescript": "^17.0.0",
     "eslint-config-prettier": "^8.5.0",
+    "eslint-config-react-app": "^7.0.1",
     "eslint-plugin-etc": "^2.0.2",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-jest": "^27.0.4",
