@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.8.0](https://github.com/ggascoigne/shareable-configs/compare/@ggascoigne/eslint-config@1.7.0...@ggascoigne/eslint-config@1.8.0) (2022-11-14)
+
+### Features
+
+- **eslint-config:** revamt ts liint rules to match my preferred options ([f2f806e](https://github.com/ggascoigne/shareable-configs/commit/f2f806eb876fcc83200b93cb4eae6126c5cdf050))
+
 # [1.7.0](https://github.com/ggascoigne/shareable-configs/compare/@ggascoigne/eslint-config@1.6.0...@ggascoigne/eslint-config@1.7.0) (2022-11-14)
 
 ### Bug Fixes
