@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.10.1](https://github.com/ggascoigne/shareable-configs/compare/@ggascoigne/eslint-config@1.10.0...@ggascoigne/eslint-config@1.10.1) (2022-11-14)
+
+### Bug Fixes
+
+- **eslint-config:** add missing file to package ([ec3e8ff](https://github.com/ggascoigne/shareable-configs/commit/ec3e8ff021bb1e74afcae3e4287df5357e11bf86))
+
 # [1.10.0](https://github.com/ggascoigne/shareable-configs/compare/@ggascoigne/eslint-config@1.9.0...@ggascoigne/eslint-config@1.10.0) (2022-11-14)
 
 ### Features
