@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.11.1](https://github.com/ggascoigne/shareable-configs/compare/@ggascoigne/eslint-config@1.11.0...@ggascoigne/eslint-config@1.11.1) (2022-11-15)
+
+### Bug Fixes
+
+- **eslint-config:** add @babel/preset-react as dep ([de2d6ec](https://github.com/ggascoigne/shareable-configs/commit/de2d6ecdc1eeb051955a0d4a5e6a8bc2ffe5827f))
+
 # [1.11.0](https://github.com/ggascoigne/shareable-configs/compare/@ggascoigne/eslint-config@1.10.1...@ggascoigne/eslint-config@1.11.0) (2022-11-15)
 
 ### Features
