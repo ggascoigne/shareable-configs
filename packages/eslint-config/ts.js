@@ -9,6 +9,7 @@ module.exports = {
       extends: ['plugin:@typescript-eslint/recommended', 'airbnb-typescript/base', 'prettier'],
       parser: '@typescript-eslint/parser',
       rules: {
+        'no-underscore-dangle': 'off',
         'import/extensions': 'off',
         // disabled because it conflicts with jsx-a11y/alt-text
         'jsx-a11y/img-redundant-alt': 'off',

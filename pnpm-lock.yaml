@@ -61,6 +61,7 @@ importers:
 
   packages/eslint-config:
     specifiers:
+      '@getify/eslint-plugin-proper-ternary': ^3.1.1
       '@typescript-eslint/eslint-plugin': ^5.38.1
       '@typescript-eslint/parser': ^5.38.1
       eslint-config-airbnb-base: ^15.0.0
@@ -79,6 +80,7 @@ importers:
       eslint-plugin-sonarjs: ^0.16.0
       eslint-plugin-unicorn: ^44.0.0
     dependencies:
+      '@getify/eslint-plugin-proper-ternary': 3.1.1
       '@typescript-eslint/eslint-plugin': 5.42.1_pgmfr5ztkthyodygzwj2cbdika
       '@typescript-eslint/parser': 5.42.1
       eslint-config-airbnb-base: 15.0.0_fkfqfehjtk7sk2efaqbgxsuasa
@@ -2961,6 +2963,13 @@ packages:
     resolution:
       { integrity: sha512-k2Ty1JcVojjJFwrg/ThKi2ujJ7XNLYaFGNB/bWT9wGR+oSMJHMa5w+CUq6p/pVrKeNNgA7pCqEcjSnHVoqJQFw== }
     dev: true
+
+  /@getify/eslint-plugin-proper-ternary/3.1.1:
+    resolution:
+      { integrity: sha512-KMW2/F3uQT14bUt4Di+Jo7Dyeu/kclilCkKVdnuBvWm3SIJH/TjKDo1yqIpGUljjZLj7C3S0BY0XPG4pP176Gg== }
+    peerDependencies:
+      eslint: '>= 7.25.0'
+    dev: false
 
   /@humanwhocodes/config-array/0.11.6:
     resolution:
