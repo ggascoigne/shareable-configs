@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.11.0](https://github.com/ggascoigne/shareable-configs/compare/@ggascoigne/eslint-config@1.10.1...@ggascoigne/eslint-config@1.11.0) (2022-11-15)
+
+### Features
+
+- **eslint-config:** clean up usage of airbnb ([74b7ee2](https://github.com/ggascoigne/shareable-configs/commit/74b7ee2e9c7c7dbf7908005b0325bb6ae3065afa))
+
 ## [1.10.1](https://github.com/ggascoigne/shareable-configs/compare/@ggascoigne/eslint-config@1.10.0...@ggascoigne/eslint-config@1.10.1) (2022-11-14)
 
 ### Bug Fixes
