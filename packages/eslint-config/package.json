@@ -32,6 +32,7 @@
   },
   "homepage": "https://github.com/ggascoigne/shareable-configs/tree/main/packages/eslint-config#readme",
   "dependencies": {
+    "@babel/preset-react": "^7.18.6",
     "@getify/eslint-plugin-proper-ternary": "^3.1.1",
     "@typescript-eslint/eslint-plugin": "^5.38.1",
     "@typescript-eslint/parser": "^5.38.1",
