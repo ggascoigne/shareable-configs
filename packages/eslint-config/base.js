@@ -22,6 +22,7 @@ module.exports = {
     'no-use-before-define': 'off',
     'import/prefer-default-export': 'off',
     'import/extensions': 'off',
+    'no-else-return': 'off',
     'no-unused-vars': 'off',
     'no-nested-ternary': 'off',
     '@getify/proper-ternary/nested': ['error', { else: true, depth: 3 }],
