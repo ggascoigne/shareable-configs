@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.11.2](https://github.com/ggascoigne/shareable-configs/compare/@ggascoigne/eslint-config@1.11.1...@ggascoigne/eslint-config@1.11.2) (2022-11-27)
+
+### Bug Fixes
+
+- **eslint:** minor rule tweak ([0e39e42](https://github.com/ggascoigne/shareable-configs/commit/0e39e42a95642c50436103c35ef174c2ab42142b))
+
 ## [1.11.1](https://github.com/ggascoigne/shareable-configs/compare/@ggascoigne/eslint-config@1.11.0...@ggascoigne/eslint-config@1.11.1) (2022-11-15)
 
 ### Bug Fixes
