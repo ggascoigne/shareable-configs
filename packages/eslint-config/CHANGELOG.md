@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.11.3](https://github.com/ggascoigne/shareable-configs/compare/@ggascoigne/eslint-config@1.11.2...@ggascoigne/eslint-config@1.11.3) (2022-12-26)
+
+### Bug Fixes
+
+- **eslint:** swap no-duplicate-imports for the more ts friendly import/no-duplicates ([6030a2e](https://github.com/ggascoigne/shareable-configs/commit/6030a2eeecea27fce632ce4b6b8e9b3d07376d35))
+
 ## [1.11.2](https://github.com/ggascoigne/shareable-configs/compare/@ggascoigne/eslint-config@1.11.1...@ggascoigne/eslint-config@1.11.2) (2022-11-27)
 
 ### Bug Fixes
