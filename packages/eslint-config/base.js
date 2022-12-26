@@ -15,6 +15,7 @@ module.exports = {
     'dot-notation': 'warn',
     'no-var': 'error',
     'no-debugger': 'error',
+    'no-duplicate-imports': 'off',
     'import/no-duplicates': 'error',
     'object-shorthand': 'warn',
     'prefer-arrow-callback': 'warn',

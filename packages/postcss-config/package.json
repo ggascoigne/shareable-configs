@@ -31,10 +31,10 @@
   "dependencies": {
     "autoprefixer": "^10.4.12",
     "postcss-100vh-fix": "^1.0.2",
-    "postcss-cli": "^10.0.0",
+    "postcss-cli": "^10.1.0",
     "postcss-flexbugs-fixes": "^5.0.2",
     "postcss-normalize": "^10.0.1",
-    "postcss-preset-env": "^7.8.2",
+    "postcss-preset-env": "^7.8.3",
     "postcss-reporter": "^7.0.5"
   },
   "peerDependencies": {
