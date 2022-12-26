@@ -1,6 +1,6 @@
 {
   "name": "@ggascoigne/commitlint-config",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "A shareable commitlint configuration for projects.",
   "main": "index.js",
   "files": [
