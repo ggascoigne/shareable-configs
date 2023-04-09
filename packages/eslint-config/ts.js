@@ -51,17 +51,19 @@ module.exports = {
         'etc/no-internal': 'error',
         'etc/no-misused-generics': 'warn',
         'etc/no-deprecated': 'warn',
-        '@typescript-eslint/no-unused-vars': [
-          'warn',
+        // disable this rule and use unused-imports instead since it has a working fixer
+        '@typescript-eslint/no-unused-vars': 'off',
+        'unused-imports/no-unused-imports': 'error',
+        'unused-imports/no-unused-vars': [
+          'error',
           {
-            // this is the airbnb setting with the exception that vars
-            // and args named with a leading _ are allowed
+            // this is the airbnb setting with the exception that vars and args named with a leading _ are allowed
             // this allows for more convenient type documentation on callbacks
             vars: 'all',
-            args: 'none',
+            args: 'after-used',
             ignoreRestSiblings: true,
-            varsIgnorePattern: '^_|knex',
-            argsIgnorePattern: '^_|knex',
+            varsIgnorePattern: '^_|^React$',
+            argsIgnorePattern: '^_',
           },
         ],
         '@typescript-eslint/naming-convention': [

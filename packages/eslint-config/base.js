@@ -1,5 +1,5 @@
 module.exports = {
-  plugins: ['prettier', '@getify/proper-ternary'],
+  plugins: ['prettier', '@getify/proper-ternary', 'unused-imports'],
   // when changing this, remember that you can run
   // `pnpm eslint --print-config <filename>` to print
   // the existing used config for that path
@@ -28,6 +28,26 @@ module.exports = {
     'no-nested-ternary': 'off',
     '@getify/proper-ternary/nested': ['error', { else: true, depth: 3 }],
     'no-plusplus': ['error', { allowForLoopAfterthoughts: true }],
+    'import/order': [
+      'warn',
+      {
+        alphabetize: {
+          order: 'asc' /* sort in ascending order. Options: ['ignore', 'asc', 'desc'] */,
+          caseInsensitive: true /* ignore case. Options: [true, false] */,
+        },
+        warnOnUnassignedImports: true,
+        groups: ['builtin', 'external', 'internal', 'sibling', 'parent', 'index'],
+        pathGroups: [
+          {
+            pattern: 'react',
+            group: 'external',
+            position: 'before',
+          },
+        ],
+        pathGroupsExcludedImportTypes: ['react'],
+        'newlines-between': 'always',
+      },
+    ],
     'import/no-extraneous-dependencies': [
       'error',
       {
