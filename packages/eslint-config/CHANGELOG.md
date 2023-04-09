@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.12.0](https://github.com/ggascoigne/shareable-configs/compare/@ggascoigne/eslint-config@1.11.4...@ggascoigne/eslint-config@1.12.0) (2023-04-09)
+
+### Features
+
+- **eslint:** update eslint config to better handle import sorting ([45cc208](https://github.com/ggascoigne/shareable-configs/commit/45cc208d1f373f62226419deee959aaa1df37f39))
+
 ## [1.11.4](https://github.com/ggascoigne/shareable-configs/compare/@ggascoigne/eslint-config@1.11.3...@ggascoigne/eslint-config@1.11.4) (2022-12-26)
 
 ### Bug Fixes

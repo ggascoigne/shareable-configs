@@ -1,6 +1,6 @@
 {
   "name": "@ggascoigne/eslint-config",
-  "version": "1.11.4",
+  "version": "1.12.0",
   "description": "A shareable eslint configuration for projects.",
   "main": "index.js",
   "files": [

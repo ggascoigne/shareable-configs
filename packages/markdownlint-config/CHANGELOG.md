@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.2.1](https://github.com/ggascoigne/shareable-configs/compare/@ggascoigne/markdownlint-config@2.2.0...@ggascoigne/markdownlint-config@2.2.1) (2023-04-09)
+
+**Note:** Version bump only for package @ggascoigne/markdownlint-config
+
 # [2.2.0](https://github.com/ggascoigne/shareable-configs/compare/@ggascoigne/markdownlint-config@2.1.0...@ggascoigne/markdownlint-config@2.2.0) (2022-11-14)
 
 ### Features
