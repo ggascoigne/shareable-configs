@@ -240,8 +240,8 @@ importers:
   packages/secretlint-config:
     dependencies:
       '@secretlint/secretlint-rule-preset-recommend':
-        specifier: ^6.2.3
-        version: 6.2.3
+        specifier: ^7.0.3
+        version: 7.0.3
       secretlint:
         specifier: '>= 5'
         version: 5.3.0
@@ -4143,91 +4143,9 @@ packages:
     resolution: {integrity: sha512-4WJuQ0AF+UV5IDi47ThxCeho9oKHDcpd11LrT1uYNBsc3tf8NyPayeWqyHepk/fr1VWcCd2CZdSAAIov7Af2qw==}
     dev: true
 
-  /@secretlint/secretlint-rule-aws@6.2.3:
-    resolution: {integrity: sha512-QlzMYlpCrSuOTwhM+VQ54uhp7Ncf9i13TIdp56NuRmZgE5nOJr9gHLAKK6gF8/sfDxpgFsU01jMYKJHOvp7brA==}
+  /@secretlint/secretlint-rule-preset-recommend@7.0.3:
+    resolution: {integrity: sha512-+Qg0HPoab1XEX+fdPDFLyG009KstqxiU1lN0+6/DbZxJYWEOG459k+lGJpiHfCUThXPlsSeKcIXtKtLehySfQg==}
     engines: {node: ^14.13.1 || >=16.0.0}
-    dependencies:
-      '@secretlint/types': 6.2.3
-      '@textlint/regexp-string-matcher': 2.0.2
-      regx: 1.0.4
-    dev: false
-
-  /@secretlint/secretlint-rule-basicauth@6.2.3:
-    resolution: {integrity: sha512-CexXo6dVCXr2uoNrosnSeVhUSPXU6EJHd+5TCnqA9LRfoNK193Nifrpgx8ee+UakC8+1l3kENP5Ik4MSRVli6w==}
-    engines: {node: ^14.13.1 || >=16.0.0}
-    dependencies:
-      '@secretlint/types': 6.2.3
-      '@textlint/regexp-string-matcher': 2.0.2
-    dev: false
-
-  /@secretlint/secretlint-rule-filter-comments@6.2.3:
-    resolution: {integrity: sha512-WR7yHWF8+g9yU3Bpojfy1xjSyE9jXMTKrTKLYauzBBy1AaFn8PNqfZ0RqzPpAFpPwOa+F5v9yIIVBS+w9bu/Eg==}
-    engines: {node: ^14.13.1 || >=16.0.0}
-    dependencies:
-      '@secretlint/types': 6.2.3
-    dev: false
-
-  /@secretlint/secretlint-rule-gcp@6.2.3:
-    resolution: {integrity: sha512-DgCWxXg5XZy5ueK+0B+LJA1CnpuqOpbTqjYoY7cueHCCrzuMNH9g/EblzkDvZPX20elQ4WRmA3Z9K5rRm0J0Sw==}
-    engines: {node: ^14.13.1 || >=16.0.0}
-    dependencies:
-      '@secretlint/types': 6.2.3
-      '@textlint/regexp-string-matcher': 2.0.2
-      node-forge: 1.3.1
-    dev: false
-
-  /@secretlint/secretlint-rule-github@6.2.3:
-    resolution: {integrity: sha512-7XOMjr7XMAlyzbJbRmdvEmCJQHJkzTCXyIAh8uQ7/eUCketHOH2X4LyosActC4ueNnrR2LLafReYAmIm0nxmuw==}
-    engines: {node: ^14.13.1 || >=16.0.0}
-    dependencies:
-      '@secretlint/types': 6.2.3
-      '@textlint/regexp-string-matcher': 2.0.2
-    dev: false
-
-  /@secretlint/secretlint-rule-npm@6.2.3:
-    resolution: {integrity: sha512-GwINKISm9hHociAm3lqm9f5gFb5m6PQUIXcC+dEUEZ0YL+nAe/JtKnlQTsB0bqmD12v8oeFvEARjTWJSjtcVQw==}
-    engines: {node: ^14.13.1 || >=16.0.0}
-    dependencies:
-      '@secretlint/types': 6.2.3
-      '@textlint/regexp-string-matcher': 2.0.2
-    dev: false
-
-  /@secretlint/secretlint-rule-preset-recommend@6.2.3:
-    resolution: {integrity: sha512-lANTpIxgQ8hCEeu03BU97GNzJtsosXJwi1QP9f1pygI8C15ena4gEU0HBINsQjx0E1talxLHzqQ998jUxdqtqA==}
-    engines: {node: ^14.13.1 || >=16.0.0}
-    dependencies:
-      '@secretlint/secretlint-rule-aws': 6.2.3
-      '@secretlint/secretlint-rule-basicauth': 6.2.3
-      '@secretlint/secretlint-rule-filter-comments': 6.2.3
-      '@secretlint/secretlint-rule-gcp': 6.2.3
-      '@secretlint/secretlint-rule-github': 6.2.3
-      '@secretlint/secretlint-rule-npm': 6.2.3
-      '@secretlint/secretlint-rule-privatekey': 6.2.3
-      '@secretlint/secretlint-rule-sendgrid': 6.2.3
-      '@secretlint/secretlint-rule-slack': 6.2.3
-    dev: false
-
-  /@secretlint/secretlint-rule-privatekey@6.2.3:
-    resolution: {integrity: sha512-SokMCxvuYhfXNvEBlizj36VjienMUfAU2Atza8A1iUu7uBRwnn9DixutR/v4jfLJAV3p5hoo39jQD0tGOw0dqQ==}
-    engines: {node: ^14.13.1 || >=16.0.0}
-    dependencies:
-      '@textlint/regexp-string-matcher': 2.0.2
-    dev: false
-
-  /@secretlint/secretlint-rule-sendgrid@6.2.3:
-    resolution: {integrity: sha512-xtYBEGnas0HEdxOwHAFhvu3p3AzAxuzeo+3IQ30XoYdoRXRZmyTuq6fZFPrTGtsKC0whkpciebfrRhiG+FVtzw==}
-    engines: {node: ^14.13.1 || >=16.0.0}
-    dependencies:
-      '@secretlint/types': 6.2.3
-      '@textlint/regexp-string-matcher': 2.0.2
-    dev: false
-
-  /@secretlint/secretlint-rule-slack@6.2.3:
-    resolution: {integrity: sha512-AjuEOztIlKbrQfYflXkNTOOzyZTd5g3kDGjQLghuzNQKyJjdFFEtoVtCDTHfnL6f+oIxzN7TVFoj7NUk+ozJyg==}
-    engines: {node: ^14.13.1 || >=16.0.0}
-    dependencies:
-      '@secretlint/types': 6.2.3
-      '@textlint/regexp-string-matcher': 2.0.2
     dev: false
 
   /@secretlint/source-creator@5.3.0:
@@ -4254,6 +4172,7 @@ packages:
   /@secretlint/types@6.2.3:
     resolution: {integrity: sha512-KiVeTz0xWbfZinjqxxd0yUbt3L5tCiyXC/wt44BNyYGE5xV/Ui+4Xvweab0rmBPFam3RS9UuyL0MG2BGPf4dxA==}
     engines: {node: ^14.13.1 || >=16.0.0}
+    dev: true
 
   /@semantic-release/changelog@6.0.2(semantic-release@19.0.0):
     resolution: {integrity: sha512-jHqfTkoPbDEOAgAP18mGP53IxeMwxTISN+GwTRy9uLu58UjARoZU8ScCgWGeO2WPkEsm57H8AkyY02W2ntIlIw==}
@@ -4558,15 +4477,6 @@ packages:
   /@textlint/module-interop@12.6.1:
     resolution: {integrity: sha512-COyRctLVh2ktAObmht3aNtqUvP0quoellKu1c2RrXny1po+Mf7PkvEKIxphtArE4JXMAmu01cDxfH6X88+eYIg==}
     dev: true
-
-  /@textlint/regexp-string-matcher@2.0.2:
-    resolution: {integrity: sha512-OXLD9XRxMhd3S0LWuPHpiARQOI7z9tCOs0FsynccW2lmyZzHHFJ9/eR6kuK9xF459Qf+740qI5h+/0cx+NljzA==}
-    dependencies:
-      escape-string-regexp: 4.0.0
-      lodash.sortby: 4.7.0
-      lodash.uniq: 4.5.0
-      lodash.uniqwith: 4.5.0
-    dev: false
 
   /@textlint/types@12.2.2:
     resolution: {integrity: sha512-fmKH9w8O3XOvIvf3cPNI7PWdJScRIiJYJ5VsoIMp/o41Hlkt5m//MObfAPYpQ/3nuXhzlB05kfRUxyj/NvcPAQ==}
@@ -10952,10 +10862,6 @@ packages:
   /lodash.snakecase@4.1.1:
     resolution: {integrity: sha512-QZ1d4xoBHYUeuouhEq3lk3Uq7ldgyFXGBhg04+oRLnIz8o9T65Eh+8YdroUwn846zchkA9yDsDl5CVVaV2nqYw==}
 
-  /lodash.sortby@4.7.0:
-    resolution: {integrity: sha512-HDWXG8isMntAyRF5vZ7xKuEvOhT4AhlRt/3czTSjvGUxjYCBVRQY48ViDHyfYz9VIoBkW4TMGQNapx+l3RUwdA==}
-    dev: false
-
   /lodash.startcase@4.4.0:
     resolution: {integrity: sha512-+WKqsK294HMSc2jEbNgpHpd0JfIBhp7rEV4aqXWqFr6AlXov+SlcgB1Fv01y2kGe3Gc8nMW7VA0SrGuSkRfIEg==}
 
@@ -10971,10 +10877,6 @@ packages:
 
   /lodash.uniqby@4.7.0:
     resolution: {integrity: sha512-e/zcLx6CSbmaEgFHCA7BnoQKyCtKMxnuWrJygbwPs/AIn+IMKl66L8/s+wBUn5LRw2pZx3bUHibiV1b6aTWIww==}
-    dev: false
-
-  /lodash.uniqwith@4.5.0:
-    resolution: {integrity: sha512-7lYL8bLopMoy4CTICbxygAUq6CdRJ36vFc80DucPueUee+d5NBRxz3FdT9Pes/HEx5mPoT9jwnsEJWz1N7uq7Q==}
     dev: false
 
   /lodash.upperfirst@4.3.1:
@@ -11639,11 +11541,6 @@ packages:
         optional: true
     dependencies:
       whatwg-url: 5.0.0
-
-  /node-forge@1.3.1:
-    resolution: {integrity: sha512-dPEtOeMvF9VMcYV/1Wb8CPoVAXtp6MKMlcbAt4ddqmGqUJ6fQZFXkNZNkNlfevtNkGtaSoXf/vNNNSvgrdXwtA==}
-    engines: {node: '>= 6.13.0'}
-    dev: false
 
   /node-gyp-build@4.5.0:
     resolution: {integrity: sha512-2iGbaQBV+ITgCz76ZEjmhUKAKVf7xfY1sRl4UiKQspfZMH2h06SyhNsnSVy50cwkFQDGLyif6m/6uFXHkOZ6rg==}
@@ -13663,10 +13560,6 @@ packages:
     hasBin: true
     dependencies:
       jsesc: 0.5.0
-    dev: false
-
-  /regx@1.0.4:
-    resolution: {integrity: sha512-Z/5ochRUyD5TkJgFq+66ajKePlj6KzpSLfDO2lOLOLu7E82xAjNux0m8mx1DAXBj5ECHiRCBWoqL25b4lkwcgw==}
     dev: false
 
   /remove-trailing-separator@1.1.0:
