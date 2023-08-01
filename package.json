@@ -38,7 +38,7 @@
     "markdownlint": "^0.28.0",
     "markdownlint-cli": "^0.34.0",
     "prettier": "^2.8.1",
-    "secretlint": "^6.2.3",
+    "secretlint": "^7.0.3",
     "syncyarnlock": "^1.0.19"
   }
 }
