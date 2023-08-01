@@ -5579,7 +5579,7 @@ packages:
     peerDependencies:
       postcss: ^8.1.0
     dependencies:
-      browserslist: 4.21.4
+      browserslist: 4.21.9
       caniuse-lite: 1.0.30001431
       fraction.js: 4.2.0
       normalize-range: 0.1.2
@@ -5916,17 +5916,6 @@ packages:
       electron-to-chromium: 1.4.284
       node-releases: 2.0.6
       update-browserslist-db: 1.0.10(browserslist@4.21.4)
-    dev: false
-
-  /browserslist@4.21.5:
-    resolution: {integrity: sha512-tUkiguQGW7S3IhB7N+c2MV/HZPSCPAAiYBZXLsBhFB/PCy6ZKKsZrmBayHV9fdGV/ARIfJ14NkxKzRDjvp7L6w==}
-    engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
-    hasBin: true
-    dependencies:
-      caniuse-lite: 1.0.30001509
-      electron-to-chromium: 1.4.447
-      node-releases: 2.0.12
-      update-browserslist-db: 1.0.11(browserslist@4.21.5)
     dev: false
 
   /browserslist@4.21.9:
@@ -13022,7 +13011,7 @@ packages:
       '@csstools/postcss-trigonometric-functions': 2.1.0(postcss@8.4.19)
       '@csstools/postcss-unset-value': 2.0.1(postcss@8.4.19)
       autoprefixer: 10.4.14(postcss@8.4.19)
-      browserslist: 4.21.5
+      browserslist: 4.21.9
       css-blank-pseudo: 5.0.2(postcss@8.4.19)
       css-has-pseudo: 5.0.2(postcss@8.4.19)
       css-prefers-color-scheme: 8.0.2(postcss@8.4.19)
@@ -15477,17 +15466,6 @@ packages:
       picocolors: 1.0.0
     dev: false
 
-  /update-browserslist-db@1.0.11(browserslist@4.21.5):
-    resolution: {integrity: sha512-dCwEFf0/oT85M1fHBg4F0jtLwJrutGoHSQXCh7u4o2t1drG+c0a9Flnqww6XUKSfQMPpJBRjU8d4RXB09qtvaA==}
-    hasBin: true
-    peerDependencies:
-      browserslist: '>= 4.21.0'
-    dependencies:
-      browserslist: 4.21.5
-      escalade: 3.1.1
-      picocolors: 1.0.0
-    dev: false
-
   /update-browserslist-db@1.0.11(browserslist@4.21.9):
     resolution: {integrity: sha512-dCwEFf0/oT85M1fHBg4F0jtLwJrutGoHSQXCh7u4o2t1drG+c0a9Flnqww6XUKSfQMPpJBRjU8d4RXB09qtvaA==}
     hasBin: true
@@ -15721,7 +15699,7 @@ packages:
       '@webassemblyjs/wasm-parser': 1.11.1
       acorn: 8.8.0
       acorn-import-assertions: 1.8.0(acorn@8.8.0)
-      browserslist: 4.21.4
+      browserslist: 4.21.9
       chrome-trace-event: 1.0.3
       enhanced-resolve: 5.10.0
       es-module-lexer: 0.9.3
