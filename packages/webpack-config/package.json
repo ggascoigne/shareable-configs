@@ -29,18 +29,18 @@
   },
   "homepage": "https://github.com/ggascoigne/shareable-configs/tree/main/packages/webpack-config#readme",
   "dependencies": {
-    "css-loader": "^6.7.3",
-    "esbuild-loader": "^3.0.1",
+    "css-loader": "^6.8.1",
+    "esbuild-loader": "^4.0.2",
     "fork-ts-checker-webpack-plugin": "^8.0.0",
-    "mini-css-extract-plugin": "^2.7.2",
-    "postcss-loader": "^7.0.2",
-    "sass": "^1.57.1",
-    "sass-loader": "^13.0.2",
+    "mini-css-extract-plugin": "^2.7.6",
+    "postcss-loader": "^7.3.3",
+    "sass": "^1.66.1",
+    "sass-loader": "^13.3.2",
     "source-map-loader": "^4.0.0",
-    "style-loader": "^3.3.1",
-    "typescript": "^5.0.3",
-    "webpack": "^5.74.0",
-    "webpack-merge": "^5.8.0"
+    "style-loader": "^3.3.3",
+    "typescript": "^5.2.2",
+    "webpack": "^5.88.2",
+    "webpack-merge": "^5.9.0"
   },
   "peerDependencies": {
     "webpack": ">= 5",

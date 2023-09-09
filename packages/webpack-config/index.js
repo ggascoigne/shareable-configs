@@ -1,7 +1,8 @@
 const { merge } = require('webpack-merge')
-const baseParts = require('./src/webpack.parts')
+
 const baseCommonConfig = require('./src/webpack.common')
 const baseDevelopmentConfig = require('./src/webpack.dev')
+const baseParts = require('./src/webpack.parts')
 const baseProductionConfig = require('./src/webpack.prod')
 
 // export a function for apps to extend in their `webpack.common.js` files

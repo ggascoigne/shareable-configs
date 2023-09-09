@@ -1,4 +1,5 @@
 const { merge } = require('webpack-merge')
+
 const parts = require('./webpack.parts')
 
 const commonConfig = (isProduction, env) => {
