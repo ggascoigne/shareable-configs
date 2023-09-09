@@ -49,7 +49,8 @@ module.exports = {
         ],
         'etc/no-assign-mutated-array': 'error',
         'etc/no-internal': 'error',
-        'etc/no-misused-generics': 'warn',
+        // not currently working
+        'etc/no-misused-generics': 'off',
         'etc/no-deprecated': 'warn',
         // disable this rule and use unused-imports instead since it has a working fixer
         '@typescript-eslint/no-unused-vars': 'off',
