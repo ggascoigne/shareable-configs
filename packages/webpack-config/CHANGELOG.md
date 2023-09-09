@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.12.3](https://github.com/ggascoigne/shareable-configs/compare/@ggascoigne/webpack-config@2.12.2...@ggascoigne/webpack-config@2.12.3) (2023-09-09)
+
+**Note:** Version bump only for package @ggascoigne/webpack-config
+
 ## [2.12.2](https://github.com/ggascoigne/shareable-configs/compare/@ggascoigne/webpack-config@2.12.1...@ggascoigne/webpack-config@2.12.2) (2023-04-09)
 
 **Note:** Version bump only for package @ggascoigne/webpack-config
