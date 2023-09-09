@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.13.3](https://github.com/ggascoigne/shareable-configs/compare/@ggascoigne/eslint-config@1.13.2...@ggascoigne/eslint-config@1.13.3) (2023-09-09)
+
+### Bug Fixes
+
+- **eslint-config:** disable etc/no-misused-generics ([e7605e5](https://github.com/ggascoigne/shareable-configs/commit/e7605e5fdac3c7464e2962ca526ed39439730d6f))
+
 ## [1.13.2](https://github.com/ggascoigne/shareable-configs/compare/@ggascoigne/eslint-config@1.13.1...@ggascoigne/eslint-config@1.13.2) (2023-09-09)
 
 ### Bug Fixes
