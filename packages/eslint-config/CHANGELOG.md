@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.13.0](https://github.com/ggascoigne/shareable-configs/compare/@ggascoigne/eslint-config@1.12.1...@ggascoigne/eslint-config@1.13.0) (2023-09-09)
+
+### Features
+
+- **eslint-config:** inline plugin-react ([0fe8fe8](https://github.com/ggascoigne/shareable-configs/commit/0fe8fe8492c161166f1353f2cae722936d9bb35c))
+
 ## [1.12.1](https://github.com/ggascoigne/shareable-configs/compare/@ggascoigne/eslint-config@1.12.0...@ggascoigne/eslint-config@1.12.1) (2023-09-09)
 
 **Note:** Version bump only for package @ggascoigne/eslint-config
