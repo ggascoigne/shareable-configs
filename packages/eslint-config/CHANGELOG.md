@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.13.2](https://github.com/ggascoigne/shareable-configs/compare/@ggascoigne/eslint-config@1.13.1...@ggascoigne/eslint-config@1.13.2) (2023-09-09)
+
+### Bug Fixes
+
+- **eslint-config:** add missing dependency ([6acf102](https://github.com/ggascoigne/shareable-configs/commit/6acf10281c14e2f2f0a7069598455c8a56f38ef6))
+
 ## [1.13.1](https://github.com/ggascoigne/shareable-configs/compare/@ggascoigne/eslint-config@1.13.0...@ggascoigne/eslint-config@1.13.1) (2023-09-09)
 
 ### Bug Fixes
