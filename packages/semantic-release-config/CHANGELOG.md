@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.2.4](https://github.com/ggascoigne/shareable-configs/compare/@ggascoigne/semantic-release-config@3.2.3...@ggascoigne/semantic-release-config@3.2.4) (2023-10-01)
+
+**Note:** Version bump only for package @ggascoigne/semantic-release-config
+
 ## [3.2.3](https://github.com/ggascoigne/shareable-configs/compare/@ggascoigne/semantic-release-config@3.2.2...@ggascoigne/semantic-release-config@3.2.3) (2023-09-09)
 
 **Note:** Version bump only for package @ggascoigne/semantic-release-config

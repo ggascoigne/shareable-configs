@@ -1,6 +1,6 @@
 {
   "name": "@ggascoigne/semantic-release-config",
-  "version": "3.2.3",
+  "version": "3.2.4",
   "description": "A shareable semantic-release configuration for projects.",
   "main": "index.js",
   "files": [

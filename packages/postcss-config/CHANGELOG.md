@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.8.4](https://github.com/ggascoigne/shareable-configs/compare/@ggascoigne/postcss-config@1.8.3...@ggascoigne/postcss-config@1.8.4) (2023-10-01)
+
+**Note:** Version bump only for package @ggascoigne/postcss-config
+
 ## [1.8.3](https://github.com/ggascoigne/shareable-configs/compare/@ggascoigne/postcss-config@1.8.2...@ggascoigne/postcss-config@1.8.3) (2023-09-09)
 
 **Note:** Version bump only for package @ggascoigne/postcss-config
