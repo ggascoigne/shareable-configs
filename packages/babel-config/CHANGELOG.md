@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.4](https://github.com/ggascoigne/shareable-configs/compare/@ggascoigne/babel-config@1.2.3...@ggascoigne/babel-config@1.2.4) (2023-11-12)
+
+### Bug Fixes
+
+- **build:** dep updates ([fe90c59](https://github.com/ggascoigne/shareable-configs/commit/fe90c592b6f73a91222089768ac36cb70228d277))
+
 ## [1.2.3](https://github.com/ggascoigne/shareable-configs/compare/@ggascoigne/babel-config@1.2.2...@ggascoigne/babel-config@1.2.3) (2023-10-01)
 
 **Note:** Version bump only for package @ggascoigne/babel-config

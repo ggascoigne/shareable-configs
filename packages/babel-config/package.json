@@ -1,6 +1,6 @@
 {
   "name": "@ggascoigne/babel-config",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "description": "A shareable babel configuration for projects.",
   "main": "index.js",
   "files": [

@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.13.5](https://github.com/ggascoigne/shareable-configs/compare/@ggascoigne/eslint-config@1.13.4...@ggascoigne/eslint-config@1.13.5) (2023-11-12)
+
+### Bug Fixes
+
+- **build:** dep updates ([fe90c59](https://github.com/ggascoigne/shareable-configs/commit/fe90c592b6f73a91222089768ac36cb70228d277))
+- **eslint-config:** remove getify ternary rule ([19da25c](https://github.com/ggascoigne/shareable-configs/commit/19da25c2214daf20eb7a7214a3c4ee60e2575786))
+
 ## [1.13.4](https://github.com/ggascoigne/shareable-configs/compare/@ggascoigne/eslint-config@1.13.3...@ggascoigne/eslint-config@1.13.4) (2023-10-01)
 
 **Note:** Version bump only for package @ggascoigne/eslint-config
