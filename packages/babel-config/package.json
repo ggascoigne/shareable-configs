@@ -29,10 +29,10 @@
   },
   "homepage": "https://github.com/ggascoigne/shareable-configs/tree/main/packages/babel-config#readme",
   "dependencies": {
-    "@babel/plugin-transform-runtime": "^7.22.15",
-    "@babel/preset-env": "^7.22.20",
-    "@babel/runtime": "^7.23.1",
-    "core-js": "^3.33.0"
+    "@babel/plugin-transform-runtime": "^7.23.3",
+    "@babel/preset-env": "^7.23.3",
+    "@babel/runtime": "^7.23.2",
+    "core-js": "^3.33.2"
   },
   "peerDependencies": {
     "@babel/cli": ">= 7",
