@@ -1,5 +1,5 @@
 module.exports = {
-  plugins: ['prettier', '@getify/proper-ternary', 'unused-imports'],
+  plugins: ['prettier', 'unused-imports'],
   // when changing this, remember that you can run
   // `pnpm eslint --print-config <filename>` to print
   // the existing used config for that path
@@ -26,7 +26,6 @@ module.exports = {
     'no-else-return': 'off',
     'no-unused-vars': 'off',
     'no-nested-ternary': 'off',
-    '@getify/proper-ternary/nested': ['error', { else: true, depth: 3 }],
     'no-plusplus': ['error', { allowForLoopAfterthoughts: true }],
     'import/order': [
       'warn',

@@ -98,9 +98,6 @@ importers:
       '@babel/preset-react':
         specifier: ^7.22.15
         version: 7.22.15(@babel/core@7.23.0)
-      '@getify/eslint-plugin-proper-ternary':
-        specifier: ^3.1.1
-        version: 3.1.1(eslint@8.50.0)
       '@typescript-eslint/eslint-plugin':
         specifier: ^6.7.3
         version: 6.7.3(@typescript-eslint/parser@6.7.3)(eslint@8.50.0)(typescript@5.2.2)
@@ -3619,14 +3616,6 @@ packages:
   /@eslint/js@8.50.0:
     resolution: {integrity: sha512-NCC3zz2+nvYd+Ckfh87rA47zfu2QsQpvc6k1yzTk+b9KzRj0wkGa8LSoGOXN6Zv4lRf/EIoZ80biDh9HOI+RNQ==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
-
-  /@getify/eslint-plugin-proper-ternary@3.1.1(eslint@8.50.0):
-    resolution: {integrity: sha512-KMW2/F3uQT14bUt4Di+Jo7Dyeu/kclilCkKVdnuBvWm3SIJH/TjKDo1yqIpGUljjZLj7C3S0BY0XPG4pP176Gg==}
-    peerDependencies:
-      eslint: '>= 7.25.0'
-    dependencies:
-      eslint: 8.50.0
-    dev: false
 
   /@humanwhocodes/config-array@0.11.11:
     resolution: {integrity: sha512-N2brEuAadi0CcdeMXUkhbZB84eskAc8MEX1By6qEchoVywSgXPIjou4rYsl0V3Hj0ZnuGycGCjdNgockbzeWNA==}
