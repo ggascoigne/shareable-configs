@@ -30,8 +30,8 @@ importers:
         specifier: ^15.1.0
         version: 15.1.0
       markdownlint:
-        specifier: ^0.31.1
-        version: 0.31.1
+        specifier: ^0.32.1
+        version: 0.32.1
       markdownlint-cli:
         specifier: ^0.37.0
         version: 0.37.0
@@ -10531,6 +10531,17 @@ packages:
       mdurl: 1.0.1
       uc.micro: 1.0.6
 
+  /markdown-it@13.0.2:
+    resolution: {integrity: sha512-FtwnEuuK+2yVU7goGn/MJ0WBZMM9ZPgU9spqlFs7/A/pDIUNSOQZhUgOqYCficIuR2QaFnrt8LHqBWsbTAoI5w==}
+    hasBin: true
+    dependencies:
+      argparse: 2.0.1
+      entities: 3.0.1
+      linkify-it: 4.0.1
+      mdurl: 1.0.1
+      uc.micro: 1.0.6
+    dev: true
+
   /markdownlint-cli@0.37.0:
     resolution: {integrity: sha512-hNKAc0bWBBuVhJbSWbUhRzavstiB4o1jh3JeSpwC4/dt6eJ54lRfYHRxVdzVp4qGWBKbeE6Pg490PFEfrKjqSg==}
     engines: {node: '>=16'}
@@ -10556,6 +10567,14 @@ packages:
     dependencies:
       markdown-it: 13.0.1
       markdownlint-micromark: 0.1.7
+
+  /markdownlint@0.32.1:
+    resolution: {integrity: sha512-3sx9xpi4xlHlokGyHO9k0g3gJbNY4DI6oNEeEYq5gQ4W7UkiJ90VDAnuDl2U+yyXOUa6BX+0gf69ZlTUGIBp6A==}
+    engines: {node: '>=18'}
+    dependencies:
+      markdown-it: 13.0.2
+      markdownlint-micromark: 0.1.7
+    dev: true
 
   /marked-terminal@5.2.0(marked@5.1.2):
     resolution: {integrity: sha512-Piv6yNwAQXGFjZSaiNljyNFw7jKDdGrw70FSbtxEyldLsyeuV5ZHm/1wW++kWbrOF1VPnUgYOhB2oLL0ZpnekA==}
