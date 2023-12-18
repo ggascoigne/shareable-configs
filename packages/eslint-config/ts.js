@@ -37,7 +37,8 @@ module.exports = {
           },
         ],
         '@typescript-eslint/no-unnecessary-type-assertion': 'off',
-        '@typescript-eslint/prefer-optional-chain': 'warn',
+        // I like this one, but it's pretty slow
+        '@typescript-eslint/prefer-optional-chain': 'off',
         '@typescript-eslint/no-use-before-define': 'warn',
         '@typescript-eslint/prefer-regexp-exec': 'warn',
         '@typescript-eslint/no-unused-expressions': [
@@ -51,7 +52,8 @@ module.exports = {
         'etc/no-internal': 'error',
         // not currently working
         'etc/no-misused-generics': 'off',
-        'etc/no-deprecated': 'warn',
+        // disable this, it's is responsible for 30-40% of my lint time
+        'etc/no-deprecated': 'off',
         // disable this rule and use unused-imports instead since it has a working fixer
         '@typescript-eslint/no-unused-vars': 'off',
         'unused-imports/no-unused-imports': 'error',

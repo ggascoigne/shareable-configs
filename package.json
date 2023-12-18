@@ -28,16 +28,16 @@
     "prepare": "husky install"
   },
   "devDependencies": {
-    "@commitlint/cli": "^18.4.0",
+    "@commitlint/cli": "^18.4.3",
     "commitizen": "^4.3.0",
     "cz-conventional-changelog": "^3.3.0",
-    "eslint": "^8.53.0",
+    "eslint": "^8.56.0",
     "husky": "^8.0.3",
     "lerna": "^7.4.2",
-    "lint-staged": "^15.1.0",
+    "lint-staged": "^15.2.0",
     "markdownlint": "^0.32.1",
     "markdownlint-cli": "^0.37.0",
-    "prettier": "^3.0.3",
+    "prettier": "^3.1.1",
     "secretlint": "^7.0.7",
     "syncyarnlock": "^1.0.19"
   }
