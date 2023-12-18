@@ -28,12 +28,13 @@
 const restrictedGlobals = require('confusing-browser-globals')
 
 module.exports = {
-  plugins: ['react', 'import', 'jsx-a11y', 'react-hooks/recommended'],
+  plugins: ['react', 'import', 'jsx-a11y'],
   settings: {
     react: {
       version: 'detect',
     },
   },
+  extends: ['plugin:react-hooks/recommended'],
   overrides: [
     {
       files: ['**/*.ts?(x)'],
