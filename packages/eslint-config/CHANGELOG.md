@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.13.7](https://github.com/ggascoigne/shareable-configs/compare/@ggascoigne/eslint-config@1.13.6...@ggascoigne/eslint-config@1.13.7) (2023-12-18)
+
+### Bug Fixes
+
+- **eslint-config:** hopefully fix react-hooks config ([a629116](https://github.com/ggascoigne/shareable-configs/commit/a6291162b497162d3ff9addccb0005e920ed3e67))
+
 ## [1.13.6](https://github.com/ggascoigne/shareable-configs/compare/@ggascoigne/eslint-config@1.13.5...@ggascoigne/eslint-config@1.13.6) (2023-12-18)
 
 ### Bug Fixes
