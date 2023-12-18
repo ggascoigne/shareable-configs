@@ -32,6 +32,6 @@
     "secretlint": ">= 5"
   },
   "dependencies": {
-    "@secretlint/secretlint-rule-preset-recommend": "^7.0.7"
+    "@secretlint/secretlint-rule-preset-recommend": "^8.0.0"
   }
 }
