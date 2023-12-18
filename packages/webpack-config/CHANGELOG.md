@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.12.6](https://github.com/ggascoigne/shareable-configs/compare/@ggascoigne/webpack-config@2.12.5...@ggascoigne/webpack-config@2.12.6) (2023-12-18)
+
+### Bug Fixes
+
+- **eslint-config:** remove etc/no-deprecated since it's so slow ([4f621a3](https://github.com/ggascoigne/shareable-configs/commit/4f621a3ffd5e7332ec3a8c044c6af78fbc5a975d))
+
 ## [2.12.5](https://github.com/ggascoigne/shareable-configs/compare/@ggascoigne/webpack-config@2.12.4...@ggascoigne/webpack-config@2.12.5) (2023-11-12)
 
 ### Bug Fixes

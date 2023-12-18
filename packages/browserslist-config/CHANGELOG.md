@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.5.3](https://github.com/ggascoigne/shareable-configs/compare/@ggascoigne/browserslist-config@1.5.2...@ggascoigne/browserslist-config@1.5.3) (2023-12-18)
+
+### Bug Fixes
+
+- **eslint-config:** remove etc/no-deprecated since it's so slow ([4f621a3](https://github.com/ggascoigne/shareable-configs/commit/4f621a3ffd5e7332ec3a8c044c6af78fbc5a975d))
+
 ## [1.5.2](https://github.com/ggascoigne/shareable-configs/compare/@ggascoigne/browserslist-config@1.5.1...@ggascoigne/browserslist-config@1.5.2) (2023-10-01)
 
 **Note:** Version bump only for package @ggascoigne/browserslist-config
