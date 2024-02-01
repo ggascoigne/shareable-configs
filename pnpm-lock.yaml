@@ -37,7 +37,7 @@ importers:
         version: 0.38.0
       prettier:
         specifier: ^3.1.1
-        version: 3.1.1
+        version: 3.2.4
       secretlint:
         specifier: ^7.0.7
         version: 7.0.7
@@ -139,7 +139,7 @@ importers:
         version: 6.8.0(eslint@8.56.0)
       eslint-plugin-prettier:
         specifier: ^5.0.1
-        version: 5.0.1(eslint-config-prettier@9.1.0)(eslint@8.56.0)(prettier@3.1.1)
+        version: 5.0.1(eslint-config-prettier@9.1.0)(eslint@8.56.0)(prettier@3.2.4)
       eslint-plugin-promise:
         specifier: ^6.0.1
         version: 6.1.1(eslint@8.56.0)
@@ -310,7 +310,7 @@ importers:
         version: 6.0.3(stylelint@14.0.0)
       stylelint-prettier:
         specifier: ^4.0.2
-        version: 4.0.2(prettier@3.1.1)(stylelint@14.0.0)
+        version: 4.0.2(prettier@3.2.4)(stylelint@14.0.0)
 
   packages/tsconfig-config:
     dependencies:
@@ -355,7 +355,7 @@ importers:
         version: 5.89.0(webpack-cli@4.0.0)
       webpack-cli:
         specifier: '>= 4'
-        version: 4.0.0(@babel/preset-env@7.23.6)(prettier@3.1.1)(webpack@5.89.0)
+        version: 4.0.0(@babel/preset-env@7.23.6)(prettier@3.2.4)(webpack@5.89.0)
       webpack-merge:
         specifier: ^5.10.0
         version: 5.10.0
@@ -5521,7 +5521,7 @@ packages:
       '@xtuc/long': 4.2.2
     dev: false
 
-  /@webpack-cli/generators@1.3.1(@babel/preset-env@7.23.6)(prettier@3.1.1)(webpack-cli@4.0.0)(webpack@5.89.0):
+  /@webpack-cli/generators@1.3.1(@babel/preset-env@7.23.6)(prettier@3.2.4)(webpack-cli@4.0.0)(webpack@5.89.0):
     resolution: {integrity: sha512-BJTAtOIhCk9GCQwj1j5fw4wExDHjNbBoyAMm6i+A23VhdCsyIMlEokT0X8hMr/xY9scrDC4n8QCTYpWcOZd31Q==}
     peerDependencies:
       prettier: '*'
@@ -5539,9 +5539,9 @@ packages:
       jscodeshift: 0.11.0(@babel/preset-env@7.23.6)
       log-symbols: 4.1.0
       p-each-series: 2.2.0
-      prettier: 3.1.1
+      prettier: 3.2.4
       webpack: 5.89.0(webpack-cli@4.0.0)
-      webpack-cli: 4.0.0(@babel/preset-env@7.23.6)(prettier@3.1.1)(webpack@5.89.0)
+      webpack-cli: 4.0.0(@babel/preset-env@7.23.6)(prettier@3.2.4)(webpack@5.89.0)
       yeoman-environment: 2.10.3
       yeoman-generator: 4.13.0
     transitivePeerDependencies:
@@ -5556,18 +5556,18 @@ packages:
       webpack-cli: 4.x.x
     dependencies:
       envinfo: 7.8.1
-      webpack-cli: 4.0.0(@babel/preset-env@7.23.6)(prettier@3.1.1)(webpack@5.89.0)
+      webpack-cli: 4.0.0(@babel/preset-env@7.23.6)(prettier@3.2.4)(webpack@5.89.0)
     dev: false
 
-  /@webpack-cli/init@1.1.3(@babel/preset-env@7.23.6)(prettier@3.1.1)(webpack-cli@4.0.0)(webpack@5.89.0):
+  /@webpack-cli/init@1.1.3(@babel/preset-env@7.23.6)(prettier@3.2.4)(webpack-cli@4.0.0)(webpack@5.89.0):
     resolution: {integrity: sha512-DvvX4HTltz/dM6Ybwiskxv+BXOH4JVkgI9j66jueA/uK3EAyQuCDM6a9eR06AZbUFaC/iCpt0zlG0msXrZ69wg==}
     peerDependencies:
       webpack: 4.x.x || 5.x.x
       webpack-cli: 4.x.x
     dependencies:
-      '@webpack-cli/generators': 1.3.1(@babel/preset-env@7.23.6)(prettier@3.1.1)(webpack-cli@4.0.0)(webpack@5.89.0)
+      '@webpack-cli/generators': 1.3.1(@babel/preset-env@7.23.6)(prettier@3.2.4)(webpack-cli@4.0.0)(webpack@5.89.0)
       webpack: 5.89.0(webpack-cli@4.0.0)
-      webpack-cli: 4.0.0(@babel/preset-env@7.23.6)(prettier@3.1.1)(webpack@5.89.0)
+      webpack-cli: 4.0.0(@babel/preset-env@7.23.6)(prettier@3.2.4)(webpack@5.89.0)
     transitivePeerDependencies:
       - '@babel/preset-env'
       - encoding
@@ -5584,7 +5584,7 @@ packages:
       webpack-dev-server:
         optional: true
     dependencies:
-      webpack-cli: 4.0.0(@babel/preset-env@7.23.6)(prettier@3.1.1)(webpack@5.89.0)
+      webpack-cli: 4.0.0(@babel/preset-env@7.23.6)(prettier@3.2.4)(webpack@5.89.0)
     dev: false
 
   /@xtuc/ieee754@1.2.0:
@@ -8189,7 +8189,7 @@ packages:
       object.fromentries: 2.0.7
     dev: false
 
-  /eslint-plugin-prettier@5.0.1(eslint-config-prettier@9.1.0)(eslint@8.56.0)(prettier@3.1.1):
+  /eslint-plugin-prettier@5.0.1(eslint-config-prettier@9.1.0)(eslint@8.56.0)(prettier@3.2.4):
     resolution: {integrity: sha512-m3u5RnR56asrwV/lDC4GHorlW75DsFfmUcjfCYylTUs85dBRnB7VM6xG8eCMJdeDRnppzmxZVf1GEPJvl1JmNg==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
@@ -8205,7 +8205,7 @@ packages:
     dependencies:
       eslint: 8.56.0
       eslint-config-prettier: 9.1.0(eslint@8.56.0)
-      prettier: 3.1.1
+      prettier: 3.2.4
       prettier-linter-helpers: 1.0.0
       synckit: 0.8.5
     dev: false
@@ -13955,8 +13955,8 @@ packages:
     hasBin: true
     dev: false
 
-  /prettier@3.1.1:
-    resolution: {integrity: sha512-22UbSzg8luF4UuZtzgiUOfcGM8s4tjBv6dJRT7j275NXsy2jb4aJa4NNveul5x4eqlF1wuhuR2RElK71RvmVaw==}
+  /prettier@3.2.4:
+    resolution: {integrity: sha512-FWu1oLHKCrtpO1ypU6J0SbK2d9Ckwysq6bHj/uaCP26DxrPpppCLQRGVuqAxSTvhF00AcvDRyYrLNW7ocBhFFQ==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -15552,14 +15552,14 @@ packages:
       stylelint: 14.0.0
     dev: false
 
-  /stylelint-prettier@4.0.2(prettier@3.1.1)(stylelint@14.0.0):
+  /stylelint-prettier@4.0.2(prettier@3.2.4)(stylelint@14.0.0):
     resolution: {integrity: sha512-EoHnR2PiaWgpGtoI4VW7AzneMfwmwQsNwQ+3/E2k/a+ju5yO6rfPfop4vzPQKcJN4ZM1YbspEOPu88D8538sbg==}
     engines: {node: ^14.17.0 || >=16.0.0}
     peerDependencies:
       prettier: '>=3.0.0'
       stylelint: '>=15.8.0'
     dependencies:
-      prettier: 3.1.1
+      prettier: 3.2.4
       prettier-linter-helpers: 1.0.0
       stylelint: 14.0.0
     dev: false
@@ -16495,7 +16495,7 @@ packages:
     engines: {node: '>=12'}
     dev: false
 
-  /webpack-cli@4.0.0(@babel/preset-env@7.23.6)(prettier@3.1.1)(webpack@5.89.0):
+  /webpack-cli@4.0.0(@babel/preset-env@7.23.6)(prettier@3.2.4)(webpack@5.89.0):
     resolution: {integrity: sha512-c5NOm8jDp3qWa+Q4pDZTcT5IwPcPXdjU1ejN9e7LojHQN02sjNr4tzLrt5pwkY+zN8pQL40m14JsbC2Dh+ZJ/w==}
     engines: {node: '>=10.13.0'}
     hasBin: true
@@ -16516,7 +16516,7 @@ packages:
         optional: true
     dependencies:
       '@webpack-cli/info': 1.5.0(webpack-cli@4.0.0)
-      '@webpack-cli/init': 1.1.3(@babel/preset-env@7.23.6)(prettier@3.1.1)(webpack-cli@4.0.0)(webpack@5.89.0)
+      '@webpack-cli/init': 1.1.3(@babel/preset-env@7.23.6)(prettier@3.2.4)(webpack-cli@4.0.0)(webpack@5.89.0)
       '@webpack-cli/serve': 1.7.0(webpack-cli@4.0.0)
       ansi-escapes: 4.3.2
       colorette: 1.4.0
@@ -16598,7 +16598,7 @@ packages:
       tapable: 2.2.1
       terser-webpack-plugin: 5.3.9(webpack@5.89.0)
       watchpack: 2.4.0
-      webpack-cli: 4.0.0(@babel/preset-env@7.23.6)(prettier@3.1.1)(webpack@5.89.0)
+      webpack-cli: 4.0.0(@babel/preset-env@7.23.6)(prettier@3.2.4)(webpack@5.89.0)
       webpack-sources: 3.2.3
     transitivePeerDependencies:
       - '@swc/core'
