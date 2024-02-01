@@ -6060,7 +6060,7 @@ packages:
     peerDependencies:
       postcss: ^8.1.0
     dependencies:
-      browserslist: 4.22.1
+      browserslist: 4.22.2
       caniuse-lite: 1.0.30001541
       fraction.js: 4.3.6
       normalize-range: 0.1.2
@@ -13834,7 +13834,7 @@ packages:
       '@csstools/postcss-trigonometric-functions': 3.0.2(postcss@8.4.31)
       '@csstools/postcss-unset-value': 3.0.0(postcss@8.4.31)
       autoprefixer: 10.4.16(postcss@8.4.31)
-      browserslist: 4.22.1
+      browserslist: 4.22.2
       css-blank-pseudo: 6.0.0(postcss@8.4.31)
       css-has-pseudo: 6.0.0(postcss@8.4.31)
       css-prefers-color-scheme: 9.0.0(postcss@8.4.31)
