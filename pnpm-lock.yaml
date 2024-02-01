@@ -7613,8 +7613,8 @@ packages:
     engines: {node: '>=16'}
     hasBin: true
     dependencies:
-      browserslist: 4.22.1
-      caniuse-lite: 1.0.30001541
+      browserslist: 4.22.2
+      caniuse-lite: 1.0.30001570
       css-tokenize: 1.0.1
       duplexify: 4.1.2
       ldjson-stream: 1.2.1
