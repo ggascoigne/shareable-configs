@@ -38,7 +38,7 @@
     "stylelint-high-performance-animation": "^1.9.0",
     "stylelint-no-unsupported-browser-features": "^7.0.0",
     "stylelint-order": "^6.0.3",
-    "stylelint-prettier": "^4.0.2"
+    "stylelint-prettier": "^5.0.0"
   },
   "peerDependencies": {
     "stylelint": ">= 14"
