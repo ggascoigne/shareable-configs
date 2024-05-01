@@ -246,8 +246,8 @@ importers:
   packages/secretlint-config:
     dependencies:
       '@secretlint/secretlint-rule-preset-recommend':
-        specifier: ^7.0.7
-        version: 7.0.7
+        specifier: ^8.2.4
+        version: 8.2.4
       secretlint:
         specifier: '>= 5'
         version: 7.0.7
@@ -4691,8 +4691,8 @@ packages:
   /@secretlint/profiler@7.0.7:
     resolution: {integrity: sha512-RX5x0PH74Inty7CaUJ6iLCjr5wbby7oRhoxMkWB4yUevmJKzCadGS8eVK/gNHrKt93aAdCGb/ic/wRE5+4fX5w==}
 
-  /@secretlint/secretlint-rule-preset-recommend@7.0.7:
-    resolution: {integrity: sha512-ORmyhOIxsSoRY/O4Wca4VknzTUVnoNZrwNxgMB3xoFMLg5r4MZVc+pskXq3BDr0g/oodLxD84+/Xj1DSvEGMKw==}
+  /@secretlint/secretlint-rule-preset-recommend@8.2.4:
+    resolution: {integrity: sha512-Ifaz0ngkgP911TfJkkIXrP9dCpxQGCDAISZ/sG0mdOOg9KO8jF9pnGKzCOuVX4q97v6MDtELXjYAxnPa8xV4Ow==}
     engines: {node: ^14.13.1 || >=16.0.0}
     dev: false
 
