@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.14.0](https://github.com/ggascoigne/shareable-configs/compare/@ggascoigne/eslint-config@1.13.7...@ggascoigne/eslint-config@1.14.0) (2024-08-25)
+
+### Features
+
+- **eslint:** update eslint for mts and cts files ([9ac9890](https://github.com/ggascoigne/shareable-configs/commit/9ac9890b619ce4f70d1e7ffa4651ef1d2ded9c1e))
+
 ## [1.13.7](https://github.com/ggascoigne/shareable-configs/compare/@ggascoigne/eslint-config@1.13.6...@ggascoigne/eslint-config@1.13.7) (2023-12-18)
 
 ### Bug Fixes
