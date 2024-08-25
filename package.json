@@ -7,8 +7,8 @@
     "url": "git+https://github.com/ggascoigne/shareable-configs.git"
   },
   "engines": {
-    "node": ">=16",
-    "pnpm": ">=8"
+    "node": ">=20",
+    "pnpm": ">=9"
   },
   "license": "MIT",
   "bugs": {
