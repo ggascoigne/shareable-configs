@@ -5,7 +5,7 @@ module.exports = {
   extends: ['./index.js'],
   overrides: [
     {
-      files: '*.{ts,tsx}',
+      files: '*.{ts,cts,mts,tsx}',
       extends: ['plugin:@typescript-eslint/recommended', 'airbnb-typescript/base', 'prettier'],
       parser: '@typescript-eslint/parser',
       rules: {
