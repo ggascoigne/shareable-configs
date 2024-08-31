@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.15.0](https://github.com/ggascoigne/shareable-configs/compare/@ggascoigne/eslint-config@1.14.0...@ggascoigne/eslint-config@1.15.0) (2024-08-31)
+
+### Features
+
+- **eslint:** update ecmaVersion for eslint ([1b80cac](https://github.com/ggascoigne/shareable-configs/commit/1b80cace0f430215d7c6ac6bf312b52d391fc7d4))
+
 # [1.14.0](https://github.com/ggascoigne/shareable-configs/compare/@ggascoigne/eslint-config@1.13.7...@ggascoigne/eslint-config@1.14.0) (2024-08-25)
 
 ### Features
