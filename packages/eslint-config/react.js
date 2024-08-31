@@ -35,6 +35,9 @@ module.exports = {
     },
   },
   extends: ['plugin:react-hooks/recommended'],
+  parserOptions: {
+    ecmaVersion: 2024,
+  },
   overrides: [
     {
       files: ['**/*.ts?(x)'],
