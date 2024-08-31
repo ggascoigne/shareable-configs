@@ -40,7 +40,7 @@ module.exports = {
       files: ['**/*.ts?(x)'],
       parser: '@typescript-eslint/parser',
       parserOptions: {
-        ecmaVersion: 2018,
+        ecmaVersion: 2024,
         sourceType: 'module',
         ecmaFeatures: {
           jsx: true,
