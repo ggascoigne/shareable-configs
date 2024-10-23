@@ -1,4 +1,4 @@
-/* eslint-disable global-require */
+ 
 module.exports = {
   presets: [
     // https://github.com/babel/babel/issues/9853#issuecomment-619587386

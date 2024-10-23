@@ -29,6 +29,6 @@
   },
   "homepage": "https://github.com/ggascoigne/shareable-configs/tree/main/packages/browserslist-config#readme",
   "dependencies": {
-    "browserslist": "^4.22.2"
+    "browserslist": "^4.24.2"
   }
 }

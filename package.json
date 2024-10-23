@@ -19,25 +19,25 @@
     "preinstall": "npx only-allow pnpm",
     "lint": "pnpm lint:md && pnpm lint:js && pnpm lint:secrets",
     "lint:md": "markdownlint --fix **/*.md --ignore node_modules --ignore **/CHANGELOG.md",
-    "lint:js": "eslint --fix **/*.js",
+    "lint:js": "eslint --fix **/*.{js,mjs}",
     "lint:secrets": "pnpm secretlint **/*",
     "commit": "git-cz",
     "bootstrap:ci": "pnpm install --frozen-lockfile",
     "version:ci": "lerna version --yes --conventional-commits --create-release github --message 'chore(release): publish'",
-    "publish:ci": "lerna publish from-package --yes --no-verify-access",
-    "prepare": "husky install"
+    "publish:ci": "lerna publish from-package --yes --no-verify-access"
   },
   "devDependencies": {
     "@commitlint/cli": "^18.4.3",
-    "commitizen": "^4.3.0",
+    "@ggascoigne/eslint-config": "workspace:*",
+    "commitizen": "^4.3.1",
     "cz-conventional-changelog": "^3.3.0",
-    "eslint": "^8.56.0",
-    "husky": "^8.0.3",
+    "eslint": "^9.13.0",
+    "husky": "^9.1.6",
     "lerna": "^7.4.2",
-    "lint-staged": "^15.2.0",
+    "lint-staged": "^15.2.10",
     "markdownlint": "^0.33.0",
     "markdownlint-cli": "^0.39.0",
-    "prettier": "^3.1.1",
+    "prettier": "^3.3.3",
     "secretlint": "^7.0.7",
     "syncyarnlock": "^1.0.19"
   }

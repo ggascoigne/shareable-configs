@@ -1,18 +1,16 @@
 {
   "name": "@ggascoigne/eslint-config",
-  "version": "1.16.0",
+  "version": "2.0.0",
   "description": "A shareable eslint configuration for projects.",
-  "main": "index.js",
+  "main": "index.mjs",
   "files": [
-    "index.js",
-    "base.js",
-    "ts.js",
-    "jest.js",
-    "react.js",
+    "index.mjs",
+    "eslint.config.mjs",
     "scripts/*"
   ],
   "scripts": {
-    "test": "echo \"No test specified\""
+    "test": "echo \"No test specified\"",
+    "inspect": "eslint --inspect-config"
   },
   "publishConfig": {
     "access": "public"
@@ -33,30 +31,20 @@
   },
   "homepage": "https://github.com/ggascoigne/shareable-configs/tree/main/packages/eslint-config#readme",
   "dependencies": {
-    "@babel/preset-react": "^7.23.3",
-    "@typescript-eslint/eslint-plugin": "^6.14.0",
-    "@typescript-eslint/parser": "^6.14.0",
+    "@eslint/js": "^9.13.0",
+    "@typescript-eslint/eslint-plugin": "^8.11.0",
+    "@typescript-eslint/parser": "^8.11.0",
     "confusing-browser-globals": "1.0.11",
-    "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-config-airbnb-typescript": "^17.1.0",
-    "eslint-config-prettier": "^9.1.0",
-    "eslint-plugin-etc": "^2.0.3",
-    "eslint-plugin-import": "^2.29.1",
-    "eslint-plugin-jest": "^27.6.0",
-    "eslint-plugin-jest-dom": "^5.1.0",
-    "eslint-plugin-jest-formatting": "^3.1.0",
-    "eslint-plugin-jsx-a11y": "^6.8.0",
-    "eslint-plugin-prettier": "^5.0.1",
-    "eslint-plugin-promise": "^6.0.1",
-    "eslint-plugin-react": "7.33.2",
-    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-jsx-a11y": "^6.10.1",
+    "eslint-plugin-react": "^7.37.2",
+    "eslint-plugin-react-hooks": "^5.0.0",
     "eslint-plugin-risxss": "^2.1.0",
-    "eslint-plugin-security": "^1.7.1",
-    "eslint-plugin-sonarjs": "^0.24.0",
-    "eslint-plugin-unicorn": "^49.0.0",
-    "eslint-plugin-unused-imports": "^3.0.0"
+    "eslint-plugin-unused-imports": "^4.1.4",
+    "globals": "^15.11.0",
+    "typescript-eslint": "^8.11.0"
   },
   "peerDependencies": {
-    "eslint": ">= 8"
+    "eslint": ">= 9"
   }
 }

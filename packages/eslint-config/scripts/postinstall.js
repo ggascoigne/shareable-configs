@@ -1,12 +1,14 @@
-const fs = require('node:fs')
-const path = require('node:path')
+import { existsSync, writeFileSync } from 'node:fs'
+import { join } from 'node:path'
 
-const filePath = path.join(process.env.INIT_CWD, '.eslintrc.js')
+const filePath = join(process.env.INIT_CWD, 'eslint.config.mjs')
 
-const fileConfigObject = {
-  extends: '@ggascoigne/eslint-config',
-}
+const fileContent = `
+import config from '@ggascoigne/eslint-config'
 
-if (!fs.existsSync(filePath)) {
-  fs.writeFileSync(filePath, `module.exports = ${JSON.stringify(fileConfigObject, undefined, 2)}`)
+export default config
+`
+
+if (!existsSync(filePath)) {
+  writeFileSync(filePath, fileContent)
 }

@@ -1,7 +1,8 @@
 const ForkTsCheckerWebpackPlugin = require('fork-ts-checker-webpack-plugin')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 
-const parts = (isProduction, env) => {
+// eslint-disable-next-line no-unused-vars
+const parts = (isProduction, _env) => {
   const styleLoaders = () => [
     {
       loader: isProduction
