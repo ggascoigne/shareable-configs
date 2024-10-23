@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.9.0](https://github.com/ggascoigne/shareable-configs/compare/@ggascoigne/postcss-config@1.8.5...@ggascoigne/postcss-config@1.9.0) (2024-10-23)
+
+### Features
+
+- **eslint:** eslint v9 support ([a9a8537](https://github.com/ggascoigne/shareable-configs/commit/a9a85370bfe64f81fda8cbf04d500d12435e7b0b))
+
 ## [1.8.5](https://github.com/ggascoigne/shareable-configs/compare/@ggascoigne/postcss-config@1.8.4...@ggascoigne/postcss-config@1.8.5) (2023-11-12)
 
 ### Bug Fixes

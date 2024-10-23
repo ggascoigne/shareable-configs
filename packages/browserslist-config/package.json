@@ -1,6 +1,6 @@
 {
   "name": "@ggascoigne/browserslist-config",
-  "version": "1.5.3",
+  "version": "1.6.0",
   "description": "A shareable browserslist configuration for projects.",
   "main": "index.js",
   "files": [

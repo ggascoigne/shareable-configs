@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.6.0](https://github.com/ggascoigne/shareable-configs/compare/@ggascoigne/browserslist-config@1.5.3...@ggascoigne/browserslist-config@1.6.0) (2024-10-23)
+
+### Features
+
+- **eslint:** eslint v9 support ([a9a8537](https://github.com/ggascoigne/shareable-configs/commit/a9a85370bfe64f81fda8cbf04d500d12435e7b0b))
+
 ## [1.5.3](https://github.com/ggascoigne/shareable-configs/compare/@ggascoigne/browserslist-config@1.5.2...@ggascoigne/browserslist-config@1.5.3) (2023-12-18)
 
 ### Bug Fixes
