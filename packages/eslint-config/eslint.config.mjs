@@ -1060,7 +1060,7 @@ export const configs = {
   recommendedTs: [...eslintTsConfigs, ...baseTypescript],
 }
 
- 
+// eslint-disable-next-line import/no-anonymous-default-export
 export default [
   ...configs.globalIgnores,
   ...configs.recommendedJs,
