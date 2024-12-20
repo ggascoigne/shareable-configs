@@ -1,6 +1,6 @@
 {
   "name": "@ggascoigne/markdownlint-config",
-  "version": "2.2.4",
+  "version": "2.2.5",
   "description": "A shareable markdownlint configuration for projects.",
   "main": "index.json",
   "files": [
