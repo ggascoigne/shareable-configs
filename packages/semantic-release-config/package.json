@@ -42,6 +42,6 @@
     "@semantic-release/github": "^9.2.5",
     "@semantic-release/gitlab": "^12.1.1",
     "@semantic-release/npm": "^11.0.2",
-    "@semantic-release/release-notes-generator": "^12.1.0"
+    "@semantic-release/release-notes-generator": "^14.0.2"
   }
 }
