@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.4.5](https://github.com/ggascoigne/shareable-configs/compare/@ggascoigne/commitlint-config@1.4.4...@ggascoigne/commitlint-config@1.4.5) (2025-03-24)
+
+### Bug Fixes
+
+- **eslint:** update dependencies ([45a9e53](https://github.com/ggascoigne/shareable-configs/commit/45a9e53bd54286c4f12a8c4b37b498deba61e1a2))
+
 ## [1.4.4](https://github.com/ggascoigne/shareable-configs/compare/@ggascoigne/commitlint-config@1.4.3...@ggascoigne/commitlint-config@1.4.4) (2023-12-18)
 
 ### Bug Fixes
