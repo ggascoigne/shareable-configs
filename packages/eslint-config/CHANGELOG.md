@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.2.3](https://github.com/ggascoigne/shareable-configs/compare/@ggascoigne/eslint-config@2.2.2...@ggascoigne/eslint-config@2.2.3) (2025-03-24)
+
+### Bug Fixes
+
+- **eslint:** disable react prop-types rule ([eae2b35](https://github.com/ggascoigne/shareable-configs/commit/eae2b35528dadfc2fbcba5e5a2e2b6626a97bbf9))
+
 ## [2.2.2](https://github.com/ggascoigne/shareable-configs/compare/@ggascoigne/eslint-config@2.2.1...@ggascoigne/eslint-config@2.2.2) (2025-03-24)
 
 ### Bug Fixes
