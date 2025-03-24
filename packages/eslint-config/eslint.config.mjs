@@ -777,6 +777,7 @@ const reactRules = {
 
   'react-hooks/exhaustive-deps': ['warn'],
   'react-hooks/rules-of-hooks': ['error'],
+  'react/prop-types': 0,
 
   'react/forbid-foreign-prop-types': [
     'warn',
