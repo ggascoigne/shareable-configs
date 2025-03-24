@@ -309,12 +309,13 @@ const baseRules = {
 
   // "no-path-concat": ["error"],
 
-  'no-plusplus': [
-    'error',
-    {
-      allowForLoopAfterthoughts: true,
-    },
-  ],
+  // 'no-plusplus': [
+  //   'error',
+  //   {
+  //     allowForLoopAfterthoughts: true,
+  //   },
+  // ],
+  'no-plusplus': 'off',
 
   'no-promise-executor-return': ['error'],
   'no-proto': ['error'],
@@ -947,6 +948,11 @@ export const eslintTsConfigs = [
     ...config,
     files: tsFiles,
   })),
+  {
+    rules: {
+      'no-shadow': 'off',
+    },
+  },
 ]
 
 export const baseTypescript = [
