@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.2.0](https://github.com/ggascoigne/shareable-configs/compare/@ggascoigne/eslint-config@2.1.1...@ggascoigne/eslint-config@2.2.0) (2025-03-24)
+
+### Features
+
+- **eslint:** add tsdelcation file to lint config ([3690831](https://github.com/ggascoigne/shareable-configs/commit/3690831058f72a5541d22bb9b73442f13b9dd9f9))
+
 ## [2.1.1](https://github.com/ggascoigne/shareable-configs/compare/@ggascoigne/eslint-config@2.1.0...@ggascoigne/eslint-config@2.1.1) (2024-12-20)
 
 **Note:** Version bump only for package @ggascoigne/eslint-config
