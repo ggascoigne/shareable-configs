@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.2.4](https://github.com/ggascoigne/shareable-configs/compare/@ggascoigne/eslint-config@2.2.3...@ggascoigne/eslint-config@2.2.4) (2025-03-24)
+
+### Bug Fixes
+
+- **eslint:** disable no-plusplus ([86fdf31](https://github.com/ggascoigne/shareable-configs/commit/86fdf31906b6d181076238206134ca0cd781bcfa))
+
 ## [2.2.3](https://github.com/ggascoigne/shareable-configs/compare/@ggascoigne/eslint-config@2.2.2...@ggascoigne/eslint-config@2.2.3) (2025-03-24)
 
 ### Bug Fixes
