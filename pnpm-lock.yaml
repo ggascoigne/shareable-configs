@@ -205,7 +205,7 @@ importers:
         version: 9.3.0(postcss@8.4.33)
       postcss-reporter:
         specifier: ^7.0.5
-        version: 7.0.5(postcss@8.4.33)
+        version: 7.1.0(postcss@8.4.33)
       sanitize.css:
         specifier: '>= 13'
         version: 13.0.0
@@ -6811,8 +6811,8 @@ packages:
     peerDependencies:
       postcss: ^8.0.3
 
-  postcss-reporter@7.0.5:
-    resolution: {integrity: sha512-glWg7VZBilooZGOFPhN9msJ3FQs19Hie7l5a/eE6WglzYqVeH3ong3ShFcp9kDWJT1g2Y/wd59cocf9XxBtkWA==}
+  postcss-reporter@7.1.0:
+    resolution: {integrity: sha512-/eoEylGWyy6/DOiMP5lmFRdmDKThqgn7D6hP2dXKJI/0rJSO1ADFNngZfDzxL0YAxFvws+Rtpuji1YIHj4mySA==}
     engines: {node: '>=10'}
     peerDependencies:
       postcss: ^8.1.0
@@ -16359,7 +16359,7 @@ snapshots:
       picocolors: 1.1.1
       postcss: 8.4.33
       postcss-load-config: 4.0.1(postcss@8.4.33)
-      postcss-reporter: 7.0.5(postcss@8.4.33)
+      postcss-reporter: 7.1.0(postcss@8.4.33)
       pretty-hrtime: 1.0.3
       read-cache: 1.0.0
       slash: 5.1.0
@@ -16603,7 +16603,7 @@ snapshots:
     dependencies:
       postcss: 8.4.33
 
-  postcss-reporter@7.0.5(postcss@8.4.33):
+  postcss-reporter@7.1.0(postcss@8.4.33):
     dependencies:
       picocolors: 1.1.1
       postcss: 8.4.33
