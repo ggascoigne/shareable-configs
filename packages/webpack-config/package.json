@@ -29,7 +29,7 @@
   },
   "homepage": "https://github.com/ggascoigne/shareable-configs/tree/main/packages/webpack-config#readme",
   "dependencies": {
-    "css-loader": "^6.8.1",
+    "css-loader": "^7.1.2",
     "esbuild-loader": "^4.2.2",
     "fork-ts-checker-webpack-plugin": "^9.0.2",
     "mini-css-extract-plugin": "^2.9.1",
