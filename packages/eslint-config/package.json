@@ -44,7 +44,7 @@
     "eslint-plugin-risxss": "^2.1.0",
     "eslint-plugin-unused-imports": "^4.1.4",
     "globals": "^16.0.0",
-    "typescript-eslint": "8.27.0"
+    "typescript-eslint": "8.31.1"
   },
   "peerDependencies": {
     "eslint": ">= 9"
