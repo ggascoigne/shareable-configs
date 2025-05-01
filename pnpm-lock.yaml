@@ -76,7 +76,7 @@ importers:
     dependencies:
       browserslist:
         specifier: ^4.24.2
-        version: 4.24.2
+        version: 4.24.4
 
   packages/commitizen-config:
     dependencies:
@@ -184,7 +184,7 @@ importers:
         version: 10.4.20(postcss@8.4.33)
       browserslist:
         specifier: '>= 4'
-        version: 4.24.2
+        version: 4.24.4
       postcss:
         specifier: '>= 8'
         version: 8.4.33
@@ -199,7 +199,7 @@ importers:
         version: 5.0.2(postcss@8.4.33)
       postcss-normalize:
         specifier: ^10.0.1
-        version: 10.0.1(browserslist@4.24.2)(postcss@8.4.33)
+        version: 10.0.1(browserslist@4.24.4)(postcss@8.4.33)
       postcss-preset-env:
         specifier: ^9.3.0
         version: 9.3.0(postcss@8.4.33)
@@ -259,31 +259,31 @@ importers:
         version: 14.0.0
       stylelint-a11y:
         specifier: ^1.2.3
-        version: 1.2.3(stylelint@14.0.0)
+        version: 1.2.3
       stylelint-config-prettier:
         specifier: ^9.0.5
-        version: 9.0.5(stylelint@14.0.0)
+        version: 9.0.5
       stylelint-config-sass-guidelines:
         specifier: ^10.0.0
-        version: 10.0.0(postcss@8.4.33)(stylelint@14.0.0)
+        version: 10.0.0(postcss@8.4.33)
       stylelint-config-standard:
         specifier: ^34.0.0
-        version: 34.0.0(stylelint@14.0.0)
+        version: 34.0.0
       stylelint-config-standard-scss:
         specifier: ^11.1.0
-        version: 11.1.0(postcss@8.4.33)(stylelint@14.0.0)
+        version: 11.1.0(postcss@8.4.33)
       stylelint-high-performance-animation:
         specifier: ^1.9.0
-        version: 1.9.0(stylelint@14.0.0)
+        version: 1.9.0
       stylelint-no-unsupported-browser-features:
         specifier: ^7.0.0
-        version: 7.0.0(stylelint@14.0.0)
+        version: 7.0.0
       stylelint-order:
         specifier: ^6.0.3
-        version: 6.0.3(stylelint@14.0.0)
+        version: 6.0.3
       stylelint-prettier:
         specifier: ^4.0.2
-        version: 4.0.2(prettier@3.3.3)(stylelint@14.0.0)
+        version: 4.0.2(prettier@3.3.3)
 
   packages/tsconfig-config:
     dependencies:
@@ -325,7 +325,7 @@ importers:
         version: 5.6.3
       webpack:
         specifier: ^5.95.0
-        version: 5.95.0(webpack-cli@4.0.0)
+        version: 5.95.0
       webpack-cli:
         specifier: '>= 4'
         version: 4.0.0(@babel/preset-env@7.25.9(@babel/core@7.25.9))(encoding@0.1.13)(prettier@3.3.3)(webpack@5.95.0)
@@ -2839,6 +2839,11 @@ packages:
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
 
+  browserslist@4.24.4:
+    resolution: {integrity: sha512-KDi1Ny1gSePi1vm0q4oxSF8b4DR44GF4BbmS2YdhPLOEqd8pDviZOGH/GsmRwoWJ2+5Lr085X7naowMwKHDG1A==}
+    engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
+    hasBin: true
+
   bs-logger@0.2.6:
     resolution: {integrity: sha512-pd8DCoxmbgc7hyPKOvxtqNcjYoOsABPQdcCUjGp3d42VR2CX1ORhk2A87oqqu5R1kk+76nsxZupkmyd+MVtCog==}
     engines: {node: '>= 6'}
@@ -2931,6 +2936,9 @@ packages:
 
   caniuse-lite@1.0.30001669:
     resolution: {integrity: sha512-DlWzFDJqstqtIVx1zeSpIMLjunf5SmwOw0N2Ck/QSQdS8PLS4+9HrLaYei4w8BIAL7IB/UEDu889d8vhCTPA0w==}
+
+  caniuse-lite@1.0.30001716:
+    resolution: {integrity: sha512-49/c1+x3Kwz7ZIWt+4DvK3aMJy9oYXXG6/97JKsnjdCk/6n9vVyWL8NAwVt95Lwt9eigI10Hl782kDfZUUlRXw==}
 
   capture-stack-trace@1.0.2:
     resolution: {integrity: sha512-X/WM2UQs6VMHUtjUDnZTRI+i1crWteJySFzr9UpGoQa4WQffXVTTXuekjl7TjZRlcF2XfjgITT0HxZ9RnxeT0w==}
@@ -3631,6 +3639,9 @@ packages:
     resolution: {integrity: sha512-UeJmFfOrAQS8OJWPZ4qtgHyWExa088/MtK5UEyoJGFH67cDEXkZSviOiKRCZ4Xij0zxI3JECgYs3oKx+AizQBA==}
     engines: {node: '>=0.10.0'}
     hasBin: true
+
+  electron-to-chromium@1.5.146:
+    resolution: {integrity: sha512-KI0DFJBdqehWSqXmNKIAHpjW4rHL1ugBx4ljOXli41E+IV3JKyTxZ6E7/NgVifzDXBHUqR8Ae1I+eu9vAIqfyQ==}
 
   electron-to-chromium@1.5.42:
     resolution: {integrity: sha512-gIfKavKDw1mhvic9nbzA5lZw8QSHpdMwLwXc0cWidQz9B15pDoDdDH4boIatuFfeoCatb3a/NGL6CYRVFxGZ9g==}
@@ -6148,6 +6159,9 @@ packages:
   node-releases@2.0.18:
     resolution: {integrity: sha512-d9VeXT4SJ7ZeOqGX6R5EM022wpL+eWPooLI+5UpWn2jCT1aosUQEhQP214x33Wkwx3JQMvIm+tIoVOdodFS40g==}
 
+  node-releases@2.0.19:
+    resolution: {integrity: sha512-xxOWJsBKtzAq7DY0J+DTzuz58K8e7sJbdgwkbMWQe8UYB6ekmsQ45q0M/tJDsGaZmbC+l7n57UV8Hl5tHxO9uw==}
+
   nopt@6.0.0:
     resolution: {integrity: sha512-ZwLpbTgdhuZUnZzjd7nb1ZV+4DoiC6/sfiVKok72ym/4Tlf+DFdlHYmT2JPmcNNWV6Pi3SDf1kT+A4r9RTuT9g==}
     engines: {node: ^12.13.0 || ^14.15.0 || >=16.0.0}
@@ -8498,6 +8512,12 @@ packages:
     peerDependencies:
       browserslist: '>= 4.21.0'
 
+  update-browserslist-db@1.1.3:
+    resolution: {integrity: sha512-UxhIZQ+QInVdunkDAaiazvvT/+fXL5Osr0JZlJulepYu6Jd7qJtDZjlur0emRlT71EN3ScPoE7gvsuIKKNavKw==}
+    hasBin: true
+    peerDependencies:
+      browserslist: '>= 4.21.0'
+
   uri-js@4.4.1:
     resolution: {integrity: sha512-7rKUyy33Q1yc98pQ1DAmLtwX109F7TIfWlW1Ydo8Wl1ii1SeHieeh0HHfPeL2fMXK6z0s8ecKs9frCuLJvndBg==}
 
@@ -8898,7 +8918,7 @@ snapshots:
     dependencies:
       '@babel/compat-data': 7.25.9
       '@babel/helper-validator-option': 7.25.9
-      browserslist: 4.24.2
+      browserslist: 4.24.4
       lru-cache: 5.1.1
       semver: 6.3.1
 
@@ -11751,7 +11771,7 @@ snapshots:
 
   autoprefixer@10.4.20(postcss@8.4.33):
     dependencies:
-      browserslist: 4.24.2
+      browserslist: 4.24.4
       caniuse-lite: 1.0.30001669
       fraction.js: 4.3.7
       normalize-range: 0.1.2
@@ -11773,7 +11793,7 @@ snapshots:
 
   axios@1.6.1:
     dependencies:
-      follow-redirects: 1.15.3(debug@3.2.7)
+      follow-redirects: 1.15.3
       form-data: 4.0.0
       proxy-from-env: 1.1.0
     transitivePeerDependencies:
@@ -11940,6 +11960,13 @@ snapshots:
       node-releases: 2.0.18
       update-browserslist-db: 1.1.1(browserslist@4.24.2)
 
+  browserslist@4.24.4:
+    dependencies:
+      caniuse-lite: 1.0.30001716
+      electron-to-chromium: 1.5.146
+      node-releases: 2.0.19
+      update-browserslist-db: 1.1.3(browserslist@4.24.4)
+
   bs-logger@0.2.6:
     dependencies:
       fast-json-stable-stringify: 2.1.0
@@ -12079,6 +12106,8 @@ snapshots:
   camelcase@6.3.0: {}
 
   caniuse-lite@1.0.30001669: {}
+
+  caniuse-lite@1.0.30001716: {}
 
   capture-stack-trace@1.0.2: {}
 
@@ -12440,7 +12469,7 @@ snapshots:
 
   core-js-compat@3.38.1:
     dependencies:
-      browserslist: 4.24.2
+      browserslist: 4.24.4
 
   core-js@3.38.1: {}
 
@@ -12520,7 +12549,7 @@ snapshots:
       postcss-modules-values: 4.0.0(postcss@8.4.33)
       postcss-value-parser: 4.2.0
       semver: 7.6.3
-      webpack: 5.95.0(webpack-cli@4.0.0)
+      webpack: 5.95.0
 
   css-prefers-color-scheme@9.0.0(postcss@8.4.33):
     dependencies:
@@ -12735,8 +12764,8 @@ snapshots:
 
   doiuse@6.0.2:
     dependencies:
-      browserslist: 4.24.2
-      caniuse-lite: 1.0.30001669
+      browserslist: 4.24.4
+      caniuse-lite: 1.0.30001716
       css-tokenize: 1.0.1
       duplexify: 4.1.2
       ldjson-stream: 1.2.1
@@ -12796,6 +12825,8 @@ snapshots:
   ejs@3.1.10:
     dependencies:
       jake: 10.9.2
+
+  electron-to-chromium@1.5.146: {}
 
   electron-to-chromium@1.5.42: {}
 
@@ -13026,7 +13057,7 @@ snapshots:
       esbuild: 0.25.3
       get-tsconfig: 4.10.0
       loader-utils: 2.0.4
-      webpack: 5.95.0(webpack-cli@4.0.0)
+      webpack: 5.95.0
       webpack-sources: 1.4.3
 
   esbuild@0.25.3:
@@ -13542,6 +13573,8 @@ snapshots:
 
   flow-parser@0.203.1: {}
 
+  follow-redirects@1.15.3: {}
+
   follow-redirects@1.15.3(debug@3.2.7):
     optionalDependencies:
       debug: 3.2.7
@@ -13576,7 +13609,7 @@ snapshots:
       semver: 7.7.1
       tapable: 2.2.1
       typescript: 5.6.3
-      webpack: 5.95.0(webpack-cli@4.0.0)
+      webpack: 5.95.0
 
   form-data-encoder@2.1.4: {}
 
@@ -15967,7 +16000,7 @@ snapshots:
     dependencies:
       schema-utils: 4.2.0
       tapable: 2.2.1
-      webpack: 5.95.0(webpack-cli@4.0.0)
+      webpack: 5.95.0
 
   minimatch@3.0.5:
     dependencies:
@@ -16166,6 +16199,8 @@ snapshots:
   node-machine-id@1.1.12: {}
 
   node-releases@2.0.18: {}
+
+  node-releases@2.0.19: {}
 
   nopt@6.0.0:
     dependencies:
@@ -16742,9 +16777,9 @@ snapshots:
       postcss: 8.4.33
       postcss-selector-parser: 6.0.13
 
-  postcss-browser-comments@4.0.0(browserslist@4.24.2)(postcss@8.4.33):
+  postcss-browser-comments@4.0.0(browserslist@4.24.4)(postcss@8.4.33):
     dependencies:
-      browserslist: 4.24.2
+      browserslist: 4.24.4
       postcss: 8.4.33
 
   postcss-clamp@4.1.0(postcss@8.4.33):
@@ -16869,7 +16904,7 @@ snapshots:
       jiti: 1.21.0
       postcss: 8.4.33
       semver: 7.6.3
-      webpack: 5.95.0(webpack-cli@4.0.0)
+      webpack: 5.95.0
     transitivePeerDependencies:
       - typescript
 
@@ -16907,12 +16942,12 @@ snapshots:
       postcss: 8.4.33
       postcss-selector-parser: 6.0.13
 
-  postcss-normalize@10.0.1(browserslist@4.24.2)(postcss@8.4.33):
+  postcss-normalize@10.0.1(browserslist@4.24.4)(postcss@8.4.33):
     dependencies:
       '@csstools/normalize.css': 12.0.0
-      browserslist: 4.24.2
+      browserslist: 4.24.4
       postcss: 8.4.33
-      postcss-browser-comments: 4.0.0(browserslist@4.24.2)(postcss@8.4.33)
+      postcss-browser-comments: 4.0.0(browserslist@4.24.4)(postcss@8.4.33)
       sanitize.css: 13.0.0
 
   postcss-opacity-percentage@2.0.0(postcss@8.4.33):
@@ -16964,7 +16999,7 @@ snapshots:
       '@csstools/postcss-trigonometric-functions': 3.0.2(postcss@8.4.33)
       '@csstools/postcss-unset-value': 3.0.0(postcss@8.4.33)
       autoprefixer: 10.4.20(postcss@8.4.33)
-      browserslist: 4.24.2
+      browserslist: 4.24.4
       css-blank-pseudo: 6.0.0(postcss@8.4.33)
       css-has-pseudo: 6.0.0(postcss@8.4.33)
       css-prefers-color-scheme: 9.0.0(postcss@8.4.33)
@@ -17522,7 +17557,7 @@ snapshots:
   sass-loader@13.3.2(sass@1.87.0)(webpack@5.95.0):
     dependencies:
       neo-async: 2.6.2
-      webpack: 5.95.0(webpack-cli@4.0.0)
+      webpack: 5.95.0
     optionalDependencies:
       sass: 1.87.0
 
@@ -17819,7 +17854,7 @@ snapshots:
       abab: 2.0.6
       iconv-lite: 0.6.3
       source-map-js: 1.2.1
-      webpack: 5.95.0(webpack-cli@4.0.0)
+      webpack: 5.95.0
 
   source-map-resolve@0.5.3:
     dependencies:
@@ -18068,92 +18103,76 @@ snapshots:
 
   style-loader@3.3.3(webpack@5.95.0):
     dependencies:
-      webpack: 5.95.0(webpack-cli@4.0.0)
+      webpack: 5.95.0
 
   style-search@0.1.0: {}
 
-  stylelint-a11y@1.2.3(stylelint@14.0.0):
-    dependencies:
-      stylelint: 14.0.0
+  stylelint-a11y@1.2.3: {}
 
-  stylelint-config-prettier@9.0.5(stylelint@14.0.0):
-    dependencies:
-      stylelint: 14.0.0
+  stylelint-config-prettier@9.0.5: {}
 
-  stylelint-config-recommended-scss@13.1.0(postcss@8.4.33)(stylelint@14.0.0):
+  stylelint-config-recommended-scss@13.1.0(postcss@8.4.33):
     dependencies:
       postcss-scss: 4.0.9(postcss@8.4.33)
-      stylelint: 14.0.0
-      stylelint-config-recommended: 13.0.0(stylelint@14.0.0)
-      stylelint-scss: 5.3.1(stylelint@14.0.0)
+      stylelint-config-recommended: 13.0.0
+      stylelint-scss: 5.3.1
     optionalDependencies:
       postcss: 8.4.33
 
-  stylelint-config-recommended@13.0.0(stylelint@14.0.0):
-    dependencies:
-      stylelint: 14.0.0
+  stylelint-config-recommended@13.0.0: {}
 
-  stylelint-config-sass-guidelines@10.0.0(postcss@8.4.33)(stylelint@14.0.0):
+  stylelint-config-sass-guidelines@10.0.0(postcss@8.4.33):
     dependencies:
       postcss: 8.4.33
       postcss-scss: 4.0.9(postcss@8.4.33)
-      stylelint: 14.0.0
-      stylelint-scss: 4.6.0(stylelint@14.0.0)
+      stylelint-scss: 4.6.0
 
-  stylelint-config-standard-scss@11.1.0(postcss@8.4.33)(stylelint@14.0.0):
+  stylelint-config-standard-scss@11.1.0(postcss@8.4.33):
     dependencies:
-      stylelint: 14.0.0
-      stylelint-config-recommended-scss: 13.1.0(postcss@8.4.33)(stylelint@14.0.0)
-      stylelint-config-standard: 34.0.0(stylelint@14.0.0)
+      stylelint-config-recommended-scss: 13.1.0(postcss@8.4.33)
+      stylelint-config-standard: 34.0.0
     optionalDependencies:
       postcss: 8.4.33
 
-  stylelint-config-standard@34.0.0(stylelint@14.0.0):
+  stylelint-config-standard@34.0.0:
     dependencies:
-      stylelint: 14.0.0
-      stylelint-config-recommended: 13.0.0(stylelint@14.0.0)
+      stylelint-config-recommended: 13.0.0
 
-  stylelint-high-performance-animation@1.9.0(stylelint@14.0.0):
+  stylelint-high-performance-animation@1.9.0:
     dependencies:
       postcss-value-parser: 4.2.0
-      stylelint: 14.0.0
 
-  stylelint-no-unsupported-browser-features@7.0.0(stylelint@14.0.0):
+  stylelint-no-unsupported-browser-features@7.0.0:
     dependencies:
       doiuse: 6.0.2
       lodash: 4.17.21
       postcss: 8.4.33
-      stylelint: 14.0.0
 
-  stylelint-order@6.0.3(stylelint@14.0.0):
+  stylelint-order@6.0.3:
     dependencies:
       postcss: 8.4.33
       postcss-sorting: 8.0.2(postcss@8.4.33)
-      stylelint: 14.0.0
 
-  stylelint-prettier@4.0.2(prettier@3.3.3)(stylelint@14.0.0):
+  stylelint-prettier@4.0.2(prettier@3.3.3):
     dependencies:
       prettier: 3.3.3
       prettier-linter-helpers: 1.0.0
-      stylelint: 14.0.0
 
-  stylelint-scss@4.6.0(stylelint@14.0.0):
+  stylelint-scss@4.6.0:
     dependencies:
       dlv: 1.1.3
       postcss-media-query-parser: 0.2.3
       postcss-resolve-nested-selector: 0.1.1
       postcss-selector-parser: 6.0.13
       postcss-value-parser: 4.2.0
-      stylelint: 14.0.0
 
-  stylelint-scss@5.3.1(stylelint@14.0.0):
+  stylelint-scss@5.3.1:
     dependencies:
       known-css-properties: 0.29.0
       postcss-media-query-parser: 0.2.3
       postcss-resolve-nested-selector: 0.1.1
       postcss-selector-parser: 6.0.13
       postcss-value-parser: 4.2.0
-      stylelint: 14.0.0
 
   stylelint@14.0.0:
     dependencies:
@@ -18287,7 +18306,7 @@ snapshots:
       schema-utils: 3.3.0
       serialize-javascript: 6.0.2
       terser: 5.36.0
-      webpack: 5.95.0(webpack-cli@4.0.0)
+      webpack: 5.95.0
 
   terser@5.36.0:
     dependencies:
@@ -18634,6 +18653,12 @@ snapshots:
       escalade: 3.2.0
       picocolors: 1.1.1
 
+  update-browserslist-db@1.1.3(browserslist@4.24.4):
+    dependencies:
+      browserslist: 4.24.4
+      escalade: 3.2.0
+      picocolors: 1.1.1
+
   uri-js@4.4.1:
     dependencies:
       punycode: 2.3.1
@@ -18758,6 +18783,36 @@ snapshots:
       source-map: 0.6.1
 
   webpack-sources@3.2.3: {}
+
+  webpack@5.95.0:
+    dependencies:
+      '@types/estree': 1.0.6
+      '@webassemblyjs/ast': 1.12.1
+      '@webassemblyjs/wasm-edit': 1.12.1
+      '@webassemblyjs/wasm-parser': 1.12.1
+      acorn: 8.13.0
+      acorn-import-attributes: 1.9.5(acorn@8.13.0)
+      browserslist: 4.24.4
+      chrome-trace-event: 1.0.4
+      enhanced-resolve: 5.17.1
+      es-module-lexer: 1.5.4
+      eslint-scope: 5.1.1
+      events: 3.3.0
+      glob-to-regexp: 0.4.1
+      graceful-fs: 4.2.11
+      json-parse-even-better-errors: 2.3.1
+      loader-runner: 4.3.0
+      mime-types: 2.1.35
+      neo-async: 2.6.2
+      schema-utils: 3.3.0
+      tapable: 2.2.1
+      terser-webpack-plugin: 5.3.10(webpack@5.95.0)
+      watchpack: 2.4.2
+      webpack-sources: 3.2.3
+    transitivePeerDependencies:
+      - '@swc/core'
+      - esbuild
+      - uglify-js
 
   webpack@5.95.0(webpack-cli@4.0.0):
     dependencies:
