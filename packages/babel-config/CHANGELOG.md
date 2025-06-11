@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.4.0](https://github.com/ggascoigne/shareable-configs/compare/@ggascoigne/babel-config@1.3.0...@ggascoigne/babel-config@1.4.0) (2025-06-11)
+
+### Features
+
+- **eslint:** dependency updates ([7a4f577](https://github.com/ggascoigne/shareable-configs/commit/7a4f57749c7b82acb0a5da1a8746518a8c3db9d6))
+
 # [1.3.0](https://github.com/ggascoigne/shareable-configs/compare/@ggascoigne/babel-config@1.2.5...@ggascoigne/babel-config@1.3.0) (2024-10-23)
 
 ### Features

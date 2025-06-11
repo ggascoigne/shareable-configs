@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.14.0](https://github.com/ggascoigne/shareable-configs/compare/@ggascoigne/webpack-config@2.13.0...@ggascoigne/webpack-config@2.14.0) (2025-06-11)
+
+### Features
+
+- **eslint:** dependency updates ([7a4f577](https://github.com/ggascoigne/shareable-configs/commit/7a4f57749c7b82acb0a5da1a8746518a8c3db9d6))
+
 # [2.13.0](https://github.com/ggascoigne/shareable-configs/compare/@ggascoigne/webpack-config@2.12.6...@ggascoigne/webpack-config@2.13.0) (2024-10-23)
 
 ### Features
