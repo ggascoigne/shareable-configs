@@ -10,16 +10,16 @@ importers:
     devDependencies:
       '@commitlint/cli':
         specifier: ^18.4.3
-        version: 18.6.1(@types/node@22.15.29)(typescript@5.8.3)
+        version: 18.6.1(@types/node@24.0.0)(typescript@5.8.3)
       '@ggascoigne/eslint-config':
         specifier: workspace:*
         version: link:packages/eslint-config
       commitizen:
         specifier: ^4.3.1
-        version: 4.3.1(@types/node@22.15.29)(typescript@5.8.3)
+        version: 4.3.1(@types/node@24.0.0)(typescript@5.8.3)
       cz-conventional-changelog:
         specifier: ^3.3.0
-        version: 3.3.0(@types/node@22.15.29)(typescript@5.8.3)
+        version: 3.3.0(@types/node@24.0.0)(typescript@5.8.3)
       eslint:
         specifier: ^9.13.0
         version: 9.28.0(jiti@1.21.7)
@@ -30,8 +30,8 @@ importers:
         specifier: ^7.4.2
         version: 7.4.2(encoding@0.1.13)
       lint-staged:
-        specifier: ^15.2.10
-        version: 15.5.2
+        specifier: ^16.1.0
+        version: 16.1.0
       markdownlint:
         specifier: ^0.38.0
         version: 0.38.0
@@ -82,16 +82,16 @@ importers:
     dependencies:
       commitizen:
         specifier: '>= 4'
-        version: 4.3.1(@types/node@22.15.29)(typescript@5.8.3)
+        version: 4.3.1(@types/node@24.0.0)(typescript@5.8.3)
       cz-conventional-changelog:
         specifier: ^3.3.0
-        version: 3.3.0(@types/node@22.15.29)(typescript@5.8.3)
+        version: 3.3.0(@types/node@24.0.0)(typescript@5.8.3)
 
   packages/commitlint-config:
     dependencies:
       '@commitlint/cli':
         specifier: '>= 17'
-        version: 18.6.1(@types/node@22.15.29)(typescript@5.8.3)
+        version: 18.6.1(@types/node@24.0.0)(typescript@5.8.3)
       '@commitlint/config-conventional':
         specifier: ^19.8.0
         version: 19.8.1
@@ -259,31 +259,31 @@ importers:
         version: 14.0.0
       stylelint-a11y:
         specifier: ^1.2.3
-        version: 1.2.3
+        version: 1.2.3(stylelint@14.0.0)
       stylelint-config-prettier:
         specifier: ^9.0.5
-        version: 9.0.5
+        version: 9.0.5(stylelint@14.0.0)
       stylelint-config-sass-guidelines:
         specifier: ^10.0.0
-        version: 10.0.0(postcss@8.4.33)
+        version: 10.0.0(postcss@8.4.33)(stylelint@14.0.0)
       stylelint-config-standard:
         specifier: ^34.0.0
-        version: 34.0.0
+        version: 34.0.0(stylelint@14.0.0)
       stylelint-config-standard-scss:
         specifier: ^11.1.0
-        version: 11.1.0(postcss@8.4.33)
+        version: 11.1.0(postcss@8.4.33)(stylelint@14.0.0)
       stylelint-high-performance-animation:
         specifier: ^1.9.0
-        version: 1.11.0
+        version: 1.11.0(stylelint@14.0.0)
       stylelint-no-unsupported-browser-features:
         specifier: ^7.0.0
-        version: 7.0.0
+        version: 7.0.0(stylelint@14.0.0)
       stylelint-order:
         specifier: ^6.0.3
-        version: 6.0.4
+        version: 6.0.4(stylelint@14.0.0)
       stylelint-prettier:
         specifier: ^4.0.2
-        version: 4.1.0(prettier@3.5.3)
+        version: 4.1.0(prettier@3.5.3)(stylelint@14.0.0)
 
   packages/tsconfig-config:
     dependencies:
@@ -325,7 +325,7 @@ importers:
         version: 5.8.3
       webpack:
         specifier: ^5.95.0
-        version: 5.99.9
+        version: 5.99.9(webpack-cli@4.0.0)
       webpack-cli:
         specifier: '>= 4'
         version: 4.0.0(@babel/preset-env@7.27.2(@babel/core@7.25.9))(encoding@0.1.13)(prettier@3.5.3)(webpack@5.99.9)
@@ -3340,6 +3340,10 @@ packages:
     resolution: {integrity: sha512-/rFeCpNJQbhSZjGVwO9RFV3xPqbnERS8MmIQzCtD/zl6gpJuV/bMLuN92oG3F7d8oDEHHRrujSXNUr8fpjntKw==}
     engines: {node: '>=18'}
 
+  commander@14.0.0:
+    resolution: {integrity: sha512-2uM9rYjPvyq39NwLRqaiLtWHyDC1FvryJDa2ATTVims5YAS4PupsEQsDvP14FqhFr0P49CYDugi59xaxJlTXRA==}
+    engines: {node: '>=20'}
+
   commander@2.20.3:
     resolution: {integrity: sha512-GpVkmM8vF2vQUkj2LvZmD35JxeJOLCwJ9cUkugyk2nuhbv3+mJvpLYYt+0+USMxE+oj+ey/lJEnhZw75x/OMcQ==}
 
@@ -5781,8 +5785,17 @@ packages:
     engines: {node: '>=18.12.0'}
     hasBin: true
 
+  lint-staged@16.1.0:
+    resolution: {integrity: sha512-HkpQh69XHxgCjObjejBT3s2ILwNjFx8M3nw+tJ/ssBauDlIpkx2RpqWSi1fBgkXLSSXnbR3iEq1NkVtpvV+FLQ==}
+    engines: {node: '>=20.17'}
+    hasBin: true
+
   listr2@8.2.5:
     resolution: {integrity: sha512-iyAZCeyD+c1gPyE9qpFu8af0Y+MRtmKOncdGoA2S5EY8iFq99dmmvkNnHiWo+pj0s7yH7l3KPIgee77tKpXPWQ==}
+    engines: {node: '>=18.0.0'}
+
+  listr2@8.3.3:
+    resolution: {integrity: sha512-LWzX2KsqcB1wqQ4AHgYb4RsDXauQiqhjLk+6hjbaeHG4zpjjVAB6wC/gz6X0l+Du1cN3pUB5ZlrvTbhGSNnUQQ==}
     engines: {node: '>=18.0.0'}
 
   load-json-file@4.0.0:
@@ -6319,6 +6332,10 @@ packages:
 
   nan@2.17.0:
     resolution: {integrity: sha512-2ZTgtl0nJsO0KQCjEpxcIr5D+Yv90plTitZt9JBfQvVJDS5seMl3FOvsh3+9CoYWXf/1l5OaZzzF6nDm4cagaQ==}
+
+  nano-spawn@1.0.2:
+    resolution: {integrity: sha512-21t+ozMQDAL/UGgQVBbZ/xXvNO10++ZPuTmKRO8k9V3AClVRht49ahtDjfY8l1q6nSHOrE5ASfthzH3ol6R/hg==}
+    engines: {node: '>=20.17'}
 
   nanoid@3.3.7:
     resolution: {integrity: sha512-eSRppjcPIatRIMC1U6UngP8XFcz8MQWGQdt1MTBQ7NaAmvXDfvNxbvWV3x2y6CdEUciCSsDHDQZbhYaB8QEo2g==}
@@ -9048,6 +9065,11 @@ packages:
     engines: {node: '>= 14'}
     hasBin: true
 
+  yaml@2.8.0:
+    resolution: {integrity: sha512-4lLa/EcQCB0cJkyts+FpIRx5G/llPxfP6VQU5KByHEhLxY3IJCH0f0Hy1MHI8sClTvsIb8qwRJ6R/ZdlDJ/leQ==}
+    engines: {node: '>= 14.6'}
+    hasBin: true
+
   yargs-parser@20.2.4:
     resolution: {integrity: sha512-WOkpgNhPTlE73h4VFAFsOnomJVaovO8VqLDzy5saChRBFQFBoMYirowyW+Q9HB4HFF4Z7VZTiG3iSzJJA29yRA==}
     engines: {node: '>=10'}
@@ -10044,11 +10066,11 @@ snapshots:
   '@colors/colors@1.5.0':
     optional: true
 
-  '@commitlint/cli@18.6.1(@types/node@22.15.29)(typescript@5.8.3)':
+  '@commitlint/cli@18.6.1(@types/node@24.0.0)(typescript@5.8.3)':
     dependencies:
       '@commitlint/format': 18.6.1
       '@commitlint/lint': 18.6.1
-      '@commitlint/load': 18.6.1(@types/node@22.15.29)(typescript@5.8.3)
+      '@commitlint/load': 18.6.1(@types/node@24.0.0)(typescript@5.8.3)
       '@commitlint/read': 18.6.1
       '@commitlint/types': 18.6.1
       execa: 5.1.1
@@ -10107,7 +10129,7 @@ snapshots:
       '@commitlint/rules': 18.6.1
       '@commitlint/types': 18.6.1
 
-  '@commitlint/load@18.6.0(@types/node@22.15.29)(typescript@5.8.3)':
+  '@commitlint/load@18.6.0(@types/node@24.0.0)(typescript@5.8.3)':
     dependencies:
       '@commitlint/config-validator': 18.6.0
       '@commitlint/execute-rule': 18.4.4
@@ -10115,7 +10137,7 @@ snapshots:
       '@commitlint/types': 18.6.0
       chalk: 4.1.2
       cosmiconfig: 8.3.6(typescript@5.8.3)
-      cosmiconfig-typescript-loader: 5.0.0(@types/node@22.15.29)(cosmiconfig@8.3.6(typescript@5.8.3))(typescript@5.8.3)
+      cosmiconfig-typescript-loader: 5.0.0(@types/node@24.0.0)(cosmiconfig@8.3.6(typescript@5.8.3))(typescript@5.8.3)
       lodash.isplainobject: 4.0.6
       lodash.merge: 4.6.2
       lodash.uniq: 4.5.0
@@ -10125,7 +10147,7 @@ snapshots:
       - typescript
     optional: true
 
-  '@commitlint/load@18.6.1(@types/node@22.15.29)(typescript@5.8.3)':
+  '@commitlint/load@18.6.1(@types/node@24.0.0)(typescript@5.8.3)':
     dependencies:
       '@commitlint/config-validator': 18.6.1
       '@commitlint/execute-rule': 18.6.1
@@ -10133,7 +10155,7 @@ snapshots:
       '@commitlint/types': 18.6.1
       chalk: 4.1.2
       cosmiconfig: 8.3.6(typescript@5.8.3)
-      cosmiconfig-typescript-loader: 5.1.0(@types/node@22.15.29)(cosmiconfig@8.3.6(typescript@5.8.3))(typescript@5.8.3)
+      cosmiconfig-typescript-loader: 5.1.0(@types/node@24.0.0)(cosmiconfig@8.3.6(typescript@5.8.3))(typescript@5.8.3)
       lodash.isplainobject: 4.0.6
       lodash.merge: 4.6.2
       lodash.uniq: 4.5.0
@@ -10795,7 +10817,7 @@ snapshots:
 
   '@lerna/child-process@7.4.2':
     dependencies:
-      chalk: 4.1.2
+      chalk: 4.1.0
       execa: 5.0.0
       strong-log-transformer: 2.1.0
 
@@ -11256,7 +11278,7 @@ snapshots:
       '@textlint/module-interop': 13.4.1
       '@textlint/types': 12.6.1
       chalk: 4.1.2
-      debug: 4.4.1
+      debug: 4.3.7
       is-file: 1.0.0
       pluralize: 8.0.0
       strip-ansi: 6.0.1
@@ -11274,7 +11296,7 @@ snapshots:
       '@secretlint/profiler': 7.2.0
       '@secretlint/source-creator': 7.2.0
       '@secretlint/types': 7.2.0
-      debug: 4.4.1
+      debug: 4.3.7
       p-map: 4.0.0
     transitivePeerDependencies:
       - supports-color
@@ -11728,7 +11750,7 @@ snapshots:
     dependencies:
       '@typescript-eslint/tsconfig-utils': 8.33.0(typescript@5.8.3)
       '@typescript-eslint/types': 8.33.0
-      debug: 4.4.0
+      debug: 4.4.1
     transitivePeerDependencies:
       - supports-color
       - typescript
@@ -11797,7 +11819,7 @@ snapshots:
     dependencies:
       '@typescript-eslint/types': 8.31.1
       '@typescript-eslint/visitor-keys': 8.31.1
-      debug: 4.4.0
+      debug: 4.4.1
       fast-glob: 3.3.3
       is-glob: 4.0.3
       minimatch: 9.0.5
@@ -12327,7 +12349,7 @@ snapshots:
 
   axios@1.6.1:
     dependencies:
-      follow-redirects: 1.15.3
+      follow-redirects: 1.15.3(debug@3.2.7)
       form-data: 4.0.0
       proxy-from-env: 1.1.0
     transitivePeerDependencies:
@@ -12849,16 +12871,18 @@ snapshots:
 
   commander@13.1.0: {}
 
+  commander@14.0.0: {}
+
   commander@2.20.3: {}
 
   commander@6.2.1: {}
 
   commander@8.3.0: {}
 
-  commitizen@4.3.1(@types/node@22.15.29)(typescript@5.8.3):
+  commitizen@4.3.1(@types/node@24.0.0)(typescript@5.8.3):
     dependencies:
       cachedir: 2.3.0
-      cz-conventional-changelog: 3.3.0(@types/node@22.15.29)(typescript@5.8.3)
+      cz-conventional-changelog: 3.3.0(@types/node@24.0.0)(typescript@5.8.3)
       dedent: 0.7.0
       detect-indent: 6.1.0
       find-node-modules: 2.1.3
@@ -12996,17 +13020,17 @@ snapshots:
 
   core-util-is@1.0.3: {}
 
-  cosmiconfig-typescript-loader@5.0.0(@types/node@22.15.29)(cosmiconfig@8.3.6(typescript@5.8.3))(typescript@5.8.3):
+  cosmiconfig-typescript-loader@5.0.0(@types/node@24.0.0)(cosmiconfig@8.3.6(typescript@5.8.3))(typescript@5.8.3):
     dependencies:
-      '@types/node': 22.15.29
+      '@types/node': 24.0.0
       cosmiconfig: 8.3.6(typescript@5.8.3)
       jiti: 1.21.0
       typescript: 5.8.3
     optional: true
 
-  cosmiconfig-typescript-loader@5.1.0(@types/node@22.15.29)(cosmiconfig@8.3.6(typescript@5.8.3))(typescript@5.8.3):
+  cosmiconfig-typescript-loader@5.1.0(@types/node@24.0.0)(cosmiconfig@8.3.6(typescript@5.8.3))(typescript@5.8.3):
     dependencies:
-      '@types/node': 22.15.29
+      '@types/node': 24.0.0
       cosmiconfig: 8.3.6(typescript@5.8.3)
       jiti: 1.21.7
       typescript: 5.8.3
@@ -13079,7 +13103,7 @@ snapshots:
       postcss-value-parser: 4.2.0
       semver: 7.6.3
     optionalDependencies:
-      webpack: 5.99.9
+      webpack: 5.99.9(webpack-cli@4.0.0)
 
   css-prefers-color-scheme@9.0.1(postcss@8.4.33):
     dependencies:
@@ -13102,16 +13126,16 @@ snapshots:
     dependencies:
       cssom: 0.3.8
 
-  cz-conventional-changelog@3.3.0(@types/node@22.15.29)(typescript@5.8.3):
+  cz-conventional-changelog@3.3.0(@types/node@24.0.0)(typescript@5.8.3):
     dependencies:
       chalk: 2.4.2
-      commitizen: 4.3.1(@types/node@22.15.29)(typescript@5.8.3)
+      commitizen: 4.3.1(@types/node@24.0.0)(typescript@5.8.3)
       conventional-commit-types: 3.0.0
       lodash.map: 4.6.0
       longest: 2.0.1
       word-wrap: 1.2.5
     optionalDependencies:
-      '@commitlint/load': 18.6.0(@types/node@22.15.29)(typescript@5.8.3)
+      '@commitlint/load': 18.6.0(@types/node@24.0.0)(typescript@5.8.3)
     transitivePeerDependencies:
       - '@types/node'
       - typescript
@@ -13593,7 +13617,7 @@ snapshots:
       esbuild: 0.25.3
       get-tsconfig: 4.10.0
       loader-utils: 2.0.4
-      webpack: 5.99.9
+      webpack: 5.99.9(webpack-cli@4.0.0)
       webpack-sources: 1.4.3
 
   esbuild@0.25.3:
@@ -14111,8 +14135,6 @@ snapshots:
 
   flow-parser@0.203.1: {}
 
-  follow-redirects@1.15.3: {}
-
   follow-redirects@1.15.3(debug@3.2.7):
     optionalDependencies:
       debug: 3.2.7
@@ -14147,7 +14169,7 @@ snapshots:
       semver: 7.7.1
       tapable: 2.2.1
       typescript: 5.8.3
-      webpack: 5.99.9
+      webpack: 5.99.9(webpack-cli@4.0.0)
 
   form-data-encoder@2.1.4: {}
 
@@ -15415,7 +15437,7 @@ snapshots:
 
   jest-diff@29.7.0:
     dependencies:
-      chalk: 4.1.2
+      chalk: 4.1.0
       diff-sequences: 29.6.3
       jest-get-type: 29.6.3
       pretty-format: 29.7.0
@@ -15965,7 +15987,31 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
+  lint-staged@16.1.0:
+    dependencies:
+      chalk: 5.4.1
+      commander: 14.0.0
+      debug: 4.4.1
+      lilconfig: 3.1.3
+      listr2: 8.3.3
+      micromatch: 4.0.8
+      nano-spawn: 1.0.2
+      pidtree: 0.6.0
+      string-argv: 0.3.2
+      yaml: 2.8.0
+    transitivePeerDependencies:
+      - supports-color
+
   listr2@8.2.5:
+    dependencies:
+      cli-truncate: 4.0.0
+      colorette: 2.0.20
+      eventemitter3: 5.0.1
+      log-update: 6.1.0
+      rfdc: 1.4.1
+      wrap-ansi: 9.0.0
+
+  listr2@8.3.3:
     dependencies:
       cli-truncate: 4.0.0
       colorette: 2.0.20
@@ -16608,7 +16654,7 @@ snapshots:
     dependencies:
       schema-utils: 4.2.0
       tapable: 2.2.1
-      webpack: 5.99.9
+      webpack: 5.99.9(webpack-cli@4.0.0)
 
   minimatch@3.0.5:
     dependencies:
@@ -16733,6 +16779,8 @@ snapshots:
 
   nan@2.17.0:
     optional: true
+
+  nano-spawn@1.0.2: {}
 
   nanoid@3.3.7: {}
 
@@ -16955,7 +17003,7 @@ snapshots:
       '@yarnpkg/parsers': 3.0.0-rc.46
       '@zkochan/js-yaml': 0.0.6
       axios: 1.6.1
-      chalk: 4.1.2
+      chalk: 4.1.0
       cli-cursor: 3.1.0
       cli-spinners: 2.6.1
       cliui: 8.0.1
@@ -17515,7 +17563,7 @@ snapshots:
       jiti: 1.21.0
       postcss: 8.4.33
       semver: 7.6.3
-      webpack: 5.99.9
+      webpack: 5.99.9(webpack-cli@4.0.0)
     transitivePeerDependencies:
       - typescript
 
@@ -18192,7 +18240,7 @@ snapshots:
   sass-loader@13.3.3(sass@1.89.1)(webpack@5.99.9):
     dependencies:
       neo-async: 2.6.2
-      webpack: 5.99.9
+      webpack: 5.99.9(webpack-cli@4.0.0)
     optionalDependencies:
       sass: 1.89.1
 
@@ -18490,7 +18538,7 @@ snapshots:
     dependencies:
       iconv-lite: 0.6.3
       source-map-js: 1.2.1
-      webpack: 5.99.9
+      webpack: 5.99.9(webpack-cli@4.0.0)
 
   source-map-resolve@0.5.3:
     dependencies:
@@ -18739,76 +18787,92 @@ snapshots:
 
   style-loader@3.3.4(webpack@5.99.9):
     dependencies:
-      webpack: 5.99.9
+      webpack: 5.99.9(webpack-cli@4.0.0)
 
   style-search@0.1.0: {}
 
-  stylelint-a11y@1.2.3: {}
+  stylelint-a11y@1.2.3(stylelint@14.0.0):
+    dependencies:
+      stylelint: 14.0.0
 
-  stylelint-config-prettier@9.0.5: {}
+  stylelint-config-prettier@9.0.5(stylelint@14.0.0):
+    dependencies:
+      stylelint: 14.0.0
 
-  stylelint-config-recommended-scss@13.1.0(postcss@8.4.33):
+  stylelint-config-recommended-scss@13.1.0(postcss@8.4.33)(stylelint@14.0.0):
     dependencies:
       postcss-scss: 4.0.9(postcss@8.4.33)
-      stylelint-config-recommended: 13.0.0
-      stylelint-scss: 5.3.1
+      stylelint: 14.0.0
+      stylelint-config-recommended: 13.0.0(stylelint@14.0.0)
+      stylelint-scss: 5.3.1(stylelint@14.0.0)
     optionalDependencies:
       postcss: 8.4.33
 
-  stylelint-config-recommended@13.0.0: {}
+  stylelint-config-recommended@13.0.0(stylelint@14.0.0):
+    dependencies:
+      stylelint: 14.0.0
 
-  stylelint-config-sass-guidelines@10.0.0(postcss@8.4.33):
+  stylelint-config-sass-guidelines@10.0.0(postcss@8.4.33)(stylelint@14.0.0):
     dependencies:
       postcss: 8.4.33
       postcss-scss: 4.0.9(postcss@8.4.33)
-      stylelint-scss: 4.6.0
+      stylelint: 14.0.0
+      stylelint-scss: 4.6.0(stylelint@14.0.0)
 
-  stylelint-config-standard-scss@11.1.0(postcss@8.4.33):
+  stylelint-config-standard-scss@11.1.0(postcss@8.4.33)(stylelint@14.0.0):
     dependencies:
-      stylelint-config-recommended-scss: 13.1.0(postcss@8.4.33)
-      stylelint-config-standard: 34.0.0
+      stylelint: 14.0.0
+      stylelint-config-recommended-scss: 13.1.0(postcss@8.4.33)(stylelint@14.0.0)
+      stylelint-config-standard: 34.0.0(stylelint@14.0.0)
     optionalDependencies:
       postcss: 8.4.33
 
-  stylelint-config-standard@34.0.0:
+  stylelint-config-standard@34.0.0(stylelint@14.0.0):
     dependencies:
-      stylelint-config-recommended: 13.0.0
+      stylelint: 14.0.0
+      stylelint-config-recommended: 13.0.0(stylelint@14.0.0)
 
-  stylelint-high-performance-animation@1.11.0:
+  stylelint-high-performance-animation@1.11.0(stylelint@14.0.0):
     dependencies:
       postcss-value-parser: 4.2.0
+      stylelint: 14.0.0
 
-  stylelint-no-unsupported-browser-features@7.0.0:
+  stylelint-no-unsupported-browser-features@7.0.0(stylelint@14.0.0):
     dependencies:
       doiuse: 6.0.2
       lodash: 4.17.21
       postcss: 8.4.33
+      stylelint: 14.0.0
 
-  stylelint-order@6.0.4:
+  stylelint-order@6.0.4(stylelint@14.0.0):
     dependencies:
       postcss: 8.4.33
       postcss-sorting: 8.0.2(postcss@8.4.33)
+      stylelint: 14.0.0
 
-  stylelint-prettier@4.1.0(prettier@3.5.3):
+  stylelint-prettier@4.1.0(prettier@3.5.3)(stylelint@14.0.0):
     dependencies:
       prettier: 3.5.3
       prettier-linter-helpers: 1.0.0
+      stylelint: 14.0.0
 
-  stylelint-scss@4.6.0:
+  stylelint-scss@4.6.0(stylelint@14.0.0):
     dependencies:
       dlv: 1.1.3
       postcss-media-query-parser: 0.2.3
       postcss-resolve-nested-selector: 0.1.1
       postcss-selector-parser: 6.0.13
       postcss-value-parser: 4.2.0
+      stylelint: 14.0.0
 
-  stylelint-scss@5.3.1:
+  stylelint-scss@5.3.1(stylelint@14.0.0):
     dependencies:
       known-css-properties: 0.29.0
       postcss-media-query-parser: 0.2.3
       postcss-resolve-nested-selector: 0.1.1
       postcss-selector-parser: 6.1.2
       postcss-value-parser: 4.2.0
+      stylelint: 14.0.0
 
   stylelint@14.0.0:
     dependencies:
@@ -18950,7 +19014,7 @@ snapshots:
       schema-utils: 4.3.2
       serialize-javascript: 6.0.2
       terser: 5.39.0
-      webpack: 5.99.9
+      webpack: 5.99.9(webpack-cli@4.0.0)
 
   terser@5.39.0:
     dependencies:
@@ -19425,37 +19489,6 @@ snapshots:
 
   webpack-sources@3.2.3: {}
 
-  webpack@5.99.9:
-    dependencies:
-      '@types/eslint-scope': 3.7.7
-      '@types/estree': 1.0.7
-      '@types/json-schema': 7.0.15
-      '@webassemblyjs/ast': 1.14.1
-      '@webassemblyjs/wasm-edit': 1.14.1
-      '@webassemblyjs/wasm-parser': 1.14.1
-      acorn: 8.14.1
-      browserslist: 4.25.0
-      chrome-trace-event: 1.0.4
-      enhanced-resolve: 5.18.1
-      es-module-lexer: 1.7.0
-      eslint-scope: 5.1.1
-      events: 3.3.0
-      glob-to-regexp: 0.4.1
-      graceful-fs: 4.2.11
-      json-parse-even-better-errors: 2.3.1
-      loader-runner: 4.3.0
-      mime-types: 2.1.35
-      neo-async: 2.6.2
-      schema-utils: 4.3.2
-      tapable: 2.2.1
-      terser-webpack-plugin: 5.3.14(webpack@5.99.9)
-      watchpack: 2.4.2
-      webpack-sources: 3.2.3
-    transitivePeerDependencies:
-      - '@swc/core'
-      - esbuild
-      - uglify-js
-
   webpack@5.99.9(webpack-cli@4.0.0):
     dependencies:
       '@types/eslint-scope': 3.7.7
@@ -19678,6 +19711,8 @@ snapshots:
   yaml@1.10.2: {}
 
   yaml@2.7.1: {}
+
+  yaml@2.8.0: {}
 
   yargs-parser@20.2.4: {}
 
