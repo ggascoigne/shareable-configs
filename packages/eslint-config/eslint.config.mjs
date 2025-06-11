@@ -843,7 +843,7 @@ const tsReactRules = {
       vars: 'all',
       args: 'after-used',
       ignoreRestSiblings: true,
-      varsIgnorePattern: '^_|^React$',
+      varsIgnorePattern: '^_|^React$|^log$',
       argsIgnorePattern: '^_',
     },
   ],
