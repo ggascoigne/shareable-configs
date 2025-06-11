@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.2.5](https://github.com/ggascoigne/shareable-configs/compare/@ggascoigne/eslint-config@2.2.4...@ggascoigne/eslint-config@2.2.5) (2025-06-11)
+
+### Bug Fixes
+
+- **eslint:** allow log var to be unused ([b8e7b81](https://github.com/ggascoigne/shareable-configs/commit/b8e7b81e43b0a078a78d53e63739fd22a5b68cd1))
+
 ## [2.2.4](https://github.com/ggascoigne/shareable-configs/compare/@ggascoigne/eslint-config@2.2.3...@ggascoigne/eslint-config@2.2.4) (2025-03-24)
 
 ### Bug Fixes
