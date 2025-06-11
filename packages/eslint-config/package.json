@@ -34,8 +34,8 @@
   "homepage": "https://github.com/ggascoigne/shareable-configs/tree/main/packages/eslint-config#readme",
   "dependencies": {
     "@eslint/js": "^9.23.0",
-    "@typescript-eslint/eslint-plugin": "^8.27.0",
-    "@typescript-eslint/parser": "^8.27.0",
+    "@typescript-eslint/eslint-plugin": "^8.34.0",
+    "@typescript-eslint/parser": "^8.34.0",
     "confusing-browser-globals": "1.0.11",
     "eslint-plugin-import": "^2.31.0",
     "eslint-plugin-jsx-a11y": "^6.10.2",
@@ -44,7 +44,7 @@
     "eslint-plugin-risxss": "^2.1.0",
     "eslint-plugin-unused-imports": "^4.1.4",
     "globals": "^16.0.0",
-    "typescript-eslint": "8.31.1"
+    "typescript-eslint": "8.34.0"
   },
   "peerDependencies": {
     "eslint": ">= 9"
