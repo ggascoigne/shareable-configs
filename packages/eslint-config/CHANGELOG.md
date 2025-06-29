@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.4.0](https://github.com/ggascoigne/shareable-configs/compare/@ggascoigne/eslint-config@2.3.0...@ggascoigne/eslint-config@2.4.0) (2025-06-29)
+
+### Features
+
+- **eslint:** get rid of no-restricted-syntax/ForOfStatement ([037127e](https://github.com/ggascoigne/shareable-configs/commit/037127e1468d9cf379f6123fda5488220dd1e6e4))
+
 # [2.3.0](https://github.com/ggascoigne/shareable-configs/compare/@ggascoigne/eslint-config@2.2.5...@ggascoigne/eslint-config@2.3.0) (2025-06-11)
 
 ### Features
