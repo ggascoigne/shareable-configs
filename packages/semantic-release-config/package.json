@@ -40,7 +40,7 @@
     "@semantic-release/commit-analyzer": "^11.1.0",
     "@semantic-release/git": "^10.0.1",
     "@semantic-release/github": "^9.2.5",
-    "@semantic-release/gitlab": "^12.1.1",
+    "@semantic-release/gitlab": "^13.2.8",
     "@semantic-release/npm": "^11.0.2",
     "@semantic-release/release-notes-generator": "^12.1.0"
   }
