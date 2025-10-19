@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.7.0](https://github.com/ggascoigne/shareable-configs/compare/@ggascoigne/browserslist-config@1.6.0...@ggascoigne/browserslist-config@1.7.0) (2025-10-19)
+
+### Features
+
+- **eslint:** add consistent-type-imports rule ([135d040](https://github.com/ggascoigne/shareable-configs/commit/135d040437ad31a11da7d0c0b0b339ca42237134))
+
 # [1.6.0](https://github.com/ggascoigne/shareable-configs/compare/@ggascoigne/browserslist-config@1.5.3...@ggascoigne/browserslist-config@1.6.0) (2024-10-23)
 
 ### Features

@@ -1,6 +1,6 @@
 {
   "name": "@ggascoigne/webpack-config",
-  "version": "2.14.0",
+  "version": "2.15.0",
   "description": "A shareable webpack configuration for projects.",
   "main": "index.js",
   "files": [
