@@ -40,7 +40,7 @@ importers:
         version: 0.44.0
       prettier:
         specifier: ^3.6.2
-        version: 3.6.2
+        version: 3.7.4
       secretlint:
         specifier: ^7.0.7
         version: 7.2.0
@@ -18573,7 +18573,8 @@ snapshots:
 
   prettier@3.5.3: {}
 
-  prettier@3.6.2: {}
+  prettier@3.6.2:
+    optional: true
 
   prettier@3.7.4: {}
 
