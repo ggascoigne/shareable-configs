@@ -647,10 +647,10 @@ const reactRules = {
     {
       allowAnonymousClass: false,
       allowAnonymousFunction: false,
-      allowArray: false,
+      allowArray: true,
       allowArrowFunction: false,
       allowLiteral: false,
-      allowObject: false,
+      allowObject: true,
     },
   ],
 
@@ -1018,7 +1018,7 @@ export const configs = {
       ...reactPlugin.configs.flat.recommended,
       settings: {
         react: {
-          version: 'detect', // or specify a version like '18.2.0'
+          version: '18.2.0',
         },
       },
     },
@@ -1068,7 +1068,6 @@ export const configs = {
   recommendedTs: [...eslintTsConfigs, ...baseTypescript],
 }
 
- 
 export default [
   ...configs.globalIgnores,
   ...configs.recommendedJs,
