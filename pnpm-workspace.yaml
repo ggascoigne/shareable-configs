@@ -4,3 +4,4 @@ onlyBuiltDependencies:
   - core-js
   - esbuild
   - nx
+  - unrs-resolver

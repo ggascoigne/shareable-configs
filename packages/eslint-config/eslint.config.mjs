@@ -1,7 +1,7 @@
 // import tsParser from '@typescript-eslint/parser'
 import eslintJs from '@eslint/js'
 import restrictedGlobals from 'confusing-browser-globals'
-import importPlugin from 'eslint-plugin-import'
+import importXPlugin from 'eslint-plugin-import-x'
 import jsxA11yPlugin from 'eslint-plugin-jsx-a11y'
 import reactPlugin from 'eslint-plugin-react'
 import reactHooksPlugin from 'eslint-plugin-react-hooks'
@@ -15,8 +15,8 @@ const tsFiles = ['**/*.{ts,tsx,mts,cts,mtsx}']
 const jsAndTsFiles = ['**/*.{js,mjs,cjs,jsx,mjsx,ts,tsx,mts,cts,mtsx}']
 
 const slowRules = {
-  'import/named': ['error'],
-  'import/no-cycle': [
+  'import-x/named': ['error'],
+  'import-x/no-cycle': [
     'error',
     {
       allowUnsafeDynamicCyclicDependency: false,
@@ -24,9 +24,9 @@ const slowRules = {
       maxDepth: '∞',
     },
   ],
-  'import/no-named-as-default': ['error'],
-  'import/no-named-as-default-member': ['error'],
-  'import/no-unresolved': [
+  'import-x/no-named-as-default': ['error'],
+  'import-x/no-named-as-default-member': ['error'],
+  'import-x/no-unresolved': [
     'error',
     {
       caseSensitive: true,
@@ -110,45 +110,45 @@ const baseRules = {
   // "global-require": ["error"],
   'grouped-accessor-pairs': ['error'],
   'guard-for-in': ['error'],
-  'import/export': ['error'],
-  'import/first': ['error'],
-  'import/newline-after-import': ['error'],
-  'import/no-absolute-path': ['error'],
-  'import/no-amd': ['error'],
+  'import-x/export': ['error'],
+  'import-x/first': ['error'],
+  'import-x/newline-after-import': ['error'],
+  'import-x/no-absolute-path': ['error'],
+  'import-x/no-amd': ['error'],
 
-  'import/no-duplicates': ['error'],
-  'import/no-dynamic-require': ['error'],
+  'import-x/no-duplicates': ['error'],
+  'import-x/no-dynamic-require': ['error'],
 
-  'import/no-extraneous-dependencies': [
+  'import-x/no-extraneous-dependencies': [
     'error',
     {
       devDependencies: true,
     },
   ],
 
-  'import/no-import-module-exports': [
+  'import-x/no-import-module-exports': [
     'error',
     {
       exceptions: [],
     },
   ],
 
-  'import/no-mutable-exports': ['error'],
+  'import-x/no-mutable-exports': ['error'],
 
-  'import/no-named-default': ['error'],
-  'import/no-relative-packages': ['error'],
-  'import/no-self-import': ['error'],
+  'import-x/no-named-default': ['error'],
+  'import-x/no-relative-packages': ['error'],
+  'import-x/no-self-import': ['error'],
 
-  'import/no-useless-path-segments': [
+  'import-x/no-useless-path-segments': [
     'error',
     {
       commonjs: true,
     },
   ],
 
-  'import/no-webpack-loader-syntax': ['error'],
+  'import-x/no-webpack-loader-syntax': ['error'],
 
-  'import/order': [
+  'import-x/order': [
     'warn',
     {
       alphabetize: {
@@ -642,7 +642,7 @@ const jsxA11y = {
 }
 
 const reactRules = {
-  'import/no-anonymous-default-export': [
+  'import-x/no-anonymous-default-export': [
     'warn',
     {
       allowAnonymousClass: false,
@@ -986,7 +986,7 @@ export const configs = {
     {
       name: '@ggascoigne/eslint-config/slow-rules',
       plugins: {
-        import: importPlugin,
+        'import-x': importXPlugin,
       },
 
       rules: {
@@ -1002,7 +1002,7 @@ export const configs = {
     {
       name: '@ggascoigne/eslint-config/base-javascript-config',
       plugins: {
-        import: importPlugin,
+        'import-x': importXPlugin,
         'unused-imports': unusedImports,
       },
 
@@ -1043,7 +1043,7 @@ export const configs = {
     {
       name: '@ggascoigne/eslint-config/react-config',
       plugins: {
-        import: importPlugin,
+        'import-x': importXPlugin,
         react: reactPlugin,
         'react-hooks': reactHooksPlugin,
         risxss: risxssPlugin,
