@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.1.0](https://github.com/ggascoigne/shareable-configs/compare/@ggascoigne/eslint-config@3.0.0...@ggascoigne/eslint-config@3.1.0) (2026-05-08)
+
+### Features
+
+- **eslint:** switch to eslint-plugin-import-x ([0db791e](https://github.com/ggascoigne/shareable-configs/commit/0db791e66af652fb08f25faffe18b15bd050a1a0))
+
 # [3.0.0](https://github.com/ggascoigne/shareable-configs/compare/@ggascoigne/eslint-config@2.5.0...@ggascoigne/eslint-config@3.0.0) (2026-04-22)
 
 ### Features
