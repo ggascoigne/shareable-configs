@@ -1,7 +1,7 @@
 packages:
   - packages/*
-onlyBuiltDependencies:
-  - core-js
-  - esbuild
-  - nx
-  - unrs-resolver
+allowBuilds:
+  core-js: true
+  esbuild: true
+  nx: true
+  unrs-resolver: true
