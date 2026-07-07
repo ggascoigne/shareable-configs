@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.1](https://github.com/ggascoigne/shareable-configs/compare/@ggascoigne/commitlint-config@2.0.0...@ggascoigne/commitlint-config@2.0.1) (2026-07-07)
+
+**Note:** Version bump only for package @ggascoigne/commitlint-config
+
 # [2.0.0](https://github.com/ggascoigne/shareable-configs/compare/@ggascoigne/commitlint-config@1.5.0...@ggascoigne/commitlint-config@2.0.0) (2026-04-22)
 
 ### Features
